@@ -1,0 +1,8 @@
+# Validated on Windows with Python 3.13.12; CPU inference needs no CUDA.
+streamlit==1.64.0
+torch==2.8.0
+numpy==2.2.6
+pandas==2.2.3
+scikit-learn==1.9.0
+altair==6.3.0
+joblib==1.5.3

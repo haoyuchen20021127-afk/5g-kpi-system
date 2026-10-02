@@ -1,0 +1,29 @@
+[
+  {
+    "context": "DLThpVol|cell_normalized_residual",
+    "feature": "seasonal_residual",
+    "version": 1,
+    "status": "ok",
+    "reason": "finite_fit_reference_available",
+    "median": 3.2274803438673986e-16,
+    "strategy": "median",
+    "fill_value": 3.2274803438673986e-16,
+    "median_role": "imputation_value",
+    "fit_total_n": 60480,
+    "fit_observed_n": 60480,
+    "fit_missing_n": 0,
+    "rule": "median_of_finite_provided_fit_values",
+    "statistics_source": "provided_fit_reference_only",
+    "missing_definition": "nan_positive_infinity_or_negative_infinity",
+    "finite_value_policy": "preserve_without_clipping",
+    "minimum_reference_count_basis": "fit_observed_n_before_imputation",
+    "calibration_total_n": 15120,
+    "calibration_observed_n": 15120,
+    "calibration_imputed_n": 0,
+    "test_total_n": 30240,
+    "test_observed_n": 30240,
+    "test_imputed_n": 0,
+    "test_unresolved_n": 0,
+    "applied_after_feature_construction": true
+  }
+]

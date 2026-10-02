@@ -1,0 +1,13 @@
+{
+  "tests": 12,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 7.418,
+  "passed": true,
+  "offline_commands_checked": [
+    "python -m scripts.retrain lstm",
+    "python -m scripts.retrain detectors"
+  ],
+  "platform": "Windows / Python 3.13.12 / CPU",
+  "new_install_verified": false
+}

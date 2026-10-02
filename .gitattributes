@@ -1,0 +1,16 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ps1 text eol=crlf
+*.pt binary
+*.joblib binary
+*.npz binary
+*.gz binary
+*.docx binary
+*.pptx binary
+# Preserve the byte-exact provenance hashes of all packaged assets.
+assets/** -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text

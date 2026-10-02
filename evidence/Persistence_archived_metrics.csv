@@ -1,0 +1,13 @@
+﻿task,dataset,model,seed,target,MAE,RMSE,R2,n_test,fit_seconds,predict_seconds
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,42,DLPRB,0.0744772494775,0.0992538299588,0.88124708368,144,0,0
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,42,DLThpVol,0.0551220707647,0.0701959091995,0.861626122829,144,0,0
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,42,DLThpTime,0.0733921035717,0.0923907229578,0.87324553205,144,0,0
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,42,MR_number,0.0925654564117,0.124295419323,0.878646745799,144,0,0
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,43,DLPRB,0.0744772494775,0.0992538299588,0.88124708368,144,0,0
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,43,DLThpVol,0.0551220707647,0.0701959091995,0.861626122829,144,0,0
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,43,DLThpTime,0.0733921035717,0.0923907229578,0.87324553205,144,0,0
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,43,MR_number,0.0925654564117,0.124295419323,0.878646745799,144,0,0
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,44,DLPRB,0.0744772494775,0.0992538299588,0.88124708368,144,0,0
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,44,DLThpVol,0.0551220707647,0.0701959091995,0.861626122829,144,0,0
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,44,DLThpTime,0.0733921035717,0.0923907229578,0.87324553205,144,0,0
+gotsf_ds/joint_kpi,gotsf_ds,Persistence,44,MR_number,0.0925654564117,0.124295419323,0.878646745799,144,0,0

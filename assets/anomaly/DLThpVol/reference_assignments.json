@@ -1,0 +1,19 @@
+[
+  {
+    "context": "DLThpVol|cell_normalized_residual",
+    "fit_n": 60480,
+    "calibration_n": 15120,
+    "test_n": 30240,
+    "policy": "original_validation_reference",
+    "fit_time_min": 0.0,
+    "fit_time_max": 671.0,
+    "cal_time_min": 672.0,
+    "cal_time_max": 839.0,
+    "fit_label_counts": {
+      "-1": 60480
+    },
+    "cal_label_counts": {
+      "-1": 15120
+    }
+  }
+]
