@@ -1,0 +1,196 @@
+﻿context,feature,fit_observed,test_observed,fit_median,test_median,benign_test_median,test_outside_fit_range_fraction,fit_unique
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=0,rsrp,1,0,-95.0,,,,1
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=0,sinr,1,0,-4.0,,,,1
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=0,datarate,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=1,rsrp,1,0,-95.0,,,,1
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=1,sinr,1,0,-4.0,,,,1
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=1,datarate,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=0,rsrp,182,0,-92.0,,,,104
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=0,sinr,182,0,7.166666666666666,,,,89
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=0,datarate,145,0,13377877.071578776,,,,145
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=0,retransmissions,145,0,0.0,,,,24
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=0,tcp_mean_rtt_0,145,0,80676.5,,,,145
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=1,rsrp,189,0,-94.0,,,,106
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=1,sinr,189,0,7.0,,,,95
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=1,datarate,49,0,58036513.42690245,,,,49
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=1,retransmissions,49,0,0.14285714285714285,,,,14
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=1,tcp_mean_rtt_0,49,0,14047.75,,,,49
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=0,rsrp,68,0,-99.125,,,,54
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=0,sinr,68,0,7.025,,,,59
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=0,datarate,51,0,11508600.702141428,,,,51
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=1,rsrp,72,0,-98.83333333333333,,,,57
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=1,sinr,72,0,5.875,,,,57
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=1,datarate,50,0,26471842.9904043,,,,50
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=0,rsrp,633,0,-94.0,,,,302
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=0,sinr,633,0,4.333333333333333,,,,273
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=0,datarate,497,0,17120027.824021943,,,,494
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=0,retransmissions,497,0,0.0,,,,102
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=0,tcp_mean_rtt_0,497,0,56117.454545454544,,,,497
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=1,rsrp,621,0,-94.0,,,,307
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=1,sinr,621,0,4.583333333333333,,,,262
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=1,datarate,204,0,104845796.91549027,,,,204
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=1,retransmissions,204,0,0.16666666666666666,,,,41
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=1,tcp_mean_rtt_0,204,0,15842.0,,,,204
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=0,rsrp,283,0,-96.0,,,,216
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=0,sinr,283,0,3.0,,,,193
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=0,datarate,205,0,23247841.158429038,,,,205
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=1,rsrp,283,0,-95.77777777777777,,,,221
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=1,sinr,283,0,3.2,,,,196
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=1,datarate,203,0,208895438.84926817,,,,203
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=4G|protocol=tcp|direction=1,rsrp,1,0,-115.0,,,,1
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=4G|protocol=tcp|direction=1,sinr,1,0,-5.0,,,,1
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=4G|protocol=tcp|direction=1,datarate,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=4G|protocol=tcp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=4G|protocol=tcp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=0,rsrp,2978,367,-84.33333333333333,-84.7,,0.0,925
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=0,sinr,2978,367,6.0,7.5,,0.0027247956403269754,738
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=0,datarate,2615,367,11938483.979672289,13029616.57014881,,0.0,2609
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=0,retransmissions,2615,367,0.0,0.0,,0.0,227
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=0,tcp_mean_rtt_0,2615,367,62980.27272727273,70161.94444444444,,0.0,2609
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=1,rsrp,2983,356,-84.33333333333333,-85.6157894736842,,0.0,972
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=1,sinr,2983,356,6.0,7.267942583732058,,0.0,791
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=1,datarate,1854,355,33583639.72465308,30591062.92974959,,0.0,1854
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=1,retransmissions,1854,355,0.0,0.0,,0.0,231
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=1,tcp_mean_rtt_0,1854,355,56795.38888888889,56213.4,,0.0,1853
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=0,rsrp,2215,365,-84.6,-84.0,,0.0,876
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=0,sinr,2215,365,6.0,7.416666666666667,,0.00821917808219178,714
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=0,datarate,1789,365,27225224.811686046,34802821.74089858,,0.0,1789
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=1,rsrp,2249,365,-84.8,-84.875,,0.005479452054794521,874
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=1,sinr,2249,365,6.166666666666667,7.75,,0.0027397260273972603,725
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=1,datarate,1845,365,162742833.3401873,203571831.75956428,,0.0027397260273972603,1845
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=tcp|direction=1,rsrp,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=tcp|direction=1,sinr,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=tcp|direction=1,datarate,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=tcp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=tcp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=udp|direction=1,rsrp,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=udp|direction=1,sinr,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=udp|direction=1,datarate,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|protocol=tcp|direction=0,rsrp,1,0,-74.0,,,,1
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|protocol=tcp|direction=0,sinr,1,0,1.0,,,,1
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|protocol=tcp|direction=0,datarate,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|protocol=tcp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|protocol=tcp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=0,rsrp,506,57,-94.875,-91.5,,0.017543859649122806,197
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=0,sinr,506,57,5.0,1.0,,0.0,163
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=0,datarate,303,57,11874482.903190557,24200256.810688462,,0.03508771929824561,303
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=0,retransmissions,303,57,0.0,0.0,,0.0,52
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=0,tcp_mean_rtt_0,303,57,126139.0,112926.0,,0.017543859649122806,303
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=1,rsrp,528,62,-97.325,-90.5,,0.0,218
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=1,sinr,528,62,5.55,1.0,,0.0,176
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=1,datarate,326,62,58000697.638769686,69725171.55774848,,0.0,326
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=1,retransmissions,326,62,0.0,0.0,,0.0,21
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=1,tcp_mean_rtt_0,326,62,13995.0,16044.75,,0.0,322
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=0,rsrp,463,60,-98.0,-94.0,,0.0,192
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=0,sinr,463,60,5.0,0.8333333333333333,,0.0,169
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=0,datarate,320,60,18203143.465745423,33698213.92731544,,0.0,320
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=1,rsrp,467,58,-97.6,-93.0,,0.0,203
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=1,sinr,467,58,5.0,1.0,,0.0,158
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=1,datarate,323,57,28130753.975085605,96707461.96152037,,0.03508771929824561,323
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=0,rsrp,1686,404,-90.0,-88.0,,0.0,727
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=0,sinr,1686,404,1.4,0.8666666666666667,,0.0,500
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=0,datarate,1495,404,23388681.282183938,27193994.480984807,,0.0,1491
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=0,retransmissions,1495,404,0.0,0.0,,0.0,370
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=0,tcp_mean_rtt_0,1495,404,106093.42857142857,92183.30952380953,,0.0,1495
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=1,rsrp,1732,400,-90.42261904761905,-88.23980978260869,,0.0,710
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=1,sinr,1732,400,1.4,0.8333333333333334,,0.0,523
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=1,datarate,1057,400,80420699.41556855,84915315.59072617,,0.0,1057
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=1,retransmissions,1057,400,0.0,0.0,,0.0025,128
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=1,tcp_mean_rtt_0,1057,400,15858.238095238095,16522.12669683258,,0.0,1054
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=0,rsrp,1278,409,-89.83333333333333,-87.89285714285714,,0.0,675
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=0,sinr,1278,409,1.0,0.8620689655172413,,0.0,444
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=0,datarate,1048,409,42355227.62276519,44099182.124483995,,0.0,1048
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=1,rsrp,1258,409,-89.72380952380952,-87.82352941176471,,0.0,689
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=1,sinr,1258,409,1.0,0.8,,0.0,463
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=1,datarate,1049,408,170945224.18745184,189254264.58084673,,0.007352941176470588,1049
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=0,rsrp,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=0,sinr,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=0,datarate,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=1,rsrp,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=1,sinr,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=1,datarate,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=0,rsrp,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=0,sinr,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=0,datarate,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=1,rsrp,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=1,sinr,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=1,datarate,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=0,rsrp,12,0,-90.8,,,,12
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=0,sinr,12,0,9.45,,,,11
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=0,datarate,4,0,19521872.642182477,,,,4
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=0,retransmissions,4,0,0.0,,,,2
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=0,tcp_mean_rtt_0,4,0,78930.8,,,,4
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=1,rsrp,9,0,-87.0,,,,9
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=1,sinr,9,0,10.0,,,,9
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=1,datarate,3,0,28597351.91439542,,,,3
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=1,retransmissions,3,0,0.0,,,,2
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=1,tcp_mean_rtt_0,3,0,56811.0,,,,3
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=0,rsrp,14,0,-93.875,,,,14
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=0,sinr,14,0,8.964285714285715,,,,12
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=0,datarate,6,0,32462973.826126844,,,,6
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=1,rsrp,12,0,-89.01190476190476,,,,12
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=1,sinr,12,0,7.541666666666666,,,,11
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=1,datarate,5,0,96386808.38536626,,,,5
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=0,rsrp,2459,50,-84.0909090909091,-78.6,,0.0,786
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=0,sinr,2459,50,3.0,1.0,,0.0,585
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=0,datarate,2047,34,17462694.853383712,13855399.119706675,,0.0,2020
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=0,retransmissions,2047,34,0.0,0.0,,0.0,204
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=0,tcp_mean_rtt_0,2047,34,104033.33333333333,117216.25,,0.0,2046
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=1,rsrp,2540,47,-85.0,-79.5,,0.0,808
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=1,sinr,2540,47,2.928571428571429,0.75,,0.0,592
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=1,datarate,1498,32,24445556.13047643,24266554.026956744,,0.0,1498
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=1,retransmissions,1498,32,0.0,0.0,,0.0,128
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=1,tcp_mean_rtt_0,1498,32,63733.066666666666,59015.625,,0.0,1492
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=0,rsrp,1899,47,-84.4,-79.875,,0.0,733
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=0,sinr,1899,47,2.2,0.5,,0.0,520
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=0,datarate,1449,32,36153065.06644871,32088786.34582349,,0.0,1449
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=1,rsrp,1912,49,-84.0,-80.0,,0.0,715
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=1,sinr,1912,49,2.2,0.6666666666666666,,0.0,518
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=1,datarate,1485,34,155989955.00266582,191717513.46865302,,0.0,1485
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=C|network=2G|protocol=tcp|direction=0,rsrp,1,0,-122.0,,,,1
+mobile__iperf_data|device=r0s_SM-S901B|MNO=C|network=2G|protocol=tcp|direction=0,sinr,1,0,7.0,,,,1
+mobile__iperf_data|device=r0s_SM-S901B|MNO=C|network=2G|protocol=tcp|direction=0,datarate,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=C|network=2G|protocol=tcp|direction=0,retransmissions,0,0,,,,,0
+mobile__iperf_data|device=r0s_SM-S901B|MNO=C|network=2G|protocol=tcp|direction=0,tcp_mean_rtt_0,0,0,,,,,0

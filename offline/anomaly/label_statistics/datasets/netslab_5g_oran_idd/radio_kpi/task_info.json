@@ -1,0 +1,56 @@
+{
+  "dataset": "netslab_5g_oran_idd",
+  "task": "radio_kpi",
+  "label_scope": "attack_state",
+  "test_n": 14102,
+  "features": [
+    "dlByteRate",
+    "ulByteRate",
+    "dlBler",
+    "ulBler",
+    "rsrp",
+    "rsrq",
+    "sinr",
+    "cqi",
+    "dlMcs",
+    "ulMcs"
+  ],
+  "methods": [
+    "three_sigma",
+    "iqr",
+    "isolation_forest",
+    "one_class_svm"
+  ],
+  "context_n": 1,
+  "labels": {
+    "attack": 11745,
+    "benign": 2357
+  },
+  "input_sha256": {
+    "task_manifest.json": "1ffb4854dcbaaca8d81f2e37b59a94c6576612c2a3d253288e54bd54269539f4",
+    "kpi_summary.csv": "3e39a761c21acfbcca517a4332dd7283361999ec03aa077a8fbc01d2af01abdb",
+    "test_predictions.csv.gz": "9906469bdad119d0e8116bc8f20c969d188e39847223503c5cc60e9289abe1aa"
+  },
+  "output_record_file": "datasets\\netslab_5g_oran_idd\\radio_kpi\\record_or_predictions.csv.gz",
+  "attack_subcategory_supplement": {
+    "available": true,
+    "source_label_field": "attack_subcategory",
+    "labels": {
+      "DDoS_UDP": 4149,
+      "DDoS_ICMP": 3294,
+      "DDoS_SYN": 2368,
+      "Benign": 2357,
+      "DDoS_ACK": 1934
+    },
+    "test_n": 14102,
+    "category_total_verified": true,
+    "source_values_preserved": true,
+    "parent_label_totals_verified": true,
+    "files": [
+      "per_kpi_by_attack_subcategory.csv",
+      "record_any_kpi_by_attack_subcategory.csv"
+    ],
+    "separate_supplement_not_added_to_binary_totals": true
+  },
+  "source_predictions_unchanged": true
+}

@@ -1,0 +1,84 @@
+{
+  "task": "netslab_5g_oran_idd/joint_kpi",
+  "model": "LightGBM",
+  "signature": {
+    "X_sha256": "a47811e2b6072607f62d72f49c3db8f677b52e969901534c9c0745f377e055ed",
+    "Y_sha256": "b41b88d36092526e7a62551d9eccb513c487a6d01d6a6ba485ab8f000c76bcd2",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "max_epochs": 80,
+    "code_sha256": {
+      "common.py": "e75ba959e0382337f92d81dac675a78767a732de3c7cfdf859b02087e62e5fc2",
+      "models.py": "19974e752287b8f407b4f1fd4204cfac2d60203e420c3e9a11451b45605e87f7",
+      "prepare_shared_data.py": "b6eba14670a5057b171650ecb2804bd6c7589aed1a94663bbe829e11eef95631",
+      "train_comparison.py": "2032463bcf3ede8dcf27c3fc14bd6b0674c00294314e817695a18c4e88750c54"
+    },
+    "threads": 4
+  },
+  "mechanism": "MultiOutputRegressor; independent boosted regressor per target, shared inputs/configuration",
+  "selected_config": {
+    "n_estimators": 300,
+    "num_leaves": 31,
+    "learning_rate": 0.05,
+    "min_child_samples": 30,
+    "subsample": 0.85,
+    "subsample_freq": 1,
+    "colsample_bytree": 0.85,
+    "reg_lambda": 1.0
+  },
+  "selected_epochs": null,
+  "final_fit_rows": 35551,
+  "test_rows": 6234,
+  "selection_seconds": 13.17290799994953,
+  "seed_runs": [
+    {
+      "seed": 42,
+      "fit_seconds": 8.552327599958517,
+      "predict_seconds": 0.12156250001862645,
+      "reload_verified": true,
+      "artifact_sha256": "bd0fdd482f5a2859889f1384d3b8b320cd9012544920f8c383bbe4510c141671",
+      "trainable_parameters": null
+    },
+    {
+      "seed": 43,
+      "fit_seconds": 8.109817299991846,
+      "predict_seconds": 0.12928700004704297,
+      "reload_verified": true,
+      "artifact_sha256": "a606e86bece9e6eaaf619283da2af7f0835f9414edf9acd6ca6d28350886840c",
+      "trainable_parameters": null
+    },
+    {
+      "seed": 44,
+      "fit_seconds": 8.209819099982269,
+      "predict_seconds": 0.11688659992069006,
+      "reload_verified": true,
+      "artifact_sha256": "28794ac68a7b77024bb43137c63135a7035a913adc5f0e260ac670158472a5e2",
+      "trainable_parameters": null
+    }
+  ],
+  "device": "cpu",
+  "gpu": null,
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "torch": "2.8.0+cu126",
+    "scikit-learn": "1.9.0",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3"
+  },
+  "common_settings": {
+    "LSTM_optimizer": "Adam",
+    "LSTM_loss": "mean squared error across samples and outputs",
+    "batch_size": 256,
+    "weight_decay": 1e-05,
+    "gradient_clip": 1.0,
+    "patience": 12,
+    "min_delta": 1e-05,
+    "layers": 1,
+    "dropout": 0
+  }
+}

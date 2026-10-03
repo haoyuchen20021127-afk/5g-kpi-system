@@ -1,0 +1,597 @@
+[
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.0.0.1",
+    "fit_n": 530,
+    "calibration_n": 57,
+    "test_n": 66,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1672466400.0,
+    "fit_time_max": 1682048400.0,
+    "cal_time_min": 1682050800.0,
+    "cal_time_max": 1683214200.0,
+    "fit_label_counts": {
+      "-1": 530
+    },
+    "cal_label_counts": {
+      "-1": 57
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.1.1.1",
+    "fit_n": 482,
+    "calibration_n": 59,
+    "test_n": 70,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1672633200.0,
+    "fit_time_max": 1682048400.0,
+    "cal_time_min": 1682050800.0,
+    "cal_time_max": 1683214200.0,
+    "fit_label_counts": {
+      "-1": 482
+    },
+    "cal_label_counts": {
+      "-1": 59
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.4.4",
+    "fit_n": 521,
+    "calibration_n": 71,
+    "test_n": 75,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1672640400.0,
+    "fit_time_max": 1682048400.0,
+    "cal_time_min": 1682050800.0,
+    "cal_time_max": 1683214200.0,
+    "fit_label_counts": {
+      "-1": 521
+    },
+    "cal_label_counts": {
+      "-1": 71
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.8.8",
+    "fit_n": 1836,
+    "calibration_n": 83,
+    "test_n": 85,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1672467600.0,
+    "fit_time_max": 1682048400.0,
+    "cal_time_min": 1682050800.0,
+    "cal_time_max": 1683214200.0,
+    "fit_label_counts": {
+      "-1": 1836
+    },
+    "cal_label_counts": {
+      "-1": 83
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=uni",
+    "fit_n": 2716,
+    "calibration_n": 98,
+    "test_n": 120,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1672466400.0,
+    "fit_time_max": 1682048400.0,
+    "cal_time_min": 1682050800.0,
+    "cal_time_max": 1683211200.0,
+    "fit_label_counts": {
+      "-1": 2716
+    },
+    "cal_label_counts": {
+      "-1": 98
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.0.0.1",
+    "fit_n": 3,
+    "calibration_n": 1,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672658700.0,
+    "fit_time_max": 1673538600.0,
+    "cal_time_min": 1673976000.0,
+    "cal_time_max": 1673976000.0,
+    "fit_label_counts": {
+      "-1": 3
+    },
+    "cal_label_counts": {
+      "-1": 1
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.1.1.1",
+    "fit_n": 3,
+    "calibration_n": 1,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672658700.0,
+    "fit_time_max": 1673538600.0,
+    "cal_time_min": 1673976000.0,
+    "cal_time_max": 1673976000.0,
+    "fit_label_counts": {
+      "-1": 3
+    },
+    "cal_label_counts": {
+      "-1": 1
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.4.4",
+    "fit_n": 3,
+    "calibration_n": 2,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672658700.0,
+    "fit_time_max": 1673538600.0,
+    "cal_time_min": 1673976000.0,
+    "cal_time_max": 1674831300.0,
+    "fit_label_counts": {
+      "-1": 3
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.8.8",
+    "fit_n": 3,
+    "calibration_n": 2,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672658700.0,
+    "fit_time_max": 1673538600.0,
+    "cal_time_min": 1673976000.0,
+    "cal_time_max": 1674831300.0,
+    "fit_label_counts": {
+      "-1": 3
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=uni",
+    "fit_n": 3,
+    "calibration_n": 2,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672658700.0,
+    "fit_time_max": 1673538600.0,
+    "cal_time_min": 1673976000.0,
+    "cal_time_max": 1674831300.0,
+    "fit_label_counts": {
+      "-1": 3
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.0.0.1",
+    "fit_n": 1203,
+    "calibration_n": 401,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1668616800.0,
+    "fit_time_max": 1674554100.0,
+    "cal_time_min": 1674554400.0,
+    "cal_time_max": 1675836000.0,
+    "fit_label_counts": {
+      "-1": 1203
+    },
+    "cal_label_counts": {
+      "-1": 401
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.1.1.1",
+    "fit_n": 1205,
+    "calibration_n": 402,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1668616800.0,
+    "fit_time_max": 1674553800.0,
+    "cal_time_min": 1674554100.0,
+    "cal_time_max": 1675836000.0,
+    "fit_label_counts": {
+      "-1": 1205
+    },
+    "cal_label_counts": {
+      "-1": 402
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.4.4",
+    "fit_n": 1211,
+    "calibration_n": 404,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1668616800.0,
+    "fit_time_max": 1674554400.0,
+    "cal_time_min": 1674554700.0,
+    "cal_time_max": 1675836000.0,
+    "fit_label_counts": {
+      "-1": 1211
+    },
+    "cal_label_counts": {
+      "-1": 404
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.8.8",
+    "fit_n": 1181,
+    "calibration_n": 394,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1668616800.0,
+    "fit_time_max": 1674558000.0,
+    "cal_time_min": 1674558300.0,
+    "cal_time_max": 1675836000.0,
+    "fit_label_counts": {
+      "-1": 1181
+    },
+    "cal_label_counts": {
+      "-1": 394
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=uni",
+    "fit_n": 1168,
+    "calibration_n": 390,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1668617400.0,
+    "fit_time_max": 1674558000.0,
+    "cal_time_min": 1674558300.0,
+    "cal_time_max": 1675836000.0,
+    "fit_label_counts": {
+      "-1": 1168
+    },
+    "cal_label_counts": {
+      "-1": 390
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.0.0.1",
+    "fit_n": 8287,
+    "calibration_n": 1696,
+    "test_n": 1856,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1668616200.0,
+    "fit_time_max": 1682049600.0,
+    "cal_time_min": 1682049600.0,
+    "cal_time_max": 1683238200.0,
+    "fit_label_counts": {
+      "-1": 8287
+    },
+    "cal_label_counts": {
+      "-1": 1696
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.1.1.1",
+    "fit_n": 8287,
+    "calibration_n": 1696,
+    "test_n": 1856,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1668616200.0,
+    "fit_time_max": 1682049600.0,
+    "cal_time_min": 1682049600.0,
+    "cal_time_max": 1683238200.0,
+    "fit_label_counts": {
+      "-1": 8287
+    },
+    "cal_label_counts": {
+      "-1": 1696
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.4.4",
+    "fit_n": 8287,
+    "calibration_n": 1696,
+    "test_n": 1855,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1668616200.0,
+    "fit_time_max": 1682049600.0,
+    "cal_time_min": 1682049600.0,
+    "cal_time_max": 1683238200.0,
+    "fit_label_counts": {
+      "-1": 8287
+    },
+    "cal_label_counts": {
+      "-1": 1696
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.8.8",
+    "fit_n": 8286,
+    "calibration_n": 1696,
+    "test_n": 1855,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1668616200.0,
+    "fit_time_max": 1682049600.0,
+    "cal_time_min": 1682049600.0,
+    "cal_time_max": 1683238200.0,
+    "fit_label_counts": {
+      "-1": 8286
+    },
+    "cal_label_counts": {
+      "-1": 1696
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=uni",
+    "fit_n": 8285,
+    "calibration_n": 1695,
+    "test_n": 1855,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1668616200.0,
+    "fit_time_max": 1682049600.0,
+    "cal_time_min": 1682049600.0,
+    "cal_time_max": 1683238200.0,
+    "fit_label_counts": {
+      "-1": 8285
+    },
+    "cal_label_counts": {
+      "-1": 1695
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.0.0.1",
+    "fit_n": 3,
+    "calibration_n": 2,
+    "test_n": 1,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1674102600.0,
+    "fit_time_max": 1680522900.0,
+    "cal_time_min": 1680523500.0,
+    "cal_time_max": 1682010300.0,
+    "fit_label_counts": {
+      "-1": 3
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.1.1.1",
+    "fit_n": 3,
+    "calibration_n": 2,
+    "test_n": 2,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1674102600.0,
+    "fit_time_max": 1680522900.0,
+    "cal_time_min": 1680523500.0,
+    "cal_time_max": 1682010300.0,
+    "fit_label_counts": {
+      "-1": 3
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.4.4",
+    "fit_n": 4,
+    "calibration_n": 2,
+    "test_n": 2,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1674102600.0,
+    "fit_time_max": 1680523500.0,
+    "cal_time_min": 1681714800.0,
+    "cal_time_max": 1682010300.0,
+    "fit_label_counts": {
+      "-1": 4
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.8.8",
+    "fit_n": 5,
+    "calibration_n": 2,
+    "test_n": 2,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1674102600.0,
+    "fit_time_max": 1681381500.0,
+    "cal_time_min": 1681714800.0,
+    "cal_time_max": 1682010300.0,
+    "fit_label_counts": {
+      "-1": 5
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=uni",
+    "fit_n": 6,
+    "calibration_n": 2,
+    "test_n": 5,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1674102600.0,
+    "fit_time_max": 1681381500.0,
+    "cal_time_min": 1681714800.0,
+    "cal_time_max": 1682010300.0,
+    "fit_label_counts": {
+      "-1": 6
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.0.0.1",
+    "fit_n": 13,
+    "calibration_n": 5,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670491200.0,
+    "fit_time_max": 1674369000.0,
+    "cal_time_min": 1674369600.0,
+    "cal_time_max": 1675742400.0,
+    "fit_label_counts": {
+      "-1": 13
+    },
+    "cal_label_counts": {
+      "-1": 5
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.1.1.1",
+    "fit_n": 14,
+    "calibration_n": 5,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670491200.0,
+    "fit_time_max": 1674369000.0,
+    "cal_time_min": 1674369600.0,
+    "cal_time_max": 1675742400.0,
+    "fit_label_counts": {
+      "-1": 14
+    },
+    "cal_label_counts": {
+      "-1": 5
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.4.4",
+    "fit_n": 14,
+    "calibration_n": 5,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670491200.0,
+    "fit_time_max": 1674369000.0,
+    "cal_time_min": 1674369600.0,
+    "cal_time_max": 1675742400.0,
+    "fit_label_counts": {
+      "-1": 14
+    },
+    "cal_label_counts": {
+      "-1": 5
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.8.8",
+    "fit_n": 14,
+    "calibration_n": 5,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670491200.0,
+    "fit_time_max": 1674369000.0,
+    "cal_time_min": 1674369600.0,
+    "cal_time_max": 1675742400.0,
+    "fit_label_counts": {
+      "-1": 14
+    },
+    "cal_label_counts": {
+      "-1": 5
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=uni",
+    "fit_n": 12,
+    "calibration_n": 5,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670491200.0,
+    "fit_time_max": 1674367800.0,
+    "cal_time_min": 1674369000.0,
+    "cal_time_max": 1675742400.0,
+    "fit_label_counts": {
+      "-1": 12
+    },
+    "cal_label_counts": {
+      "-1": 5
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.0.0.1",
+    "fit_n": 289,
+    "calibration_n": 97,
+    "test_n": 189,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670490900.0,
+    "fit_time_max": 1680492000.0,
+    "cal_time_min": 1680492300.0,
+    "cal_time_max": 1682046900.0,
+    "fit_label_counts": {
+      "-1": 289
+    },
+    "cal_label_counts": {
+      "-1": 97
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.1.1.1",
+    "fit_n": 289,
+    "calibration_n": 97,
+    "test_n": 189,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670490900.0,
+    "fit_time_max": 1680492000.0,
+    "cal_time_min": 1680492300.0,
+    "cal_time_max": 1682046900.0,
+    "fit_label_counts": {
+      "-1": 289
+    },
+    "cal_label_counts": {
+      "-1": 97
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.4.4",
+    "fit_n": 289,
+    "calibration_n": 97,
+    "test_n": 189,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670490900.0,
+    "fit_time_max": 1680492000.0,
+    "cal_time_min": 1680492300.0,
+    "cal_time_max": 1682046900.0,
+    "fit_label_counts": {
+      "-1": 289
+    },
+    "cal_label_counts": {
+      "-1": 97
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.8.8",
+    "fit_n": 289,
+    "calibration_n": 97,
+    "test_n": 189,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670490900.0,
+    "fit_time_max": 1680492000.0,
+    "cal_time_min": 1680492300.0,
+    "cal_time_max": 1682046900.0,
+    "fit_label_counts": {
+      "-1": 289
+    },
+    "cal_label_counts": {
+      "-1": 97
+    }
+  },
+  {
+    "context": "hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=uni",
+    "fit_n": 280,
+    "calibration_n": 94,
+    "test_n": 187,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670490900.0,
+    "fit_time_max": 1680495600.0,
+    "cal_time_min": 1680495900.0,
+    "cal_time_max": 1682046900.0,
+    "fit_label_counts": {
+      "-1": 280
+    },
+    "cal_label_counts": {
+      "-1": 94
+    }
+  }
+]

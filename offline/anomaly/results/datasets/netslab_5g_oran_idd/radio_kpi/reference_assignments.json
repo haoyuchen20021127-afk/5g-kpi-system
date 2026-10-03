@@ -1,0 +1,19 @@
+[
+  {
+    "context": "cell_11111111.0",
+    "fit_n": 6230,
+    "calibration_n": 2077,
+    "test_n": 14102,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1746799506.701,
+    "fit_time_max": 1747145373.9,
+    "cal_time_min": 1747145374.9,
+    "cal_time_max": 1747321989.652,
+    "fit_label_counts": {
+      "0": 6230
+    },
+    "cal_label_counts": {
+      "0": 2077
+    }
+  }
+]

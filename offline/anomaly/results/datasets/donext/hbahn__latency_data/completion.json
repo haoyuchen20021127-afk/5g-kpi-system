@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "rows_prepared": 77245,
+  "rows_test": 10648,
+  "selected_features": [
+    "mean_latency",
+    "max_latency",
+    "mean_dev_latency",
+    "rsrp",
+    "sinr",
+    "ss_sinr"
+  ],
+  "operation": "reuse_independent_per_kpi_results_no_new_training",
+  "source_files_unchanged": true,
+  "all_test_records_preserved": true,
+  "fit_calibration_test_row_ids_disjoint": true,
+  "selection_seconds": 12.356
+}

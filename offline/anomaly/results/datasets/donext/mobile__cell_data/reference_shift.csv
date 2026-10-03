@@ -1,0 +1,55 @@
+﻿context,feature,fit_observed,test_observed,fit_median,test_median,benign_test_median,test_outside_fit_range_fraction,fit_unique
+mobile__cell_data|device=o1s_SM-G991B|MNO=A|network=2G,rsrp,6,0,-98.5,,,,5
+mobile__cell_data|device=o1s_SM-G991B|MNO=A|network=2G,rsrq,6,0,-11.5,,,,5
+mobile__cell_data|device=o1s_SM-G991B|MNO=A|network=2G,sinr,6,0,-4.5,,,,5
+mobile__cell_data|device=o1s_SM-G991B|MNO=A|network=4G,rsrp,652,0,-91.0,,,,539
+mobile__cell_data|device=o1s_SM-G991B|MNO=A|network=4G,rsrq,652,0,-9.126136363636363,,,,488
+mobile__cell_data|device=o1s_SM-G991B|MNO=A|network=4G,sinr,652,0,7.791165413533834,,,,536
+mobile__cell_data|device=o1s_SM-G991B|MNO=A|network=5G NSA,rsrp,1247,0,-93.23863636363636,,,,1111
+mobile__cell_data|device=o1s_SM-G991B|MNO=A|network=5G NSA,rsrq,1247,0,-10.004566210045661,,,,1038
+mobile__cell_data|device=o1s_SM-G991B|MNO=A|network=5G NSA,sinr,1247,0,4.833333333333333,,,,1090
+mobile__cell_data|device=o1s_SM-G991B|MNO=B|network=2G,rsrp,20,1,-85.0,-84.0,,0.0,17
+mobile__cell_data|device=o1s_SM-G991B|MNO=B|network=2G,rsrq,20,1,-11.0,-9.0,,0.0,8
+mobile__cell_data|device=o1s_SM-G991B|MNO=B|network=2G,sinr,20,1,4.0,1.0,,0.0,13
+mobile__cell_data|device=o1s_SM-G991B|MNO=B|network=4G,rsrp,252,97,-85.0,-85.0,,0.0,73
+mobile__cell_data|device=o1s_SM-G991B|MNO=B|network=4G,rsrq,250,97,-11.0,-10.0,,0.020618556701030927,31
+mobile__cell_data|device=o1s_SM-G991B|MNO=B|network=4G,sinr,252,97,5.0,2.75,,0.010309278350515464,55
+mobile__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA,rsrp,3651,694,-83.5625,-85.59498810518872,,0.0,3196
+mobile__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA,rsrq,3650,694,-11.117444219066936,-10.018305647840531,,0.018731988472622477,2944
+mobile__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA,sinr,3651,694,5.86697247706422,7.5296975160256405,,0.004322766570605188,3141
+mobile__cell_data|device=r0s_SM-S901B|MNO=<missing>|network=3G,rsrp,0,0,,,,,0
+mobile__cell_data|device=r0s_SM-S901B|MNO=<missing>|network=3G,rsrq,0,0,,,,,0
+mobile__cell_data|device=r0s_SM-S901B|MNO=<missing>|network=3G,sinr,0,0,,,,,0
+mobile__cell_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA,rsrp,1,0,-74.0,,,,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA,rsrq,1,0,-6.0,,,,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA,sinr,1,0,1.0,,,,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=<missing>|network=<missing>,rsrp,0,0,,,,,0
+mobile__cell_data|device=r0s_SM-S901B|MNO=<missing>|network=<missing>,rsrq,0,0,,,,,0
+mobile__cell_data|device=r0s_SM-S901B|MNO=<missing>|network=<missing>,sinr,0,0,,,,,0
+mobile__cell_data|device=r0s_SM-S901B|MNO=A|network=2G,rsrp,1,6,-122.0,-79.0,,1.0,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=A|network=2G,rsrq,1,6,-9.0,-7.5625,,1.0,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=A|network=2G,sinr,1,6,7.0,6.411764705882353,,0.8333333333333334,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=A|network=4G,rsrp,1299,256,-94.9,-83.68055555555556,,0.0,1034
+mobile__cell_data|device=r0s_SM-S901B|MNO=A|network=4G,rsrq,1299,256,-9.45945945945946,-7.0,,0.00390625,911
+mobile__cell_data|device=r0s_SM-S901B|MNO=A|network=4G,sinr,1299,256,5.008695652173913,1.266798418972332,,0.0,1000
+mobile__cell_data|device=r0s_SM-S901B|MNO=A|network=5G NSA,rsrp,2341,759,-91.77522935779817,-88.03738317757009,,0.0,1967
+mobile__cell_data|device=r0s_SM-S901B|MNO=A|network=5G NSA,rsrq,2341,759,-9.565217391304348,-7.959016393442623,,0.002635046113306983,1838
+mobile__cell_data|device=r0s_SM-S901B|MNO=A|network=5G NSA,sinr,2341,759,4.191011235955056,0.8183254344391785,,0.0,1945
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=2G,rsrp,0,0,,,,,0
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=2G,rsrq,0,0,,,,,0
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=2G,sinr,0,0,,,,,0
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=4G,rsrp,186,43,-91.0,-96.83333333333333,,0.0,99
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=4G,rsrq,184,43,-12.0,-10.5,,0.0,52
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=4G,sinr,185,43,2.0,0.2608695652173913,,0.0,73
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=5G NSA,rsrp,3577,373,-86.43859649122807,-83.73529411764706,,0.0,3289
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=5G NSA,rsrq,3576,373,-11.444735311227458,-10.430555555555555,,0.0,3092
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=5G NSA,sinr,3577,373,3.1171171171171173,0.3076923076923077,,0.0,3144
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=<missing>,rsrp,1,0,-88.0,,,,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=<missing>,rsrq,1,0,-9.0,,,,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=B|network=<missing>,sinr,1,0,7.0,,,,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=C|network=2G,rsrp,1,0,-122.0,,,,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=C|network=2G,rsrq,1,0,-9.0,,,,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=C|network=2G,sinr,1,0,7.0,,,,1
+mobile__cell_data|device=r0s_SM-S901B|MNO=C|network=4G,rsrp,0,0,,,,,0
+mobile__cell_data|device=r0s_SM-S901B|MNO=C|network=4G,rsrq,0,0,,,,,0
+mobile__cell_data|device=r0s_SM-S901B|MNO=C|network=4G,sinr,0,0,,,,,0

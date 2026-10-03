@@ -1,0 +1,89 @@
+{
+  "task": "donext/latency",
+  "model": "Transformer",
+  "signature": {
+    "X_sha256": "98c1bb32232f26db140e15025036a35cad57aae22aa1b5794614b6f2b88277b2",
+    "Y_sha256": "af856b4c1de96d8a2d10416520449eadf591586c0cf2c62b17e0eefe7558eeec",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "max_epochs": 80,
+    "code_sha256": {
+      "common.py": "c869f6d4fbca6ec4741aa52ef8cdc1fb480e537fb28e8eab1adf5b276ab223c0",
+      "models.py": "79193c0bc3531dab2235eaeb55f10999e477a5c6b9492db208bbd66e31bb0e2e",
+      "prepare_shared_data.py": "b6eba14670a5057b171650ecb2804bd6c7589aed1a94663bbe829e11eef95631",
+      "train_comparison.py": "5037153842287e37f4556891e6a2b3b23ec23f227d548f6fb8cff3a0b9ab7852"
+    },
+    "threads": 4
+  },
+  "source_snapshot": "training_sources\\507f55587805e3f1",
+  "mechanism": "history-only Transformer encoder with sinusoidal positions and joint linear output head",
+  "selected_config": {
+    "d_model": 64,
+    "nhead": 4,
+    "dim_feedforward": 256,
+    "num_layers": 1,
+    "dropout": 0.0,
+    "learning_rate": 0.001
+  },
+  "selected_epochs": 11,
+  "final_fit_rows": 80730,
+  "test_rows": 13628,
+  "selection_seconds": 78.73853689990938,
+  "seed_runs": [
+    {
+      "seed": 42,
+      "fit_seconds": 22.98661660007201,
+      "predict_seconds": 0.03335569996852428,
+      "reload_verified": true,
+      "artifact_sha256": "412bb7714631a3f0fe98e8c1d41be4f55048002f51abc5ac1e4193655b8fcc2e",
+      "trainable_parameters": 50692
+    },
+    {
+      "seed": 43,
+      "fit_seconds": 24.965133300051093,
+      "predict_seconds": 0.036129900021478534,
+      "reload_verified": true,
+      "artifact_sha256": "a3468502013a13b80a43814884e112eb94aa02a467abd4acd5a2809a7a2af0f6",
+      "trainable_parameters": 50692
+    },
+    {
+      "seed": 44,
+      "fit_seconds": 23.733684099977836,
+      "predict_seconds": 0.03619199991226196,
+      "reload_verified": true,
+      "artifact_sha256": "a98af2dd5c217b459ecd1e79ef98d4b40e84c40c337b5bf13f45a9243c91e931",
+      "trainable_parameters": 50692
+    }
+  ],
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "torch": "2.8.0+cu126",
+    "scikit-learn": "1.9.0",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3"
+  },
+  "common_settings": {
+    "optimizer": "Adam",
+    "loss": "mean squared error across samples and outputs",
+    "batch_size": 256,
+    "weight_decay": 1e-05,
+    "gradient_clip": 1.0,
+    "patience": 12,
+    "min_delta": 1e-05,
+    "layers": 1,
+    "dropout": 0,
+    "transformer_position_encoding": "fixed sinusoidal",
+    "transformer_attention_scope": "all observed history positions only",
+    "transformer_norm_first": true,
+    "transformer_activation": "gelu",
+    "attention_backend": "math",
+    "mha_fastpath": false
+  }
+}

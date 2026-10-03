@@ -1,0 +1,25 @@
+
+2026-10-03 10:08:22.796 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-10-03 10:08:24.005 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-10-03 10:08:24.007 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-10-03 10:08:24.032 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-10-03 10:08:24.455 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+test_assets_intact (test_system.ModelTests.test_assets_intact) ... ok
+test_custom_independent_kpis (test_system.ModelTests.test_custom_independent_kpis) ... ok
+test_custom_no_change (test_system.ModelTests.test_custom_no_change) ... ok
+test_guard_boundary (test_system.ModelTests.test_guard_boundary) ... ok
+test_invalid_custom_input (test_system.ModelTests.test_invalid_custom_input) ... ok
+test_offline_detector_fit (test_system.ModelTests.test_offline_detector_fit) ... ok
+test_prediction_edit (test_system.ModelTests.test_prediction_edit) ... ok
+test_prediction_invalid (test_system.ModelTests.test_prediction_invalid) ... ok
+test_prediction_regression (test_system.ModelTests.test_prediction_regression) ... ok
+test_record_or_with_missing (test_system.ModelTests.test_record_or_with_missing) ... ok
+test_anomaly_modes (test_system.PageTests.test_anomaly_modes) ... 2026-10-03 10:08:27.046 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_prediction_modes (test_system.PageTests.test_prediction_modes) ... 2026-10-03 10:08:28.410 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 4.987s
+
+OK

@@ -1,0 +1,85 @@
+{
+  "task": "donext/latency",
+  "model": "GRU",
+  "signature": {
+    "X_sha256": "98c1bb32232f26db140e15025036a35cad57aae22aa1b5794614b6f2b88277b2",
+    "Y_sha256": "af856b4c1de96d8a2d10416520449eadf591586c0cf2c62b17e0eefe7558eeec",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "max_epochs": 80,
+    "code_sha256": {
+      "common.py": "c869f6d4fbca6ec4741aa52ef8cdc1fb480e537fb28e8eab1adf5b276ab223c0",
+      "models.py": "79193c0bc3531dab2235eaeb55f10999e477a5c6b9492db208bbd66e31bb0e2e",
+      "prepare_shared_data.py": "b6eba14670a5057b171650ecb2804bd6c7589aed1a94663bbe829e11eef95631",
+      "train_comparison.py": "5037153842287e37f4556891e6a2b3b23ec23f227d548f6fb8cff3a0b9ab7852"
+    },
+    "threads": 4
+  },
+  "source_snapshot": "training_sources\\507f55587805e3f1",
+  "mechanism": "shared multivariate GRU representation and joint linear output head",
+  "selected_config": {
+    "hidden_size": 64,
+    "learning_rate": 0.001
+  },
+  "selected_epochs": 19,
+  "final_fit_rows": 80730,
+  "test_rows": 13628,
+  "selection_seconds": 77.90927439997904,
+  "seed_runs": [
+    {
+      "seed": 42,
+      "fit_seconds": 27.616258100024424,
+      "predict_seconds": 0.02604649995919317,
+      "reload_verified": true,
+      "artifact_sha256": "11b3becac441091a3d0a805c545810e0a352707f82b086655ff26a3e100e0bac",
+      "trainable_parameters": 13700
+    },
+    {
+      "seed": 43,
+      "fit_seconds": 26.4446168000577,
+      "predict_seconds": 0.02484780002851039,
+      "reload_verified": true,
+      "artifact_sha256": "45ec1b507c97a1c40aad54f5557123d55675eaa723caf07329c717cd3e824370",
+      "trainable_parameters": 13700
+    },
+    {
+      "seed": 44,
+      "fit_seconds": 28.632851699949242,
+      "predict_seconds": 0.015729300095699728,
+      "reload_verified": true,
+      "artifact_sha256": "4ed87f3fdedde53d33a92c65d64ae3d4da80585c77a31501d23bcbbfd7ddbf5c",
+      "trainable_parameters": 13700
+    }
+  ],
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "torch": "2.8.0+cu126",
+    "scikit-learn": "1.9.0",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3"
+  },
+  "common_settings": {
+    "optimizer": "Adam",
+    "loss": "mean squared error across samples and outputs",
+    "batch_size": 256,
+    "weight_decay": 1e-05,
+    "gradient_clip": 1.0,
+    "patience": 12,
+    "min_delta": 1e-05,
+    "layers": 1,
+    "dropout": 0,
+    "transformer_position_encoding": "fixed sinusoidal",
+    "transformer_attention_scope": "all observed history positions only",
+    "transformer_norm_first": true,
+    "transformer_activation": "gelu",
+    "attention_backend": "math",
+    "mha_fastpath": false
+  }
+}

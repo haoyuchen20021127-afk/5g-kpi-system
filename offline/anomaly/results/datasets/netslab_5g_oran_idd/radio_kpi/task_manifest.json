@@ -1,0 +1,144 @@
+{
+  "dataset": "netslab_5g_oran_idd",
+  "task_id": "radio_kpi",
+  "features": [
+    "dlByteRate",
+    "ulByteRate",
+    "dlBler",
+    "ulBler",
+    "rsrp",
+    "rsrq",
+    "sinr",
+    "cqi",
+    "dlMcs",
+    "ulMcs"
+  ],
+  "group_col": "context",
+  "label_scope": "attack_state",
+  "source_coverage": [
+    {
+      "source": "lower_layer_data",
+      "rows_input": 45244,
+      "rows_analysis": 45244,
+      "role": "radio_kpi",
+      "path": "E:\\5G_Project\\week6\\data\\netslab_5g_oran_idd\\observed_native\\lower_layer_data.csv.gz"
+    }
+  ],
+  "notes": [
+    "Original chronological test retained as future-domain stress test; benign calibration reserved only from original normal training when validation has no benign.",
+    "Radio benign labels mean absence of the labelled attack, not guaranteed healthy wireless conditions.",
+    "UE and RNTI are experimental identifiers, not verified persistent physical-device identities.",
+    "Original dlBytes and ulBytes are retained in prepared data; derived byte rates flag resets and gaps as unavailable.",
+    "pcmax=-29 is retained and flagged for encoding review; it is not assumed to be a true physical fault."
+  ],
+  "quality": [
+    {
+      "feature": "dlBytes",
+      "derived_feature": "dlByteRate",
+      "rows": 45244,
+      "usable_increments": 44190,
+      "reset_or_negative": 697,
+      "invalid_interval_or_session_start": 570,
+      "rule": "nonnegative counter difference / elapsed seconds within UE,cell,RNTI; 0<dt<=5; no resets joined",
+      "semantics": "counter-derived exploratory byte rate; not an externally certified throughput measurement"
+    },
+    {
+      "feature": "ulBytes",
+      "derived_feature": "ulByteRate",
+      "rows": 45244,
+      "usable_increments": 44192,
+      "reset_or_negative": 695,
+      "invalid_interval_or_session_start": 570,
+      "rule": "nonnegative counter difference / elapsed seconds within UE,cell,RNTI; 0<dt<=5; no resets joined",
+      "semantics": "counter-derived exploratory byte rate; not an externally certified throughput measurement"
+    }
+  ],
+  "config": {
+    "alpha": 0.05,
+    "min_fit": 100,
+    "min_cal": 50,
+    "min_model_unique": 5,
+    "max_ml_fit": 6000,
+    "seed": 42,
+    "if_trees": 200,
+    "svm_nu": 0.05,
+    "svm_tol": 1e-07,
+    "svm_max_iter": 100000,
+    "iqr_score_policy": "native_fence_distance"
+  },
+  "methods": [
+    "three_sigma",
+    "iqr",
+    "isolation_forest",
+    "one_class_svm"
+  ],
+  "rows_prepared": 45244,
+  "rows_test": 14102,
+  "rows_calibration": 2077,
+  "interpretation": "Retrospective calibrated exploration; calibration fraction is not independent performance or a guaranteed future false-positive rate.",
+  "input_imputation": {
+    "enabled": true,
+    "rule": "fit-reference mode for CQI/RI/pcmax; median for other KPIs; per-context",
+    "original_observations_preserved": true,
+    "clipping": false,
+    "threshold_evidence_counts": "observed before imputation",
+    "prediction_value_columns": "feature__model_input",
+    "imputation_flag_columns": "feature__input_imputed",
+    "no_fit_observations": "leave missing and unscored; do not borrow calibration/test values",
+    "qualification": "Predictions on imputed values are model outputs for estimates, not measured KPI health."
+  },
+  "source_training_seconds": 12.02,
+  "selected_feature_policy": {
+    "features": [
+      "dlByteRate",
+      "ulByteRate",
+      "dlBler",
+      "ulBler",
+      "rsrp",
+      "rsrq",
+      "sinr",
+      "cqi",
+      "dlMcs",
+      "ulMcs"
+    ],
+    "reasons": {
+      "dlByteRate": "保留会话内下行字节增量速率，描述下行业务负载；沿用已有差分与会话边界规则。",
+      "ulByteRate": "保留会话内上行字节增量速率，描述上行业务负载；沿用已有差分与会话边界规则。",
+      "dlBler": "下行误块率直接反映下行传输可靠性。",
+      "ulBler": "上行误块率直接反映上行传输可靠性。",
+      "rsrp": "保留原来源参考信号接收功率字段，描述信号强度；按既有设备、场景和制式上下文分别建模。",
+      "rsrq": "保留原来源参考信号接收质量字段，补充信号质量信息；不与NR专属字段合并。",
+      "sinr": "保留原来源信干噪比字段，描述信号与干扰噪声的相对关系。",
+      "cqi": "保留信道质量反馈等级，用于解释无线链路质量和调制编码选择。",
+      "dlMcs": "保留下行调制编码等级，体现下行链路自适应状态。",
+      "ulMcs": "保留上行调制编码等级，体现上行链路自适应状态。"
+    },
+    "excluded_features": [
+      "ri",
+      "phr",
+      "pcmax",
+      "rssi",
+      "pucchSnr",
+      "puschSnr"
+    ],
+    "excluded_reasons": {
+      "ri": "原拟合参考为常量，适合作一致性检查而非核心性能异常检测KPI。",
+      "phr": "功率余量作为辅助诊断信息保留，本核心集合优先传输质量与业务负载。",
+      "pcmax": "最大发射功率约束属于配置/能力描述且档位较少，不作为本核心性能告警项。",
+      "rssi": "总接收功率与已选RSRP、SINR的强度/质量信息部分重叠，精简时不重复参与核心OR。",
+      "pucchSnr": "控制信道SNR保留作细分排查，核心质量集合已包含SINR。",
+      "puschSnr": "共享信道SNR保留作细分排查，核心质量集合已包含SINR。"
+    },
+    "selection_input": "explicit_predefined_policy",
+    "selection_uses_test_outcomes": false,
+    "rows_selected_or_removed": false,
+    "unscored_flags_retained": true,
+    "source_metadata_quality_fields": "preserved source-level annotations; not selected-KPI missingness denominators"
+  },
+  "record_rule": "No record-level predictions are reused here. Run summarize_by_label separately for within-method any-applicable-KPI OR with undetermined records retained.",
+  "label_interpretation": "Dataset attack/benign labels are not per-KPI health truth; unknown and unlabelled records remain separate.",
+  "result_origin": "existing_independent_per_kpi_models_and_predictions_reused_without_refitting",
+  "source_results": "E:\\5G_Project\\week6\\交付物_填补输入版\\results\\datasets\\netslab_5g_oran_idd\\radio_kpi",
+  "source_task_manifest_sha256": "2ed9a06de170a6987811c218c4e7f06985be9f924f1b6064f90bd073096fdb26",
+  "selection_config_sha256": "69834e8f92d6eb03b441e900b0cdc28d35ee19b0ca3981a049f7698aa43a33ac"
+}

@@ -1,0 +1,125 @@
+{
+  "task": "donext/iperf",
+  "targets": [
+    "DataRate",
+    "RSRP",
+    "SINR",
+    "CQI"
+  ],
+  "raw": [
+    "datarate",
+    "rsrp",
+    "sinr",
+    "cqi"
+  ],
+  "window": 12,
+  "resolution": "5 minutes",
+  "stems": [
+    "hbahn__iperf_data",
+    "mobile__iperf_data"
+  ],
+  "groups": [
+    "protocol",
+    "direction"
+  ],
+  "split_rows": {
+    "train": 11798,
+    "validation": 2482,
+    "test": 2383
+  },
+  "adjacent_pairs_checked": 16398,
+  "flat_sequence_exact_equality": true,
+  "X_sha256": "5dc260ee4ee9d38d2537f518f91c185be1a26f37f4779baec16e5e4c60eebb0f",
+  "Y_sha256": "dbd3d5a307fdc036be244d4aa9a97c26463447e971c3a9f872dbcd4284d7ed43",
+  "sequence_count": 265,
+  "sources": [
+    {
+      "path": "E:\\5G_Project\\week3\\data\\processed_data\\donext\\zscore\\hbahn__iperf_data.csv.gz",
+      "sha256": "119dfaadabc1f08944cbccb56af89fb0cc261ad89603fe1bab7ae91f6ee14f94",
+      "rows_read": 71008,
+      "rows_excluded_invalid_common_observation": 0,
+      "bins": 35159
+    },
+    {
+      "path": "E:\\5G_Project\\week3\\data\\processed_data\\donext\\zscore\\mobile__iperf_data.csv.gz",
+      "sha256": "fc2fb7e58ae34513c0ee942c631ae093af6b1bf0a5eabd9adccaf10405796c10",
+      "rows_read": 276525,
+      "rows_excluded_invalid_common_observation": 0,
+      "bins": 30142
+    }
+  ],
+  "construction": "joint observations from each existing Z-score source table; 5-minute means; no added filling",
+  "split_policy": "within each continuous source/entity/business segment, chronological 70/15/15 after warmup",
+  "organization_audit": {
+    "input_bins": 65301,
+    "segments_total": 12210,
+    "segments_retained": 265,
+    "bins_in_short_segments": 45458,
+    "warmup_bins": 3180
+  },
+  "entity_limit": "source-provided series identifiers; device strings may identify models rather than unique physical devices",
+  "n_samples": 16663,
+  "input_shape": [
+    16663,
+    12,
+    4
+  ],
+  "output_shape": [
+    16663,
+    4
+  ],
+  "flat_feature_order": [
+    "lag_12__DataRate",
+    "lag_12__RSRP",
+    "lag_12__SINR",
+    "lag_12__CQI",
+    "lag_11__DataRate",
+    "lag_11__RSRP",
+    "lag_11__SINR",
+    "lag_11__CQI",
+    "lag_10__DataRate",
+    "lag_10__RSRP",
+    "lag_10__SINR",
+    "lag_10__CQI",
+    "lag_9__DataRate",
+    "lag_9__RSRP",
+    "lag_9__SINR",
+    "lag_9__CQI",
+    "lag_8__DataRate",
+    "lag_8__RSRP",
+    "lag_8__SINR",
+    "lag_8__CQI",
+    "lag_7__DataRate",
+    "lag_7__RSRP",
+    "lag_7__SINR",
+    "lag_7__CQI",
+    "lag_6__DataRate",
+    "lag_6__RSRP",
+    "lag_6__SINR",
+    "lag_6__CQI",
+    "lag_5__DataRate",
+    "lag_5__RSRP",
+    "lag_5__SINR",
+    "lag_5__CQI",
+    "lag_4__DataRate",
+    "lag_4__RSRP",
+    "lag_4__SINR",
+    "lag_4__CQI",
+    "lag_3__DataRate",
+    "lag_3__RSRP",
+    "lag_3__SINR",
+    "lag_3__CQI",
+    "lag_2__DataRate",
+    "lag_2__RSRP",
+    "lag_2__SINR",
+    "lag_2__CQI",
+    "lag_1__DataRate",
+    "lag_1__RSRP",
+    "lag_1__SINR",
+    "lag_1__CQI"
+  ],
+  "unit": "z-score",
+  "new_scaling_or_imputation": false,
+  "input_contract": "all models receive exactly the same X values; traditional estimators use C-order flattening",
+  "limitation": "Inherited full-source preprocessing statistics; not an end-to-end leakage-free deployment benchmark."
+}

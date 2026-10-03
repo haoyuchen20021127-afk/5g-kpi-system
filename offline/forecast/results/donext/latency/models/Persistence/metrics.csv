@@ -1,0 +1,13 @@
+﻿task,dataset,model,seed,target,MAE,RMSE,R2,n_test,fit_seconds,predict_seconds
+donext/latency,donext,Persistence,42,MeanLatency,0.0789895881672,0.160914782209,0.928923323122,13628,0,0
+donext/latency,donext,Persistence,42,RSRP,0.309837449516,0.513806664456,0.605685666709,13628,0,0
+donext/latency,donext,Persistence,42,SINR,0.35995703125,0.54079034196,0.65630430093,13628,0,0
+donext/latency,donext,Persistence,42,CQI,0.353703053916,0.497572441572,0.6062894417,13628,0,0
+donext/latency,donext,Persistence,43,MeanLatency,0.0789895881672,0.160914782209,0.928923323122,13628,0,0
+donext/latency,donext,Persistence,43,RSRP,0.309837449516,0.513806664456,0.605685666709,13628,0,0
+donext/latency,donext,Persistence,43,SINR,0.35995703125,0.54079034196,0.65630430093,13628,0,0
+donext/latency,donext,Persistence,43,CQI,0.353703053916,0.497572441572,0.6062894417,13628,0,0
+donext/latency,donext,Persistence,44,MeanLatency,0.0789895881672,0.160914782209,0.928923323122,13628,0,0
+donext/latency,donext,Persistence,44,RSRP,0.309837449516,0.513806664456,0.605685666709,13628,0,0
+donext/latency,donext,Persistence,44,SINR,0.35995703125,0.54079034196,0.65630430093,13628,0,0
+donext/latency,donext,Persistence,44,CQI,0.353703053916,0.497572441572,0.6062894417,13628,0,0

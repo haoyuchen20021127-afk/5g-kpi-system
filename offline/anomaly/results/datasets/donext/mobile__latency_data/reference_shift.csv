@@ -1,0 +1,321 @@
+﻿context,feature,fit_observed,test_observed,fit_median,test_median,benign_test_median,test_outside_fit_range_fraction,fit_unique
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=1.0.0.1,rsrp,3,0,-95.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=1.0.0.1,sinr,3,0,-4.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=1.0.0.1,mean_latency,1,0,277.967,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=1.0.0.1,max_latency,1,0,310.339,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=1.0.0.1,mean_dev_latency,3,0,-1.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=1.1.1.1,rsrp,3,0,-95.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=1.1.1.1,sinr,3,0,-4.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=1.1.1.1,mean_latency,1,0,248.791,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=1.1.1.1,max_latency,1,0,288.34,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=1.1.1.1,mean_dev_latency,3,0,-1.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=8.8.4.4,rsrp,3,0,-95.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=8.8.4.4,sinr,3,0,-4.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=8.8.4.4,mean_latency,1,0,348.814,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=8.8.4.4,max_latency,1,0,413.993,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=8.8.4.4,mean_dev_latency,3,0,-1.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=8.8.8.8,rsrp,3,0,-95.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=8.8.8.8,sinr,3,0,-4.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=8.8.8.8,mean_latency,1,0,308.275,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=8.8.8.8,max_latency,1,0,408.465,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=8.8.8.8,mean_dev_latency,3,0,-1.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=uni,rsrp,3,0,-95.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=uni,sinr,3,0,-4.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=uni,mean_latency,1,0,209.647,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=uni,max_latency,1,0,260.52,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=2G|server_ip=uni,mean_dev_latency,3,0,-1.0,,,,2
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=1.0.0.1,rsrp,616,0,-89.88888888888889,,,,407
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=1.0.0.1,sinr,616,0,7.236111111111111,,,,413
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=1.0.0.1,mean_latency,613,0,38.02927777777778,,,,613
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=1.0.0.1,max_latency,613,0,50.86533333333333,,,,613
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=1.0.0.1,mean_dev_latency,616,0,9.540423076923076,,,,613
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=1.1.1.1,rsrp,616,0,-89.88888888888889,,,,406
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=1.1.1.1,sinr,616,0,7.211111111111111,,,,414
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=1.1.1.1,mean_latency,614,0,38.198499999999996,,,,613
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=1.1.1.1,max_latency,614,0,51.696749999999994,,,,614
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=1.1.1.1,mean_dev_latency,616,0,9.664520833333334,,,,615
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=8.8.4.4,rsrp,615,0,-89.88888888888889,,,,406
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=8.8.4.4,sinr,615,0,7.3076923076923075,,,,414
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=8.8.4.4,mean_latency,612,0,40.846859477124184,,,,610
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=8.8.4.4,max_latency,612,0,54.02110714285715,,,,611
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=8.8.4.4,mean_dev_latency,615,0,9.391473684210526,,,,612
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=8.8.8.8,rsrp,606,0,-90.0,,,,402
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=8.8.8.8,sinr,606,0,7.2899159663865545,,,,413
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=8.8.8.8,mean_latency,603,0,40.086777777777776,,,,602
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=8.8.8.8,max_latency,603,0,53.994,,,,603
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=8.8.8.8,mean_dev_latency,606,0,9.840736842105263,,,,601
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=uni,rsrp,602,0,-89.58571428571429,,,,389
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=uni,sinr,602,0,7.685855263157895,,,,376
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=uni,mean_latency,599,0,59.3898,,,,599
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=uni,max_latency,599,0,94.0412,,,,599
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=4G|server_ip=uni,mean_dev_latency,602,0,21.215036363636365,,,,599
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=1.0.0.1,rsrp,1222,0,-93.25,,,,837
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=1.0.0.1,sinr,1222,0,4.79344262295082,,,,771
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=1.0.0.1,mean_latency,1217,0,41.4185593220339,,,,1215
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=1.0.0.1,max_latency,1217,0,56.900769230769235,,,,1217
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=1.0.0.1,mean_dev_latency,1222,0,11.68877450980392,,,,1217
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=1.1.1.1,rsrp,1222,0,-93.25,,,,840
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=1.1.1.1,sinr,1222,0,4.79344262295082,,,,769
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=1.1.1.1,mean_latency,1217,0,41.48932,,,,1215
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=1.1.1.1,max_latency,1217,0,56.5565,,,,1216
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=1.1.1.1,mean_dev_latency,1222,0,11.436115384615384,,,,1215
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=8.8.4.4,rsrp,1221,0,-93.25,,,,846
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=8.8.4.4,sinr,1221,0,4.8,,,,764
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=8.8.4.4,mean_latency,1216,0,44.453599999999994,,,,1215
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=8.8.4.4,max_latency,1216,0,60.313526960784316,,,,1216
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=8.8.4.4,mean_dev_latency,1221,0,11.805529411764706,,,,1216
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=8.8.8.8,rsrp,1224,0,-93.27777777777777,,,,837
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=8.8.8.8,sinr,1224,0,4.743421052631579,,,,786
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=8.8.8.8,mean_latency,1207,0,44.4754,,,,1206
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=8.8.8.8,max_latency,1207,0,61.47152941176471,,,,1207
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=8.8.8.8,mean_dev_latency,1224,0,12.2420125,,,,1207
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=uni,rsrp,1210,0,-93.16783216783217,,,,838
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=uni,sinr,1210,0,4.755952380952381,,,,753
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=uni,mean_latency,1191,0,64.7882,,,,1191
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=uni,max_latency,1191,0,103.21760869565217,,,,1191
+mobile__latency_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|server_ip=uni,mean_dev_latency,1210,0,23.285344696969698,,,,1192
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=1.0.0.1,rsrp,3346,456,-84.84615384615384,-84.95238095238095,,0.0,1971
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=1.0.0.1,sinr,3346,456,6.0,7.5,,0.0043859649122807015,1680
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=1.0.0.1,mean_latency,3344,456,36.885988636363635,41.23097272727273,,0.0021929824561403508,3338
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=1.0.0.1,max_latency,3344,456,47.246547794117646,52.52427884615385,,0.0021929824561403508,3339
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=1.0.0.1,mean_dev_latency,3346,456,7.558610896817744,8.418458881578946,,0.0,3337
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=1.1.1.1,rsrp,3346,456,-84.84615384615384,-84.95238095238095,,0.0,1975
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=1.1.1.1,sinr,3346,456,6.01852487135506,7.5,,0.0021929824561403508,1679
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=1.1.1.1,mean_latency,3346,456,37.370125,41.722770408163264,,0.0021929824561403508,3341
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=1.1.1.1,max_latency,3346,456,47.974123655913985,51.453676470588235,,0.0021929824561403508,3339
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=1.1.1.1,mean_dev_latency,3346,456,7.466157142857143,7.978802447552448,,0.0,3341
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=192.168.178.195,rsrp,1,0,-108.875,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=192.168.178.195,sinr,1,0,-3.625,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=192.168.178.195,mean_latency,0,0,,,,,0
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=192.168.178.195,max_latency,0,0,,,,,0
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=192.168.178.195,mean_dev_latency,1,0,-1.0,,,,1
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=8.8.4.4,rsrp,3345,456,-84.84615384615384,-84.95238095238095,,0.0,1974
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=8.8.4.4,sinr,3345,456,6.026315789473684,7.5,,0.0043859649122807015,1680
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=8.8.4.4,mean_latency,3345,456,41.87611764705883,43.79645714285715,,0.0021929824561403508,3340
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=8.8.4.4,max_latency,3345,456,52.4031724137931,54.37925238095238,,0.0021929824561403508,3342
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=8.8.4.4,mean_dev_latency,3345,456,7.548,7.99353593682075,,0.0,3338
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=8.8.8.8,rsrp,3345,456,-84.8,-84.8954189270645,,0.0,1962
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=8.8.8.8,sinr,3345,456,6.043478260869565,7.5,,0.0043859649122807015,1696
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=8.8.8.8,mean_latency,3342,456,43.429295238095236,45.64317903525046,,0.0,3337
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=8.8.8.8,max_latency,3342,456,56.75977499999999,60.15011616161616,,0.0,3341
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=8.8.8.8,mean_dev_latency,3345,456,8.977869565217391,9.960942798774258,,0.0,3335
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=uni,rsrp,3324,452,-84.7766439909297,-85.15142857142857,,0.0,1830
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=uni,sinr,3324,452,6.113526570048309,7.56456043956044,,0.00663716814159292,1580
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=uni,mean_latency,3317,452,73.57866666666666,74.92736363636362,,0.0,3316
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=uni,max_latency,3317,452,123.73223404255319,123.54966083916084,,0.0,3317
+mobile__latency_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|server_ip=uni,mean_dev_latency,3324,452,32.74473474945534,31.468123490338165,,0.0,3314
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=1.0.0.1,rsrp,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=1.0.0.1,sinr,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=1.0.0.1,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=1.0.0.1,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=1.0.0.1,mean_dev_latency,0,1,,-1.0,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=1.1.1.1,rsrp,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=1.1.1.1,sinr,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=1.1.1.1,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=1.1.1.1,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=1.1.1.1,mean_dev_latency,0,1,,-1.0,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=8.8.4.4,rsrp,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=8.8.4.4,sinr,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=8.8.4.4,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=8.8.4.4,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=8.8.4.4,mean_dev_latency,0,1,,-1.0,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=8.8.8.8,rsrp,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=8.8.8.8,sinr,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=8.8.8.8,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=8.8.8.8,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=8.8.8.8,mean_dev_latency,0,1,,-1.0,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=uni,rsrp,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=uni,sinr,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=uni,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=uni,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|server_ip=uni,mean_dev_latency,0,1,,-1.0,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=1.0.0.1,rsrp,1,0,-74.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=1.0.0.1,sinr,1,0,1.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=1.0.0.1,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=1.0.0.1,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=1.0.0.1,mean_dev_latency,1,0,-1.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=1.1.1.1,rsrp,1,0,-74.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=1.1.1.1,sinr,1,0,1.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=1.1.1.1,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=1.1.1.1,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=1.1.1.1,mean_dev_latency,1,0,-1.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=8.8.4.4,rsrp,1,0,-74.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=8.8.4.4,sinr,1,0,1.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=8.8.4.4,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=8.8.4.4,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=8.8.4.4,mean_dev_latency,1,0,-1.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=8.8.8.8,rsrp,1,0,-103.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=8.8.8.8,sinr,1,0,3.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=8.8.8.8,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=8.8.8.8,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=8.8.8.8,mean_dev_latency,1,0,-1.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=uni,rsrp,1,0,-103.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=uni,sinr,1,0,3.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=uni,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=uni,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|server_ip=uni,mean_dev_latency,1,0,-1.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=1.0.0.1,rsrp,1,5,-122.0,-79.0,,1.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=1.0.0.1,sinr,1,5,7.0,6.0,,0.8,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=1.0.0.1,mean_latency,0,5,,308.21026666666666,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=1.0.0.1,max_latency,0,5,,395.422,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=1.0.0.1,mean_dev_latency,1,5,-1.0,55.410722222222226,,1.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=1.1.1.1,rsrp,1,5,-122.0,-79.0,,1.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=1.1.1.1,sinr,1,5,7.0,6.0,,0.8,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=1.1.1.1,mean_latency,0,5,,350.89259999999996,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=1.1.1.1,max_latency,0,5,,451.61940000000004,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=1.1.1.1,mean_dev_latency,1,5,-1.0,56.413999999999994,,1.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=8.8.4.4,rsrp,1,5,-122.0,-79.0,,1.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=8.8.4.4,sinr,1,5,7.0,6.0,,0.8,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=8.8.4.4,mean_latency,0,5,,378.62830769230766,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=8.8.4.4,max_latency,0,5,,479.25033333333334,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=8.8.4.4,mean_dev_latency,1,5,-1.0,74.87683333333332,,1.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=8.8.8.8,rsrp,1,5,-122.0,-79.0,,1.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=8.8.8.8,sinr,1,5,7.0,6.0,,0.8,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=8.8.8.8,mean_latency,0,5,,383.5955333333333,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=8.8.8.8,max_latency,0,5,,466.7241333333333,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=8.8.8.8,mean_dev_latency,1,5,-1.0,40.36766666666667,,1.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=uni,rsrp,1,5,-122.0,-79.0,,1.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=uni,sinr,1,5,7.0,6.0,,0.8,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=uni,mean_latency,0,5,,572.1108,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=uni,max_latency,0,5,,678.2586153846155,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=2G|server_ip=uni,mean_dev_latency,1,5,-1.0,54.127250000000004,,1.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=1.0.0.1,rsrp,1148,92,-95.0,-93.0,,0.0,592
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=1.0.0.1,sinr,1148,92,5.5,0.6794871794871795,,0.0,533
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=1.0.0.1,mean_latency,1147,91,36.465,34.5936,,0.0,1142
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=1.0.0.1,max_latency,1147,91,47.813,45.200375,,0.0,1144
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=1.0.0.1,mean_dev_latency,1148,92,8.167119047619048,7.6369388888888885,,0.0,1141
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=1.1.1.1,rsrp,1149,91,-95.0,-93.33333333333333,,0.0,590
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=1.1.1.1,sinr,1149,91,5.5,0.6666666666666666,,0.0,535
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=1.1.1.1,mean_latency,1148,90,36.4506875,34.69385,,0.0,1146
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=1.1.1.1,max_latency,1148,90,48.238600000000005,46.31378819444444,,0.0,1144
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=1.1.1.1,mean_dev_latency,1149,91,8.2356,8.07875,,0.0,1142
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=8.8.4.4,rsrp,1148,91,-95.0,-93.33333333333333,,0.0,591
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=8.8.4.4,sinr,1148,91,5.5,0.6666666666666666,,0.0,530
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=8.8.4.4,mean_latency,1146,90,39.27187179487179,37.824555555555555,,0.011111111111111112,1146
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=8.8.4.4,max_latency,1146,90,50.691874999999996,48.49666666666667,,0.011111111111111112,1145
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=8.8.4.4,mean_dev_latency,1148,91,7.955728571428571,7.186538461538461,,0.0,1144
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=8.8.8.8,rsrp,1147,91,-95.0,-93.33333333333333,,0.0,587
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=8.8.8.8,sinr,1147,91,5.444444444444445,0.6666666666666666,,0.0,537
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=8.8.8.8,mean_latency,1145,90,39.82933333333333,38.11225,,0.0,1141
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=8.8.8.8,max_latency,1145,90,52.051,50.07574652777778,,0.011111111111111112,1142
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=8.8.8.8,mean_dev_latency,1147,91,8.42,8.54075,,0.0,1143
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=uni,rsrp,1134,91,-95.0,-93.66666666666667,,0.0,559
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=uni,sinr,1134,91,5.666666666666667,0.8333333333333334,,0.0,530
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=uni,mean_latency,1132,90,58.1691,59.5945,,0.0,1129
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=uni,max_latency,1132,90,97.40675,106.79571250000001,,0.0,1132
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=4G|server_ip=uni,mean_dev_latency,1134,91,24.169850000000004,29.432777777777776,,0.0,1131
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=1.0.0.1,rsrp,2218,499,-91.04508611955421,-88.16666666666667,,0.002004008016032064,1374
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=1.0.0.1,sinr,2218,499,2.848076923076923,0.8153846153846154,,0.0,1229
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=1.0.0.1,mean_latency,2217,499,36.61346666666667,35.505320754716976,,0.0,2213
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=1.0.0.1,max_latency,2217,499,49.145,49.3,,0.0,2215
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=1.0.0.1,mean_dev_latency,2218,499,9.00471551724138,9.359822222222222,,0.0,2212
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=1.1.1.1,rsrp,2218,499,-91.0515873015873,-88.16666666666667,,0.002004008016032064,1376
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=1.1.1.1,sinr,2218,499,2.848076923076923,0.8157894736842105,,0.0,1223
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=1.1.1.1,mean_latency,2218,499,36.56669166666667,35.85328235294118,,0.002004008016032064,2206
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=1.1.1.1,max_latency,2218,499,49.54232608695652,50.355555555555554,,0.002004008016032064,2217
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=1.1.1.1,mean_dev_latency,2218,499,9.1355,9.628960784313726,,0.0,2206
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=192.168.178.195,rsrp,6,0,-106.70673076923077,,,,6
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=192.168.178.195,sinr,6,0,0.16666666666666666,,,,6
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=192.168.178.195,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=192.168.178.195,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=192.168.178.195,mean_dev_latency,6,0,-1.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=8.8.4.4,rsrp,2218,499,-91.04508611955421,-88.16666666666667,,0.002004008016032064,1377
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=8.8.4.4,sinr,2218,499,2.822916666666667,0.8095238095238095,,0.0,1221
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=8.8.4.4,mean_latency,2218,499,40.21039893048128,39.16796,,0.012024048096192385,2203
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=8.8.4.4,max_latency,2218,499,53.45734168157424,53.502826086956524,,0.006012024048096192,2216
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=8.8.4.4,mean_dev_latency,2218,499,9.355571428571428,10.04777142857143,,0.0,2206
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=8.8.8.8,rsrp,2219,499,-91.03846153846153,-88.16666666666667,,0.002004008016032064,1375
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=8.8.8.8,sinr,2219,499,2.8,0.8073394495412844,,0.0,1218
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=8.8.8.8,mean_latency,2219,499,40.4799696969697,39.43247457627119,,0.0,2208
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=8.8.8.8,max_latency,2219,499,54.330243243243245,54.87333333333333,,0.0,2214
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=8.8.8.8,mean_dev_latency,2219,499,9.764999999999999,10.689555555555556,,0.0,2215
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=uni,rsrp,2198,488,-91.05086206896551,-88.6157894736842,,0.0020491803278688526,1317
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=uni,sinr,2198,488,2.6666666666666665,0.8110547667342799,,0.0,1154
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=uni,mean_latency,2195,488,64.29138461538462,66.79556140350877,,0.0,2193
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=uni,max_latency,2195,488,111.43066666666665,117.26220794326241,,0.0,2193
+mobile__latency_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|server_ip=uni,mean_dev_latency,2198,488,29.171515624999998,32.25011247947455,,0.004098360655737705,2195
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=1.0.0.1,rsrp,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=1.0.0.1,sinr,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=1.0.0.1,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=1.0.0.1,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=1.0.0.1,mean_dev_latency,73,376,-1.0,-1.0,,0.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=1.1.1.1,rsrp,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=1.1.1.1,sinr,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=1.1.1.1,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=1.1.1.1,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=1.1.1.1,mean_dev_latency,73,375,-1.0,-1.0,,0.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=8.8.4.4,rsrp,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=8.8.4.4,sinr,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=8.8.4.4,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=8.8.4.4,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=8.8.4.4,mean_dev_latency,73,373,-1.0,-1.0,,0.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=8.8.8.8,rsrp,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=8.8.8.8,sinr,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=8.8.8.8,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=8.8.8.8,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=8.8.8.8,mean_dev_latency,73,372,-1.0,-1.0,,0.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=uni,rsrp,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=uni,sinr,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=uni,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=uni,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=2G|server_ip=uni,mean_dev_latency,73,372,-1.0,-1.0,,0.0,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=1.0.0.1,rsrp,15,0,-90.76190476190476,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=1.0.0.1,sinr,15,0,9.428571428571429,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=1.0.0.1,mean_latency,15,0,29.80613333333333,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=1.0.0.1,max_latency,15,0,35.886,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=1.0.0.1,mean_dev_latency,15,0,4.475666666666666,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=1.1.1.1,rsrp,15,0,-90.76190476190476,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=1.1.1.1,sinr,15,0,9.428571428571429,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=1.1.1.1,mean_latency,15,0,35.997,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=1.1.1.1,max_latency,15,0,43.537499999999994,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=1.1.1.1,mean_dev_latency,15,0,4.269277777777778,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=8.8.4.4,rsrp,15,0,-90.76190476190476,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=8.8.4.4,sinr,15,0,9.428571428571429,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=8.8.4.4,mean_latency,15,0,39.22553333333334,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=8.8.4.4,max_latency,15,0,45.535,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=8.8.4.4,mean_dev_latency,15,0,4.20315,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=8.8.8.8,rsrp,15,0,-90.76190476190476,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=8.8.8.8,sinr,15,0,9.428571428571429,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=8.8.8.8,mean_latency,15,0,39.472,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=8.8.8.8,max_latency,15,0,46.7818,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=8.8.8.8,mean_dev_latency,15,0,5.2223999999999995,,,,15
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=uni,rsrp,14,0,-90.38095238095238,,,,13
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=uni,sinr,14,0,8.797619047619047,,,,14
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=uni,mean_latency,13,0,65.98645454545455,,,,13
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=uni,max_latency,13,0,115.92069999999998,,,,13
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=4G|server_ip=uni,mean_dev_latency,14,0,28.872666666666667,,,,14
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=1.0.0.1,rsrp,2437,117,-83.57303370786516,-81.4,,0.0,1510
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=1.0.0.1,sinr,2437,117,3.5,0.4,,0.0,1216
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=1.0.0.1,mean_latency,2423,88,40.594328358208955,48.72036772727273,,0.0,2420
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=1.0.0.1,max_latency,2423,88,47.931,62.21796190476191,,0.0,2420
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=1.0.0.1,mean_dev_latency,2437,117,5.9815000000000005,6.3116562499999995,,0.0,2412
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=1.1.1.1,rsrp,2436,118,-83.57223113964687,-81.325,,0.0,1510
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=1.1.1.1,sinr,2436,118,3.5,0.43529411764705883,,0.0,1207
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=1.1.1.1,mean_latency,2421,88,40.635894736842104,48.2178479020979,,0.0,2418
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=1.1.1.1,max_latency,2421,88,48.12442105263158,61.94491826923077,,0.0,2418
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=1.1.1.1,mean_dev_latency,2436,118,5.722163461538461,7.568020697167755,,0.0,2412
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=8.8.4.4,rsrp,2436,118,-83.57223113964687,-81.325,,0.0,1505
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=8.8.4.4,sinr,2436,118,3.5,0.43529411764705883,,0.0,1210
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=8.8.4.4,mean_latency,2421,88,42.21025,49.24646590909091,,0.0,2421
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=8.8.4.4,max_latency,2421,88,50.54492792792793,62.501087301587305,,0.0,2420
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=8.8.4.4,mean_dev_latency,2436,118,5.911959096459096,8.13255724137931,,0.0,2410
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=8.8.8.8,rsrp,2435,118,-83.57142857142857,-81.325,,0.0,1506
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=8.8.8.8,sinr,2435,118,3.5,0.43529411764705883,,0.0,1217
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=8.8.8.8,mean_latency,2419,88,42.399142857142856,65.02244805194805,,0.0,2418
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=8.8.8.8,max_latency,2419,88,50.749,108.36071000000001,,0.0,2419
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=8.8.8.8,mean_dev_latency,2435,118,5.9858596491228075,19.694336666666665,,0.0,2413
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=uni,rsrp,2414,118,-83.52455357142857,-81.83472222222223,,0.0,1414
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=uni,sinr,2414,118,3.2222222222222223,0.4,,0.0,1119
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=uni,mean_latency,2395,88,70.38733333333333,117.91988333333333,,0.0,2393
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=uni,max_latency,2395,88,118.93117567567566,241.0485,,0.0,2394
+mobile__latency_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|server_ip=uni,mean_dev_latency,2414,118,28.6503125,50.7890965909091,,0.0,2389
+mobile__latency_data|device=r0s_SM-S901B|MNO=C|network=2G|server_ip=1.0.0.1,rsrp,1,0,-122.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=C|network=2G|server_ip=1.0.0.1,sinr,1,0,7.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=C|network=2G|server_ip=1.0.0.1,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=C|network=2G|server_ip=1.0.0.1,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=C|network=2G|server_ip=1.0.0.1,mean_dev_latency,1,0,-1.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=C|network=2G|server_ip=1.1.1.1,rsrp,1,0,-122.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=C|network=2G|server_ip=1.1.1.1,sinr,1,0,7.0,,,,1
+mobile__latency_data|device=r0s_SM-S901B|MNO=C|network=2G|server_ip=1.1.1.1,mean_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=C|network=2G|server_ip=1.1.1.1,max_latency,0,0,,,,,0
+mobile__latency_data|device=r0s_SM-S901B|MNO=C|network=2G|server_ip=1.1.1.1,mean_dev_latency,1,0,-1.0,,,,1

@@ -1,0 +1,49 @@
+{
+  "selection_seed": 42,
+  "criterion": "mean per-target validation RMSE",
+  "candidates": [
+    {
+      "candidate": 0,
+      "config": {
+        "d_model": 32,
+        "nhead": 4,
+        "dim_feedforward": 128,
+        "num_layers": 1,
+        "dropout": 0.0,
+        "learning_rate": 0.003
+      },
+      "validation_macro_RMSE": 0.2234401074278705,
+      "best_epoch": 15,
+      "seconds": 19.10404160001781
+    },
+    {
+      "candidate": 1,
+      "config": {
+        "d_model": 64,
+        "nhead": 4,
+        "dim_feedforward": 256,
+        "num_layers": 1,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      },
+      "validation_macro_RMSE": 0.2229573310032845,
+      "best_epoch": 14,
+      "seconds": 19.81211139995139
+    }
+  ],
+  "winner": {
+    "candidate": 1,
+    "config": {
+      "d_model": 64,
+      "nhead": 4,
+      "dim_feedforward": 256,
+      "num_layers": 1,
+      "dropout": 0.0,
+      "learning_rate": 0.001
+    },
+    "validation_macro_RMSE": 0.2229573310032845,
+    "best_epoch": 14,
+    "seconds": 19.81211139995139
+  },
+  "selection_seconds": 39.05254150007386
+}

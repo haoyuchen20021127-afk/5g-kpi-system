@@ -1,0 +1,55 @@
+{
+  "selection_seed": 42,
+  "criterion": "mean per-target validation RMSE",
+  "candidates": [
+    {
+      "candidate": 0,
+      "config": {
+        "n_estimators": 300,
+        "num_leaves": 15,
+        "learning_rate": 0.05,
+        "min_child_samples": 20,
+        "subsample": 0.85,
+        "subsample_freq": 1,
+        "colsample_bytree": 0.85,
+        "reg_lambda": 1.0
+      },
+      "validation_macro_RMSE": 0.2820997020283823,
+      "best_epoch": null,
+      "seconds": 1.286052000010386
+    },
+    {
+      "candidate": 1,
+      "config": {
+        "n_estimators": 300,
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 30,
+        "subsample": 0.85,
+        "subsample_freq": 1,
+        "colsample_bytree": 0.85,
+        "reg_lambda": 1.0
+      },
+      "validation_macro_RMSE": 0.28127088252503696,
+      "best_epoch": null,
+      "seconds": 2.0866571000078693
+    }
+  ],
+  "winner": {
+    "candidate": 1,
+    "config": {
+      "n_estimators": 300,
+      "num_leaves": 31,
+      "learning_rate": 0.05,
+      "min_child_samples": 30,
+      "subsample": 0.85,
+      "subsample_freq": 1,
+      "colsample_bytree": 0.85,
+      "reg_lambda": 1.0
+    },
+    "validation_macro_RMSE": 0.28127088252503696,
+    "best_epoch": null,
+    "seconds": 2.0866571000078693
+  },
+  "selection_seconds": 3.547692499938421
+}

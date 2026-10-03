@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "gotsf_web_regression",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 10.142,
+      "passed": true
+    },
+    {
+      "name": "forecast_full_donext_cell",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 2.885,
+      "passed": true
+    },
+    {
+      "name": "forecast_full_donext_iperf",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 2.874,
+      "passed": true
+    },
+    {
+      "name": "forecast_full_donext_latency",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 3.616,
+      "passed": true
+    },
+    {
+      "name": "forecast_full_netslab_5g_oran_idd_joint_kpi",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 2.926,
+      "passed": true
+    },
+    {
+      "name": "predict_csv_example",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 2.683,
+      "passed": true
+    },
+    {
+      "name": "detect_full_donext_hbahn__iperf_data",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 4.051,
+      "passed": true
+    },
+    {
+      "name": "detect_full_netslab_5g_oran_idd_radio_kpi",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 3.344,
+      "passed": true
+    },
+    {
+      "name": "detect_full_netslab_5g_oran_idd_network_dataset",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 12.741,
+      "passed": true
+    },
+    {
+      "name": "forecast_existing_output_rejected",
+      "returncode": 2,
+      "expected": 2,
+      "seconds": 2.594,
+      "passed": true
+    },
+    {
+      "name": "detection_existing_output_rejected",
+      "returncode": 2,
+      "expected": 2,
+      "seconds": 1.919,
+      "passed": true
+    },
+    {
+      "name": "excluded_dataset_rejected",
+      "returncode": 2,
+      "expected": 2,
+      "seconds": 1.985,
+      "passed": true
+    },
+    {
+      "name": "forecast_retrain_one_epoch",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 6.409,
+      "passed": true
+    },
+    {
+      "name": "detector_refit_one_task",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 10.837,
+      "passed": true
+    },
+    {
+      "name": "label_summary_refit",
+      "returncode": 0,
+      "expected": 0,
+      "seconds": 1.284,
+      "passed": true
+    }
+  ],
+  "gotsf_tests": 12,
+  "model_weights_overwritten": false,
+  "raw_sources_read": false,
+  "training_smoke": "one LSTM task at max_epochs=1, and one NetLab radio detector task; QA outputs not shipped"
+}

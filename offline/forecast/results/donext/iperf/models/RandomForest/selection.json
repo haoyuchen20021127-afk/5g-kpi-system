@@ -1,0 +1,43 @@
+{
+  "selection_seed": 42,
+  "criterion": "mean per-target validation RMSE",
+  "candidates": [
+    {
+      "candidate": 0,
+      "config": {
+        "n_estimators": 180,
+        "max_depth": 10,
+        "min_samples_leaf": 2,
+        "max_features": 0.85
+      },
+      "validation_macro_RMSE": 0.38942599636874387,
+      "best_epoch": null,
+      "seconds": 9.228299799957313
+    },
+    {
+      "candidate": 1,
+      "config": {
+        "n_estimators": 180,
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "max_features": 0.85
+      },
+      "validation_macro_RMSE": 0.38415140869893727,
+      "best_epoch": null,
+      "seconds": 13.273897699895315
+    }
+  ],
+  "winner": {
+    "candidate": 1,
+    "config": {
+      "n_estimators": 180,
+      "max_depth": null,
+      "min_samples_leaf": 2,
+      "max_features": 0.85
+    },
+    "validation_macro_RMSE": 0.38415140869893727,
+    "best_epoch": null,
+    "seconds": 13.273897699895315
+  },
+  "selection_seconds": 22.698536799987778
+}

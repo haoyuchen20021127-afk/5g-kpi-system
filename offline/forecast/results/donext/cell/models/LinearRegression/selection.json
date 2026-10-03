@@ -1,0 +1,21 @@
+{
+  "selection_seed": 42,
+  "criterion": "mean per-target validation RMSE",
+  "candidates": [
+    {
+      "candidate": 0,
+      "config": {},
+      "validation_macro_RMSE": 0.30993611221107215,
+      "best_epoch": null,
+      "seconds": 0.015282199950888753
+    }
+  ],
+  "winner": {
+    "candidate": 0,
+    "config": {},
+    "validation_macro_RMSE": 0.30993611221107215,
+    "best_epoch": null,
+    "seconds": 0.015282199950888753
+  },
+  "selection_seconds": 0.10634900000877678
+}

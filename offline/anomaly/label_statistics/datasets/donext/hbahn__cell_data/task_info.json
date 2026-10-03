@@ -1,0 +1,33 @@
+{
+  "dataset": "donext",
+  "task": "hbahn__cell_data",
+  "label_scope": "unlabelled",
+  "test_n": 2224,
+  "features": [
+    "rsrp",
+    "rsrq",
+    "sinr",
+    "ss_rsrp",
+    "ss_sinr"
+  ],
+  "methods": [
+    "three_sigma",
+    "iqr",
+    "isolation_forest",
+    "one_class_svm"
+  ],
+  "context_n": 6,
+  "labels": {
+    "unlabelled": 2224
+  },
+  "input_sha256": {
+    "task_manifest.json": "0db81191b3668bc0e55f7a1c6f931d753f981839428cfff2c6ab10f39217c415",
+    "kpi_summary.csv": "14330ce3756cf08d3ecde15b2e1b7892e7663e804e4bd5369b3344d5838fb489",
+    "test_predictions.csv.gz": "0cb2d4a69600bd9af2c522a0d38646796b437ff22d07e243d72e3551cb26c8de"
+  },
+  "output_record_file": "datasets\\donext\\hbahn__cell_data\\record_or_predictions.csv.gz",
+  "attack_subcategory_supplement": {
+    "available": false
+  },
+  "source_predictions_unchanged": true
+}

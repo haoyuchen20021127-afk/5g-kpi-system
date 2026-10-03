@@ -1,0 +1,80 @@
+{
+  "task": "netslab_5g_oran_idd/joint_kpi",
+  "model": "RandomForest",
+  "signature": {
+    "X_sha256": "a47811e2b6072607f62d72f49c3db8f677b52e969901534c9c0745f377e055ed",
+    "Y_sha256": "b41b88d36092526e7a62551d9eccb513c487a6d01d6a6ba485ab8f000c76bcd2",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "max_epochs": 80,
+    "code_sha256": {
+      "common.py": "e75ba959e0382337f92d81dac675a78767a732de3c7cfdf859b02087e62e5fc2",
+      "models.py": "19974e752287b8f407b4f1fd4204cfac2d60203e420c3e9a11451b45605e87f7",
+      "prepare_shared_data.py": "b6eba14670a5057b171650ecb2804bd6c7589aed1a94663bbe829e11eef95631",
+      "train_comparison.py": "2032463bcf3ede8dcf27c3fc14bd6b0674c00294314e817695a18c4e88750c54"
+    },
+    "threads": 4
+  },
+  "mechanism": "native multi-output forest with shared partitions",
+  "selected_config": {
+    "n_estimators": 180,
+    "max_depth": null,
+    "min_samples_leaf": 2,
+    "max_features": 0.85
+  },
+  "selected_epochs": null,
+  "final_fit_rows": 35551,
+  "test_rows": 6234,
+  "selection_seconds": 79.22759889997542,
+  "seed_runs": [
+    {
+      "seed": 42,
+      "fit_seconds": 58.703155800001696,
+      "predict_seconds": 0.06854999996721745,
+      "reload_verified": true,
+      "artifact_sha256": "4aadcfa45f76f8259e0b5795c22272db0f0caf14bfaa6f28b0dc814d8b229ba7",
+      "trainable_parameters": null
+    },
+    {
+      "seed": 43,
+      "fit_seconds": 60.1550151000265,
+      "predict_seconds": 0.05896920000668615,
+      "reload_verified": true,
+      "artifact_sha256": "6781056b12617a1f819a0c1e3ed820475a5ea6d06a4836e161c8f099a4349ef8",
+      "trainable_parameters": null
+    },
+    {
+      "seed": 44,
+      "fit_seconds": 58.78654849994928,
+      "predict_seconds": 0.057700300007127225,
+      "reload_verified": true,
+      "artifact_sha256": "cb8402352fd31eafba40b7d394f5ab56cf68d11159bec0274dcdfdf96831e867",
+      "trainable_parameters": null
+    }
+  ],
+  "device": "cpu",
+  "gpu": null,
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "torch": "2.8.0+cu126",
+    "scikit-learn": "1.9.0",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3"
+  },
+  "common_settings": {
+    "LSTM_optimizer": "Adam",
+    "LSTM_loss": "mean squared error across samples and outputs",
+    "batch_size": 256,
+    "weight_decay": 1e-05,
+    "gradient_clip": 1.0,
+    "patience": 12,
+    "min_delta": 1e-05,
+    "layers": 1,
+    "dropout": 0
+  }
+}

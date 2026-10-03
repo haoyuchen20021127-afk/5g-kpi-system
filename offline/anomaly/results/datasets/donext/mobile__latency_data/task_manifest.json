@@ -1,0 +1,210 @@
+{
+  "dataset": "donext",
+  "task_id": "mobile__latency_data",
+  "features": [
+    "mean_latency",
+    "max_latency",
+    "mean_dev_latency",
+    "rsrp",
+    "sinr"
+  ],
+  "group_col": "context",
+  "label_scope": "unlabelled",
+  "source_coverage": {
+    "source": "mobile__latency_data",
+    "input_rows": 1465929,
+    "output_observations": 72379,
+    "represented_source_rows": 1465929,
+    "invalid_time_rows_retained_auxiliary": 0,
+    "context_columns": [
+      "device",
+      "MNO",
+      "network",
+      "server_ip"
+    ],
+    "aggregation_keys": [
+      "source",
+      "w6_series_id",
+      "device",
+      "MNO",
+      "network",
+      "server_ip",
+      "w6_split",
+      "floor(time/300)"
+    ],
+    "aggregation": "five-minute means of finite observed values; separate count for every KPI; no imputation or clipping",
+    "feature_observation_counts": {
+      "rsrp": {
+        "observed": 1425763,
+        "missing_or_nonfinite": 40166
+      },
+      "rsrq": {
+        "observed": 1423532,
+        "missing_or_nonfinite": 42397
+      },
+      "rssi": {
+        "observed": 1465929,
+        "missing_or_nonfinite": 0
+      },
+      "sinr": {
+        "observed": 1425768,
+        "missing_or_nonfinite": 40161
+      },
+      "cqi": {
+        "observed": 1425768,
+        "missing_or_nonfinite": 40161
+      },
+      "ss_rsrp": {
+        "observed": 670570,
+        "missing_or_nonfinite": 795359
+      },
+      "ss_rsrq": {
+        "observed": 670570,
+        "missing_or_nonfinite": 795359
+      },
+      "ss_sinr": {
+        "observed": 670570,
+        "missing_or_nonfinite": 795359
+      },
+      "mean_latency": {
+        "observed": 1407919,
+        "missing_or_nonfinite": 58010
+      },
+      "min_latency": {
+        "observed": 1407919,
+        "missing_or_nonfinite": 58010
+      },
+      "max_latency": {
+        "observed": 1407919,
+        "missing_or_nonfinite": 58010
+      },
+      "mean_dev_latency": {
+        "observed": 1465929,
+        "missing_or_nonfinite": 0
+      }
+    },
+    "data_quality_only_fields": {
+      "packet_loss": {
+        "observed": 76241,
+        "missing": 1389688,
+        "invalid_nonfinite_or_numeric": 0,
+        "outside_candidate_range": 6446
+      }
+    },
+    "candidate_quality_ranges": {
+      "packet_error_rate": [
+        0,
+        1
+      ],
+      "packet_loss": [
+        0,
+        100
+      ]
+    },
+    "non_target_fields": [
+      "cellbandwidths",
+      "no_pings",
+      "old_50_rsrp",
+      "old_50_rsrq",
+      "old_50_ss_rsrp",
+      "old_50_ss_rsrq",
+      "old_5_rsrp",
+      "old_5_rsrq",
+      "old_5_ss_rsrp",
+      "old_5_ss_rsrq",
+      "packet_loss",
+      "primary_bandwidth",
+      "ta",
+      "ul_bandwidth"
+    ],
+    "non_target_explanation": "configuration, signal scheduling/power descriptors and existing rolling-history fields are context rather than the selected radio/service-quality targets; packet-loss/error fields require missing-value/unit semantics confirmation",
+    "limitations": [
+      "No normal/attack labels: calibration limits empirical flagging, not certified false-positive rate.",
+      "A five-minute average can attenuate short spikes; this experiment detects sustained aggregate deviations.",
+      "Device strings may identify device models, not unique physical devices.",
+      "Serving-cell identities are retained for audit; models may pool multiple cells within a context."
+    ]
+  },
+  "notes": [],
+  "quality": [],
+  "config": {
+    "alpha": 0.05,
+    "min_fit": 100,
+    "min_cal": 50,
+    "min_model_unique": 5,
+    "max_ml_fit": 6000,
+    "seed": 42,
+    "if_trees": 200,
+    "svm_nu": 0.05,
+    "svm_tol": 1e-07,
+    "svm_max_iter": 100000,
+    "iqr_score_policy": "native_fence_distance"
+  },
+  "methods": [
+    "three_sigma",
+    "iqr",
+    "isolation_forest",
+    "one_class_svm"
+  ],
+  "rows_prepared": 72379,
+  "rows_test": 7703,
+  "rows_calibration": 9265,
+  "interpretation": "Retrospective calibrated exploration; calibration fraction is not independent performance or a guaranteed future false-positive rate.",
+  "input_imputation": {
+    "enabled": true,
+    "rule": "fit-reference mode for CQI/RI/pcmax; median for other KPIs; per-context",
+    "original_observations_preserved": true,
+    "clipping": false,
+    "threshold_evidence_counts": "observed before imputation",
+    "prediction_value_columns": "feature__model_input",
+    "imputation_flag_columns": "feature__input_imputed",
+    "no_fit_observations": "leave missing and unscored; do not borrow calibration/test values",
+    "qualification": "Predictions on imputed values are model outputs for estimates, not measured KPI health."
+  },
+  "source_training_seconds": 113.77,
+  "selected_feature_policy": {
+    "features": [
+      "mean_latency",
+      "max_latency",
+      "mean_dev_latency",
+      "rsrp",
+      "sinr"
+    ],
+    "reasons": {
+      "mean_latency": "平均时延描述业务响应的典型时间水平。",
+      "max_latency": "最大时延保留时延突增和长尾响应信息。",
+      "mean_dev_latency": "保留来源时延偏差字段，补充均值和最大值的波动信息。",
+      "rsrp": "保留原来源参考信号接收功率字段，描述信号强度；按既有设备、场景和制式上下文分别建模。",
+      "sinr": "保留原来源信干噪比字段，描述信号与干扰噪声的相对关系。"
+    },
+    "excluded_features": [
+      "rsrq",
+      "rssi",
+      "cqi",
+      "ss_rsrp",
+      "ss_rsrq",
+      "ss_sinr",
+      "min_latency"
+    ],
+    "excluded_reasons": {
+      "rsrq": "业务任务保留信号强度与SINR作为辅助无线指标，不重复纳入全部无线质量字段。",
+      "rssi": "与已选参考信号强度及SINR的质量信息部分重叠，核心集合不重复纳入总接收功率。",
+      "cqi": "反馈或时间聚合等级是间接质量信息；本精简集合优先直接信号测量和业务性能，不按测试结果选择。",
+      "ss_rsrp": "时延任务保留业务时延及原来源RSRP、SINR与NR质量信息，不重复加入所有强度字段。",
+      "ss_rsrq": "与已选NR强度/信干噪信息部分重叠，且部分原参考上下文不适用，精简时保留更少的NR质量字段。",
+      "min_latency": "与已选平均、最大及偏差时延统计部分重复；核心异常检测优先典型水平、突增和波动。",
+      "ss_sinr": "mobile来源中明确标注4G的上下文仍有可评分SS测量值，制式与测量字段的适用性尚待来源核验；保守地暂不纳入核心KPI，不将该字段数值本身判为异常。"
+    },
+    "selection_input": "explicit_predefined_policy",
+    "selection_uses_test_outcomes": false,
+    "rows_selected_or_removed": false,
+    "unscored_flags_retained": true,
+    "source_metadata_quality_fields": "preserved source-level annotations; not selected-KPI missingness denominators"
+  },
+  "record_rule": "No record-level predictions are reused here. Run summarize_by_label separately for within-method any-applicable-KPI OR with undetermined records retained.",
+  "label_interpretation": "Dataset attack/benign labels are not per-KPI health truth; unknown and unlabelled records remain separate.",
+  "result_origin": "existing_independent_per_kpi_models_and_predictions_reused_without_refitting",
+  "source_results": "E:\\5G_Project\\week6\\交付物_填补输入版\\results\\datasets\\donext\\mobile__latency_data",
+  "source_task_manifest_sha256": "fd1decd87abb3c2e34968cb031b3359a38c63d57e44a0b061c5662c417b2d207",
+  "selection_config_sha256": "69834e8f92d6eb03b441e900b0cdc28d35ee19b0ca3981a049f7698aa43a33ac"
+}

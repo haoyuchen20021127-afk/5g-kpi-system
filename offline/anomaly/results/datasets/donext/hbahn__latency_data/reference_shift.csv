@@ -1,0 +1,211 @@
+﻿context,feature,fit_observed,test_observed,fit_median,test_median,benign_test_median,test_outside_fit_range_fraction,fit_unique
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,rsrp,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,mean_latency,530,66,29.0732,22.439500000000002,,0.045454545454545456,530
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,max_latency,530,66,34.905,28.735,,0.045454545454545456,527
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,mean_dev_latency,530,66,7.8498,2.9625000000000004,,0.06060606060606061,526
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,rsrp,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,mean_latency,482,70,27.724199999999996,25.894,,0.02857142857142857,481
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,max_latency,482,70,34.5007,32.200500000000005,,0.08571428571428572,479
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,mean_dev_latency,482,70,7.1637,5.432,,0.24285714285714285,479
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,rsrp,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,mean_latency,521,75,30.63,27.616,,0.06666666666666667,517
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,max_latency,521,75,35.686,34.671,,0.06666666666666667,507
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,mean_dev_latency,521,75,7.073600000000001,6.36,,0.16,519
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,rsrp,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,mean_latency,1836,85,24.96,31.615,,0.058823529411764705,1729
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,max_latency,1836,85,28.628749999999997,41.223,,0.023529411764705882,1508
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,mean_dev_latency,1836,85,3.8395,8.643,,0.0,1696
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=uni,rsrp,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=uni,sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=uni,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=uni,mean_latency,2716,120,41.4172,44.74025,,0.0,2609
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=uni,max_latency,2716,120,48.5125,55.7625,,0.0,2636
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|server_ip=uni,mean_dev_latency,2716,120,3.9038999999999997,8.4515,,0.008333333333333333,2364
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.0.0.1,rsrp,3,0,-99.0,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.0.0.1,sinr,3,0,2.0,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.0.0.1,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.0.0.1,mean_latency,3,0,31.409,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.0.0.1,max_latency,3,0,49.40671428571428,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.0.0.1,mean_dev_latency,3,0,14.556285714285716,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.1.1.1,rsrp,3,0,-99.0,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.1.1.1,sinr,3,0,2.0,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.1.1.1,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.1.1.1,mean_latency,3,0,25.327142857142857,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.1.1.1,max_latency,3,0,30.327285714285715,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=1.1.1.1,mean_dev_latency,3,0,6.116142857142857,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.4.4,rsrp,3,0,-99.0,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.4.4,sinr,3,0,2.0,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.4.4,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.4.4,mean_latency,3,0,29.853200000000005,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.4.4,max_latency,3,0,34.595,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.4.4,mean_dev_latency,3,0,7.4218,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.8.8,rsrp,3,0,-99.0,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.8.8,sinr,3,0,2.0,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.8.8,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.8.8,mean_latency,3,0,23.3868,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.8.8,max_latency,3,0,26.086199999999998,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=8.8.8.8,mean_dev_latency,3,0,3.0168,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=uni,rsrp,3,0,-99.0,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=uni,sinr,3,0,2.0,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=uni,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=uni,mean_latency,3,0,38.325,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=uni,max_latency,3,0,45.9416,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=4G|server_ip=uni,mean_dev_latency,3,0,5.956,,,,3
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.0.0.1,rsrp,1203,0,-90.0,,,,312
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.0.0.1,sinr,1203,0,11.0,,,,206
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.0.0.1,ss_sinr,1179,0,16.0,,,,285
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.0.0.1,mean_latency,1203,0,28.440833333333334,,,,1190
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.0.0.1,max_latency,1203,0,34.30825,,,,1175
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.0.0.1,mean_dev_latency,1203,0,7.9841999999999995,,,,1191
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.1.1.1,rsrp,1205,0,-90.0,,,,298
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.1.1.1,sinr,1205,0,11.0,,,,205
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.1.1.1,ss_sinr,1181,0,16.0,,,,273
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.1.1.1,mean_latency,1205,0,26.675333333333334,,,,1196
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.1.1.1,max_latency,1205,0,32.412,,,,1198
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=1.1.1.1,mean_dev_latency,1205,0,6.974125,,,,1200
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.4.4,rsrp,1211,0,-90.0,,,,314
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.4.4,sinr,1211,0,11.0,,,,216
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.4.4,ss_sinr,1188,0,16.0,,,,284
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.4.4,mean_latency,1211,0,29.75,,,,1203
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.4.4,max_latency,1211,0,34.775454545454544,,,,1190
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.4.4,mean_dev_latency,1211,0,6.733363636363637,,,,1198
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.8.8,rsrp,1181,0,-90.0,,,,301
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.8.8,sinr,1181,0,11.0,,,,210
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.8.8,ss_sinr,1157,0,16.0,,,,279
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.8.8,mean_latency,1181,0,24.921,,,,1177
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.8.8,max_latency,1181,0,28.583199999999998,,,,1172
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=8.8.8.8,mean_dev_latency,1181,0,3.924571428571429,,,,1171
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=uni,rsrp,1168,0,-90.0,,,,294
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=uni,sinr,1168,0,11.0,,,,210
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=uni,ss_sinr,1145,0,16.0,,,,276
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=uni,mean_latency,1168,0,40.56685,,,,1166
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=uni,max_latency,1168,0,47.247,,,,1166
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|server_ip=uni,mean_dev_latency,1168,0,5.2316666666666665,,,,1161
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.0.0.1,rsrp,8287,1856,-90.25,-89.20526315789473,,0.0016163793103448276,4994
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.0.0.1,sinr,8287,1856,11.5625,11.357142857142858,,0.0,3491
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.0.0.1,ss_sinr,8287,1855,16.0,18.88888888888889,,0.0,4496
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.0.0.1,mean_latency,8287,1856,29.09945,20.39055357142857,,0.10883620689655173,8269
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.0.0.1,max_latency,8287,1856,35.06688059701492,23.028819444444444,,0.1336206896551724,8271
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.0.0.1,mean_dev_latency,8287,1856,7.8488421052631585,1.9141363636363635,,0.0005387931034482759,8262
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.1.1.1,rsrp,8287,1856,-90.26785714285714,-89.2,,0.0010775862068965517,5002
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.1.1.1,sinr,8287,1856,11.564516129032258,11.36038961038961,,0.0005387931034482759,3481
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.1.1.1,ss_sinr,8287,1854,15.964912280701755,18.857142857142858,,0.0,4510
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.1.1.1,mean_latency,8287,1856,28.5185,20.275691666666667,,0.1697198275862069,8267
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.1.1.1,max_latency,8287,1856,34.987842105263155,22.820305555555557,,0.18911637931034483,8272
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=1.1.1.1,mean_dev_latency,8287,1856,7.071328125,1.893985380116959,,0.0021551724137931034,8264
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.4.4,rsrp,8287,1855,-90.25806451612904,-89.125,,0.0016172506738544475,5004
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.4.4,sinr,8287,1855,11.571428571428571,11.380952380952381,,0.0005390835579514825,3444
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.4.4,ss_sinr,8286,1853,16.0,18.941176470588236,,0.0,4495
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.4.4,mean_latency,8287,1855,30.528375,22.8886875,,0.138544474393531,8268
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.4.4,max_latency,8287,1855,35.95170588235294,26.491,,0.09703504043126684,8274
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.4.4,mean_dev_latency,8287,1855,6.8452,2.628,,0.033962264150943396,8270
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.8.8,rsrp,8286,1855,-90.26666666666667,-89.0625,,0.0016172506738544475,4986
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.8.8,sinr,8286,1855,11.583333333333334,11.416666666666666,,0.0005390835579514825,3471
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.8.8,ss_sinr,8285,1853,16.0,18.928571428571427,,0.0,4549
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.8.8,mean_latency,8286,1855,29.76509523809524,25.036714285714286,,0.03234501347708895,8270
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.8.8,max_latency,8286,1855,35.67865944272447,30.3535,,0.014016172506738544,8281
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=8.8.8.8,mean_dev_latency,8286,1855,6.196459239130435,4.3206,,0.011859838274932614,8266
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=uni,rsrp,8285,1855,-90.27272727272727,-89.0,,0.0016172506738544475,5007
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=uni,sinr,8285,1855,11.588235294117647,11.4,,0.0005390835579514825,3454
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=uni,ss_sinr,8284,1854,16.0,19.0,,0.0,4528
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=uni,mean_latency,8285,1855,43.63918309859155,41.0585,,0.009164420485175202,8281
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=uni,max_latency,8285,1855,51.058,50.18066666666667,,0.00431266846361186,8279
+hbahn__latency_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|server_ip=uni,mean_dev_latency,8285,1855,5.643310810810811,6.372466666666667,,0.0016172506738544475,8268
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,rsrp,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,mean_latency,3,1,121.92399999999999,15.795,,1.0,3
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,max_latency,3,1,203.205,17.169,,1.0,3
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.0.0.1,mean_dev_latency,3,1,63.273,1.348,,1.0,3
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,rsrp,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,mean_latency,3,2,76.75274999999999,18.692500000000003,,1.0,3
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,max_latency,3,2,234.29274999999998,20.207,,1.0,3
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=1.1.1.1,mean_dev_latency,3,2,94.40425,1.0939999999999999,,0.5,3
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,rsrp,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,mean_latency,4,2,30.732,22.1205,,1.0,4
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,max_latency,4,2,35.972,27.5275,,0.5,4
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.4.4,mean_dev_latency,4,2,5.800000000000001,4.6905,,0.5,4
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,rsrp,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,mean_latency,5,2,32.606,25.930500000000002,,0.5,5
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,max_latency,5,2,39.204,29.5165,,0.5,5
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=8.8.8.8,mean_dev_latency,5,2,9.294,4.456499999999999,,0.5,5
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=uni,rsrp,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=uni,sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=uni,ss_sinr,0,0,,,,,0
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=uni,mean_latency,6,5,47.652,50.457,,0.4,6
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=uni,max_latency,6,5,57.547,54.095,,0.6,6
+hbahn__latency_data|device=armv7l_none|MNO=<missing>|network=<missing>|server_ip=uni,mean_dev_latency,6,5,8.260625000000001,4.383,,0.2,6
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.0.0.1,rsrp,13,0,-94.0,,,,11
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.0.0.1,sinr,13,0,11.0,,,,11
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.0.0.1,ss_sinr,13,0,19.0,,,,8
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.0.0.1,mean_latency,13,0,28.1758,,,,13
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.0.0.1,max_latency,13,0,34.362199999999994,,,,13
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.0.0.1,mean_dev_latency,13,0,8.5214,,,,13
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.1.1.1,rsrp,14,0,-94.5,,,,12
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.1.1.1,sinr,14,0,10.5,,,,11
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.1.1.1,ss_sinr,14,0,18.5,,,,8
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.1.1.1,mean_latency,14,0,26.249966666666666,,,,14
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.1.1.1,max_latency,14,0,31.890150000000002,,,,14
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=1.1.1.1,mean_dev_latency,14,0,7.292199999999999,,,,14
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.4.4,rsrp,14,0,-94.5,,,,13
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.4.4,sinr,14,0,10.5,,,,11
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.4.4,ss_sinr,14,0,18.5,,,,8
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.4.4,mean_latency,14,0,28.7402,,,,14
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.4.4,max_latency,14,0,34.048,,,,14
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.4.4,mean_dev_latency,14,0,7.007136363636363,,,,14
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.8.8,rsrp,14,0,-94.5,,,,13
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.8.8,sinr,14,0,10.5,,,,11
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.8.8,ss_sinr,14,0,18.5,,,,8
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.8.8,mean_latency,14,0,24.4438,,,,14
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.8.8,max_latency,14,0,27.709508333333332,,,,14
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=8.8.8.8,mean_dev_latency,14,0,3.358681818181818,,,,14
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=uni,rsrp,12,0,-93.04545454545455,,,,12
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=uni,sinr,12,0,11.272727272727273,,,,10
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=uni,ss_sinr,12,0,19.0,,,,6
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=uni,mean_latency,12,0,41.32146363636364,,,,12
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=uni,max_latency,12,0,48.71813636363636,,,,12
+hbahn__latency_data|device=armv7l_none|MNO=C|network=5G NSA|server_ip=uni,mean_dev_latency,12,0,6.4566,,,,12
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.0.0.1,rsrp,289,189,-90.6842105263158,-90.06666666666666,,0.07936507936507936,225
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.0.0.1,sinr,289,189,11.5,11.5,,0.031746031746031744,202
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.0.0.1,ss_sinr,288,189,16.69981238273921,20.5,,0.005291005291005291,236
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.0.0.1,mean_latency,289,189,29.071749999999998,20.0485,,0.6137566137566137,289
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.0.0.1,max_latency,289,189,34.55681818181818,21.246714285714287,,0.7407407407407407,288
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.0.0.1,mean_dev_latency,289,189,7.42985,1.2067999999999999,,0.12698412698412698,289
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.1.1.1,rsrp,289,189,-90.57894736842105,-90.17647058823529,,0.07936507936507936,220
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.1.1.1,sinr,289,189,11.555555555555555,11.4,,0.026455026455026454,204
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.1.1.1,ss_sinr,288,189,16.85164835164835,20.5,,0.005291005291005291,231
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.1.1.1,mean_latency,289,189,28.063,19.942333333333334,,0.5132275132275133,289
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.1.1.1,max_latency,289,189,33.958214285714284,21.23071428571429,,0.6507936507936508,289
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=1.1.1.1,mean_dev_latency,289,189,6.636636363636364,1.2312941176470589,,0.35978835978835977,289
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.4.4,rsrp,289,189,-90.5625,-90.0,,0.07407407407407407,221
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.4.4,sinr,289,189,11.636363636363637,11.4,,0.021164021164021163,195
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.4.4,ss_sinr,288,189,16.744708994708994,20.5,,0.010582010582010581,224
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.4.4,mean_latency,289,189,30.169400000000003,20.9965,,0.656084656084656,289
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.4.4,max_latency,289,189,34.812555555555555,23.856714285714286,,0.5343915343915344,288
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.4.4,mean_dev_latency,289,189,6.469757575757576,2.084,,0.047619047619047616,289
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.8.8,rsrp,289,189,-90.60975609756098,-89.9375,,0.07936507936507936,222
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.8.8,sinr,289,189,11.659090909090908,11.466666666666667,,0.021164021164021163,198
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.8.8,ss_sinr,288,189,16.66435185185185,20.5,,0.015873015873015872,228
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.8.8,mean_latency,289,189,30.041025,23.80018181818182,,0.2328042328042328,289
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.8.8,max_latency,289,189,37.102666666666664,27.56,,0.21164021164021163,289
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=8.8.8.8,mean_dev_latency,289,189,6.675076923076923,3.4054615384615383,,0.1111111111111111,289
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=uni,rsrp,280,187,-90.5,-89.94117647058823,,0.08021390374331551,218
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=uni,sinr,280,187,11.522727272727273,11.444444444444445,,0.03208556149732621,200
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=uni,ss_sinr,280,187,16.477272727272727,20.5,,0.0106951871657754,227
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=uni,mean_latency,280,187,43.785875000000004,39.75611538461539,,0.10695187165775401,280
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=uni,max_latency,280,187,49.63775,45.44866666666667,,0.12299465240641712,280
+hbahn__latency_data|device=armv7l_none|MNO=C|network=<missing>|server_ip=uni,mean_dev_latency,280,187,4.8803403508771925,4.514733333333334,,0.0053475935828877,280

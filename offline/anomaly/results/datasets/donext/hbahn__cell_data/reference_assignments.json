@@ -1,0 +1,172 @@
+[
+  {
+    "context": "hbahn__cell_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>",
+    "fit_n": 3887,
+    "calibration_n": 456,
+    "test_n": 579,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1670487000.0,
+    "fit_time_max": 1682568900.0,
+    "cal_time_min": 1682573700.0,
+    "cal_time_max": 1683918300.0,
+    "fit_label_counts": {
+      "-1": 3887
+    },
+    "cal_label_counts": {
+      "-1": 456
+    }
+  },
+  {
+    "context": "hbahn__cell_data|device=armv7l_RM500Q-GL|MNO=A|network=<missing>",
+    "fit_n": 3,
+    "calibration_n": 2,
+    "test_n": 4,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1679650800.0,
+    "fit_time_max": 1680169800.0,
+    "cal_time_min": 1680170100.0,
+    "cal_time_max": 1682568600.0,
+    "fit_label_counts": {
+      "-1": 3
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "hbahn__cell_data|device=armv7l_RM500Q-GL|MNO=B|network=<missing>",
+    "fit_n": 9,
+    "calibration_n": 4,
+    "test_n": 16,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1678977900.0,
+    "fit_time_max": 1681388400.0,
+    "cal_time_min": 1681989900.0,
+    "cal_time_max": 1682568600.0,
+    "fit_label_counts": {
+      "-1": 9
+    },
+    "cal_label_counts": {
+      "-1": 4
+    }
+  },
+  {
+    "context": "hbahn__cell_data|device=armv7l_RM500Q-GL|MNO=C|network=4G",
+    "fit_n": 3,
+    "calibration_n": 2,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672658700.0,
+    "fit_time_max": 1673538600.0,
+    "cal_time_min": 1673976000.0,
+    "cal_time_max": 1674831300.0,
+    "fit_label_counts": {
+      "-1": 3
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "hbahn__cell_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA",
+    "fit_n": 1270,
+    "calibration_n": 424,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1668616800.0,
+    "fit_time_max": 1674557100.0,
+    "cal_time_min": 1674557700.0,
+    "cal_time_max": 1675836300.0,
+    "fit_label_counts": {
+      "-1": 1270
+    },
+    "cal_label_counts": {
+      "-1": 424
+    }
+  },
+  {
+    "context": "hbahn__cell_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>",
+    "fit_n": 9152,
+    "calibration_n": 1452,
+    "test_n": 1439,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1668616200.0,
+    "fit_time_max": 1682572200.0,
+    "cal_time_min": 1682572200.0,
+    "cal_time_max": 1683920700.0,
+    "fit_label_counts": {
+      "-1": 9152
+    },
+    "cal_label_counts": {
+      "-1": 1452
+    }
+  },
+  {
+    "context": "hbahn__cell_data|device=armv7l_none|MNO=<missing>|network=<missing>",
+    "fit_n": 36,
+    "calibration_n": 12,
+    "test_n": 41,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1674102600.0,
+    "fit_time_max": 1680522900.0,
+    "cal_time_min": 1680523500.0,
+    "cal_time_max": 1682010300.0,
+    "fit_label_counts": {
+      "-1": 36
+    },
+    "cal_label_counts": {
+      "-1": 12
+    }
+  },
+  {
+    "context": "hbahn__cell_data|device=armv7l_none|MNO=B|network=<missing>",
+    "fit_n": 2,
+    "calibration_n": 1,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1680185700.0,
+    "fit_time_max": 1680186000.0,
+    "cal_time_min": 1680793800.0,
+    "cal_time_max": 1680793800.0,
+    "fit_label_counts": {
+      "-1": 2
+    },
+    "cal_label_counts": {
+      "-1": 1
+    }
+  },
+  {
+    "context": "hbahn__cell_data|device=armv7l_none|MNO=C|network=5G NSA",
+    "fit_n": 15,
+    "calibration_n": 5,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670491200.0,
+    "fit_time_max": 1674369000.0,
+    "cal_time_min": 1674369600.0,
+    "cal_time_max": 1675742400.0,
+    "fit_label_counts": {
+      "-1": 15
+    },
+    "cal_label_counts": {
+      "-1": 5
+    }
+  },
+  {
+    "context": "hbahn__cell_data|device=armv7l_none|MNO=C|network=<missing>",
+    "fit_n": 436,
+    "calibration_n": 92,
+    "test_n": 145,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1670490900.0,
+    "fit_time_max": 1682565300.0,
+    "cal_time_min": 1682604000.0,
+    "cal_time_max": 1683905100.0,
+    "fit_label_counts": {
+      "-1": 436
+    },
+    "cal_label_counts": {
+      "-1": 92
+    }
+  }
+]

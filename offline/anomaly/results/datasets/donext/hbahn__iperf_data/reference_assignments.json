@@ -1,0 +1,353 @@
+[
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=0",
+    "fit_n": 66,
+    "calibration_n": 23,
+    "test_n": 16,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672758300.0,
+    "fit_time_max": 1680177900.0,
+    "cal_time_min": 1680191400.0,
+    "cal_time_max": 1681992900.0,
+    "fit_label_counts": {
+      "-1": 66
+    },
+    "cal_label_counts": {
+      "-1": 23
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=1",
+    "fit_n": 41,
+    "calibration_n": 14,
+    "test_n": 14,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672670100.0,
+    "fit_time_max": 1679549700.0,
+    "cal_time_min": 1679995500.0,
+    "cal_time_max": 1681791900.0,
+    "fit_label_counts": {
+      "-1": 41
+    },
+    "cal_label_counts": {
+      "-1": 14
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=0",
+    "fit_n": 38,
+    "calibration_n": 13,
+    "test_n": 4,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672689900.0,
+    "fit_time_max": 1679648400.0,
+    "cal_time_min": 1679898900.0,
+    "cal_time_max": 1682017500.0,
+    "fit_label_counts": {
+      "-1": 38
+    },
+    "cal_label_counts": {
+      "-1": 13
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=1",
+    "fit_n": 35,
+    "calibration_n": 12,
+    "test_n": 7,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672686300.0,
+    "fit_time_max": 1680252300.0,
+    "cal_time_min": 1680513600.0,
+    "cal_time_max": 1681991100.0,
+    "fit_label_counts": {
+      "-1": 35
+    },
+    "cal_label_counts": {
+      "-1": 12
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=0",
+    "fit_n": 171,
+    "calibration_n": 57,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1668780600.0,
+    "fit_time_max": 1674619500.0,
+    "cal_time_min": 1674621000.0,
+    "cal_time_max": 1675833900.0,
+    "fit_label_counts": {
+      "-1": 171
+    },
+    "cal_label_counts": {
+      "-1": 57
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=1",
+    "fit_n": 170,
+    "calibration_n": 57,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1668617700.0,
+    "fit_time_max": 1674537600.0,
+    "cal_time_min": 1674538800.0,
+    "cal_time_max": 1675836000.0,
+    "fit_label_counts": {
+      "-1": 170
+    },
+    "cal_label_counts": {
+      "-1": 57
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=0",
+    "fit_n": 88,
+    "calibration_n": 30,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1668616800.0,
+    "fit_time_max": 1674242400.0,
+    "cal_time_min": 1674545400.0,
+    "cal_time_max": 1675834200.0,
+    "fit_label_counts": {
+      "-1": 88
+    },
+    "cal_label_counts": {
+      "-1": 30
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=1",
+    "fit_n": 87,
+    "calibration_n": 30,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672466400.0,
+    "fit_time_max": 1674453600.0,
+    "cal_time_min": 1674536100.0,
+    "cal_time_max": 1675836000.0,
+    "fit_label_counts": {
+      "-1": 87
+    },
+    "cal_label_counts": {
+      "-1": 30
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=0",
+    "fit_n": 7004,
+    "calibration_n": 1440,
+    "test_n": 1381,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1668616200.0,
+    "fit_time_max": 1682017800.0,
+    "cal_time_min": 1682018100.0,
+    "cal_time_max": 1683236400.0,
+    "fit_label_counts": {
+      "-1": 7004
+    },
+    "cal_label_counts": {
+      "-1": 1440
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=1",
+    "fit_n": 7090,
+    "calibration_n": 1446,
+    "test_n": 1428,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1668616200.0,
+    "fit_time_max": 1682017800.0,
+    "cal_time_min": 1682018100.0,
+    "cal_time_max": 1683236100.0,
+    "fit_label_counts": {
+      "-1": 7090
+    },
+    "cal_label_counts": {
+      "-1": 1446
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=0",
+    "fit_n": 4984,
+    "calibration_n": 1043,
+    "test_n": 1015,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1668616500.0,
+    "fit_time_max": 1682017800.0,
+    "cal_time_min": 1682017800.0,
+    "cal_time_max": 1683236400.0,
+    "fit_label_counts": {
+      "-1": 4984
+    },
+    "cal_label_counts": {
+      "-1": 1043
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=1",
+    "fit_n": 4924,
+    "calibration_n": 1034,
+    "test_n": 944,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1668616500.0,
+    "fit_time_max": 1682017800.0,
+    "cal_time_min": 1682018400.0,
+    "cal_time_max": 1683236400.0,
+    "fit_label_counts": {
+      "-1": 4924
+    },
+    "cal_label_counts": {
+      "-1": 1034
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=tcp|direction=1",
+    "fit_n": 0,
+    "calibration_n": 0,
+    "test_n": 1,
+    "policy": "no_separate_calibration",
+    "fit_time_min": null,
+    "fit_time_max": null,
+    "cal_time_min": null,
+    "cal_time_max": null,
+    "fit_label_counts": {},
+    "cal_label_counts": {}
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=udp|direction=0",
+    "fit_n": 1,
+    "calibration_n": 1,
+    "test_n": 0,
+    "policy": "no_separate_calibration",
+    "fit_time_min": 1674102600.0,
+    "fit_time_max": 1674102600.0,
+    "cal_time_min": 1682661000.0,
+    "cal_time_max": 1682661000.0,
+    "fit_label_counts": {
+      "-1": 1
+    },
+    "cal_label_counts": {
+      "-1": 1
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=0",
+    "fit_n": 2,
+    "calibration_n": 1,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1672977300.0,
+    "fit_time_max": 1674101700.0,
+    "cal_time_min": 1674533700.0,
+    "cal_time_max": 1674533700.0,
+    "fit_label_counts": {
+      "-1": 2
+    },
+    "cal_label_counts": {
+      "-1": 1
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=1",
+    "fit_n": 2,
+    "calibration_n": 1,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1674100800.0,
+    "fit_time_max": 1674369000.0,
+    "cal_time_min": 1675742400.0,
+    "cal_time_max": 1675742400.0,
+    "fit_label_counts": {
+      "-1": 2
+    },
+    "cal_label_counts": {
+      "-1": 1
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=udp|direction=1",
+    "fit_n": 1,
+    "calibration_n": 0,
+    "test_n": 0,
+    "policy": "no_separate_calibration",
+    "fit_time_min": 1674102000.0,
+    "fit_time_max": 1674102000.0,
+    "cal_time_min": null,
+    "cal_time_max": null,
+    "fit_label_counts": {
+      "-1": 1
+    },
+    "cal_label_counts": {}
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=0",
+    "fit_n": 181,
+    "calibration_n": 61,
+    "test_n": 132,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670491200.0,
+    "fit_time_max": 1680492300.0,
+    "cal_time_min": 1680495900.0,
+    "cal_time_max": 1682009700.0,
+    "fit_label_counts": {
+      "-1": 181
+    },
+    "cal_label_counts": {
+      "-1": 61
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=1",
+    "fit_n": 177,
+    "calibration_n": 59,
+    "test_n": 136,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670490900.0,
+    "fit_time_max": 1680592800.0,
+    "cal_time_min": 1680593100.0,
+    "cal_time_max": 1682010300.0,
+    "fit_label_counts": {
+      "-1": 177
+    },
+    "cal_label_counts": {
+      "-1": 59
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=0",
+    "fit_n": 114,
+    "calibration_n": 39,
+    "test_n": 96,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670490900.0,
+    "fit_time_max": 1681181700.0,
+    "cal_time_min": 1681182000.0,
+    "cal_time_max": 1682010000.0,
+    "fit_label_counts": {
+      "-1": 114
+    },
+    "cal_label_counts": {
+      "-1": 39
+    }
+  },
+  {
+    "context": "hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=1",
+    "fit_n": 117,
+    "calibration_n": 39,
+    "test_n": 91,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1670491200.0,
+    "fit_time_max": 1680635400.0,
+    "cal_time_min": 1680750300.0,
+    "cal_time_max": 1682010300.0,
+    "fit_label_counts": {
+      "-1": 117
+    },
+    "cal_label_counts": {
+      "-1": 39
+    }
+  }
+]

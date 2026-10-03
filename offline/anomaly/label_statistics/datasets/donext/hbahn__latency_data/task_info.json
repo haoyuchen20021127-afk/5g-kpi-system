@@ -1,0 +1,34 @@
+{
+  "dataset": "donext",
+  "task": "hbahn__latency_data",
+  "label_scope": "unlabelled",
+  "test_n": 10648,
+  "features": [
+    "mean_latency",
+    "max_latency",
+    "mean_dev_latency",
+    "rsrp",
+    "sinr",
+    "ss_sinr"
+  ],
+  "methods": [
+    "three_sigma",
+    "iqr",
+    "isolation_forest",
+    "one_class_svm"
+  ],
+  "context_n": 20,
+  "labels": {
+    "unlabelled": 10648
+  },
+  "input_sha256": {
+    "task_manifest.json": "15630fa2d91b084a4aa5c12cd67cb7a18ae101c02516e8bcac88b1fce045560a",
+    "kpi_summary.csv": "4baf4321df65c61d586684b2b814ecd535a17f579ebfe786cb1d976c704328fa",
+    "test_predictions.csv.gz": "93007eee0481a20c0bb1dee5bd4b7b79a5582c6dd5b81a085bd6d3ebd903027e"
+  },
+  "output_record_file": "datasets\\donext\\hbahn__latency_data\\record_or_predictions.csv.gz",
+  "attack_subcategory_supplement": {
+    "available": false
+  },
+  "source_predictions_unchanged": true
+}

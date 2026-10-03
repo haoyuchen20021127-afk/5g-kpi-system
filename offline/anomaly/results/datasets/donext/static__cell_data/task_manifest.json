@@ -1,0 +1,174 @@
+{
+  "dataset": "donext",
+  "task_id": "static__cell_data",
+  "features": [
+    "rsrp",
+    "rsrq",
+    "sinr",
+    "ss_rsrp",
+    "ss_sinr"
+  ],
+  "group_col": "context",
+  "label_scope": "unlabelled",
+  "source_coverage": {
+    "source": "static__cell_data",
+    "input_rows": 9725885,
+    "output_observations": 111168,
+    "represented_source_rows": 9725885,
+    "invalid_time_rows_retained_auxiliary": 0,
+    "context_columns": [
+      "device",
+      "MNO",
+      "network",
+      "username"
+    ],
+    "aggregation_keys": [
+      "source",
+      "w6_series_id",
+      "device",
+      "MNO",
+      "network",
+      "username",
+      "w6_split",
+      "floor(time/300)"
+    ],
+    "aggregation": "five-minute means of finite observed values; separate count for every KPI; no imputation or clipping",
+    "feature_observation_counts": {
+      "rsrp": {
+        "observed": 8973288,
+        "missing_or_nonfinite": 752597
+      },
+      "rsrq": {
+        "observed": 8973062,
+        "missing_or_nonfinite": 752823
+      },
+      "rssi": {
+        "observed": 7936952,
+        "missing_or_nonfinite": 1788933
+      },
+      "sinr": {
+        "observed": 8973288,
+        "missing_or_nonfinite": 752597
+      },
+      "cqi": {
+        "observed": 8973143,
+        "missing_or_nonfinite": 752742
+      },
+      "ss_rsrp": {
+        "observed": 5133599,
+        "missing_or_nonfinite": 4592286
+      },
+      "ss_rsrq": {
+        "observed": 5133599,
+        "missing_or_nonfinite": 4592286
+      },
+      "ss_sinr": {
+        "observed": 5130091,
+        "missing_or_nonfinite": 4595794
+      }
+    },
+    "data_quality_only_fields": {},
+    "candidate_quality_ranges": {
+      "packet_error_rate": [
+        0,
+        1
+      ],
+      "packet_loss": [
+        0,
+        100
+      ]
+    },
+    "non_target_fields": [
+      "cellbandwidths",
+      "lte_mcs",
+      "lte_ri",
+      "nr_mcs",
+      "nr_ri",
+      "primary_bandwidth",
+      "ta",
+      "tx_power",
+      "ul_bandwidth"
+    ],
+    "non_target_explanation": "configuration, signal scheduling/power descriptors and existing rolling-history fields are context rather than the selected radio/service-quality targets; packet-loss/error fields require missing-value/unit semantics confirmation",
+    "limitations": [
+      "No normal/attack labels: calibration limits empirical flagging, not certified false-positive rate.",
+      "A five-minute average can attenuate short spikes; this experiment detects sustained aggregate deviations.",
+      "Device strings may identify device models, not unique physical devices.",
+      "Serving-cell identities are retained for audit; models may pool multiple cells within a context."
+    ]
+  },
+  "notes": [],
+  "quality": [],
+  "config": {
+    "alpha": 0.05,
+    "min_fit": 100,
+    "min_cal": 50,
+    "min_model_unique": 5,
+    "max_ml_fit": 6000,
+    "seed": 42,
+    "if_trees": 200,
+    "svm_nu": 0.05,
+    "svm_tol": 1e-07,
+    "svm_max_iter": 100000,
+    "iqr_score_policy": "native_fence_distance"
+  },
+  "methods": [
+    "three_sigma",
+    "iqr",
+    "isolation_forest",
+    "one_class_svm"
+  ],
+  "rows_prepared": 111168,
+  "rows_test": 26852,
+  "rows_calibration": 23614,
+  "interpretation": "Retrospective calibrated exploration; calibration fraction is not independent performance or a guaranteed future false-positive rate.",
+  "input_imputation": {
+    "enabled": true,
+    "rule": "fit-reference mode for CQI/RI/pcmax; median for other KPIs; per-context",
+    "original_observations_preserved": true,
+    "clipping": false,
+    "threshold_evidence_counts": "observed before imputation",
+    "prediction_value_columns": "feature__model_input",
+    "imputation_flag_columns": "feature__input_imputed",
+    "no_fit_observations": "leave missing and unscored; do not borrow calibration/test values",
+    "qualification": "Predictions on imputed values are model outputs for estimates, not measured KPI health."
+  },
+  "source_training_seconds": 31.58,
+  "selected_feature_policy": {
+    "features": [
+      "rsrp",
+      "rsrq",
+      "sinr",
+      "ss_rsrp",
+      "ss_sinr"
+    ],
+    "reasons": {
+      "rsrp": "保留原来源参考信号接收功率字段，描述信号强度；按既有设备、场景和制式上下文分别建模。",
+      "rsrq": "保留原来源参考信号接收质量字段，补充信号质量信息；不与NR专属字段合并。",
+      "sinr": "保留原来源信干噪比字段，描述信号与干扰噪声的相对关系。",
+      "ss_rsrp": "保留NR同步信号参考功率作为独立字段；只在适用上下文和原始参考充足时使用，不与LTE字段互填。",
+      "ss_sinr": "保留NR同步信号信干噪比作为独立质量指标；结构不适用时保留N/A，不与其他制式字段合并。"
+    },
+    "excluded_features": [
+      "rssi",
+      "cqi",
+      "ss_rsrq"
+    ],
+    "excluded_reasons": {
+      "rssi": "与已选参考信号强度及SINR的质量信息部分重叠，核心集合不重复纳入总接收功率。",
+      "cqi": "反馈或时间聚合等级是间接质量信息；本精简集合优先直接信号测量和业务性能，不按测试结果选择。",
+      "ss_rsrq": "与已选NR强度/信干噪信息部分重叠，且部分原参考上下文不适用，精简时保留更少的NR质量字段。"
+    },
+    "selection_input": "explicit_predefined_policy",
+    "selection_uses_test_outcomes": false,
+    "rows_selected_or_removed": false,
+    "unscored_flags_retained": true,
+    "source_metadata_quality_fields": "preserved source-level annotations; not selected-KPI missingness denominators"
+  },
+  "record_rule": "No record-level predictions are reused here. Run summarize_by_label separately for within-method any-applicable-KPI OR with undetermined records retained.",
+  "label_interpretation": "Dataset attack/benign labels are not per-KPI health truth; unknown and unlabelled records remain separate.",
+  "result_origin": "existing_independent_per_kpi_models_and_predictions_reused_without_refitting",
+  "source_results": "E:\\5G_Project\\week6\\交付物_填补输入版\\results\\datasets\\donext\\static__cell_data",
+  "source_task_manifest_sha256": "81e905a4eda9b212373b16c61e801099eab078cb7978a8994aada49dae38155d",
+  "selection_config_sha256": "69834e8f92d6eb03b441e900b0cdc28d35ee19b0ca3981a049f7698aa43a33ac"
+}

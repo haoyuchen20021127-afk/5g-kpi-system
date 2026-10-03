@@ -1,0 +1,651 @@
+[
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=0",
+    "fit_n": 1,
+    "calibration_n": 1,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 7314900.0,
+    "fit_time_max": 7314900.0,
+    "cal_time_min": 7315200.0,
+    "cal_time_max": 7315200.0,
+    "fit_label_counts": {
+      "-1": 1
+    },
+    "cal_label_counts": {
+      "-1": 1
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=2G|protocol=tcp|direction=1",
+    "fit_n": 1,
+    "calibration_n": 1,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 7314900.0,
+    "fit_time_max": 7314900.0,
+    "cal_time_min": 14548500.0,
+    "cal_time_max": 14548500.0,
+    "fit_label_counts": {
+      "-1": 1
+    },
+    "cal_label_counts": {
+      "-1": 1
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=0",
+    "fit_n": 182,
+    "calibration_n": 61,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 7309200.0,
+    "fit_time_max": 14548500.0,
+    "cal_time_min": 14550000.0,
+    "cal_time_max": 16362000.0,
+    "fit_label_counts": {
+      "-1": 182
+    },
+    "cal_label_counts": {
+      "-1": 61
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=tcp|direction=1",
+    "fit_n": 189,
+    "calibration_n": 63,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 7309200.0,
+    "fit_time_max": 14548800.0,
+    "cal_time_min": 14549400.0,
+    "cal_time_max": 16361700.0,
+    "fit_label_counts": {
+      "-1": 189
+    },
+    "cal_label_counts": {
+      "-1": 63
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=0",
+    "fit_n": 68,
+    "calibration_n": 23,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 7309200.0,
+    "fit_time_max": 11538600.0,
+    "cal_time_min": 11538900.0,
+    "cal_time_max": 14570700.0,
+    "fit_label_counts": {
+      "-1": 68
+    },
+    "cal_label_counts": {
+      "-1": 23
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=4G|protocol=udp|direction=1",
+    "fit_n": 72,
+    "calibration_n": 24,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 7309500.0,
+    "fit_time_max": 11543400.0,
+    "cal_time_min": 11544000.0,
+    "cal_time_max": 15797400.0,
+    "fit_label_counts": {
+      "-1": 72
+    },
+    "cal_label_counts": {
+      "-1": 24
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=0",
+    "fit_n": 633,
+    "calibration_n": 212,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 7288200.0,
+    "fit_time_max": 13957500.0,
+    "cal_time_min": 13957800.0,
+    "cal_time_max": 16394700.0,
+    "fit_label_counts": {
+      "-1": 633
+    },
+    "cal_label_counts": {
+      "-1": 212
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=tcp|direction=1",
+    "fit_n": 621,
+    "calibration_n": 208,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 3069600.0,
+    "fit_time_max": 13959600.0,
+    "cal_time_min": 13959900.0,
+    "cal_time_max": 16389000.0,
+    "fit_label_counts": {
+      "-1": 621
+    },
+    "cal_label_counts": {
+      "-1": 208
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=0",
+    "fit_n": 283,
+    "calibration_n": 95,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 3069900.0,
+    "fit_time_max": 9726900.0,
+    "cal_time_min": 9727200.0,
+    "cal_time_max": 15145800.0,
+    "fit_label_counts": {
+      "-1": 283
+    },
+    "cal_label_counts": {
+      "-1": 95
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|protocol=udp|direction=1",
+    "fit_n": 283,
+    "calibration_n": 95,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 3069600.0,
+    "fit_time_max": 9726300.0,
+    "cal_time_min": 9726600.0,
+    "cal_time_max": 15183300.0,
+    "fit_label_counts": {
+      "-1": 283
+    },
+    "cal_label_counts": {
+      "-1": 95
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=4G|protocol=tcp|direction=1",
+    "fit_n": 1,
+    "calibration_n": 0,
+    "test_n": 0,
+    "policy": "no_separate_calibration",
+    "fit_time_min": 10293300.0,
+    "fit_time_max": 10293300.0,
+    "cal_time_min": null,
+    "cal_time_max": null,
+    "fit_label_counts": {
+      "-1": 1
+    },
+    "cal_label_counts": {}
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=0",
+    "fit_n": 2978,
+    "calibration_n": 324,
+    "test_n": 367,
+    "policy": "original_validation_reference",
+    "fit_time_min": 622800.0,
+    "fit_time_max": 27846000.0,
+    "cal_time_min": 27846000.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 2978
+    },
+    "cal_label_counts": {
+      "-1": 324
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=tcp|direction=1",
+    "fit_n": 2983,
+    "calibration_n": 321,
+    "test_n": 356,
+    "policy": "original_validation_reference",
+    "fit_time_min": 622800.0,
+    "fit_time_max": 27846000.0,
+    "cal_time_min": 27846300.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 2983
+    },
+    "cal_label_counts": {
+      "-1": 321
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=0",
+    "fit_n": 2215,
+    "calibration_n": 324,
+    "test_n": 365,
+    "policy": "original_validation_reference",
+    "fit_time_min": 622800.0,
+    "fit_time_max": 27846000.0,
+    "cal_time_min": 27846000.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 2215
+    },
+    "cal_label_counts": {
+      "-1": 324
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|protocol=udp|direction=1",
+    "fit_n": 2249,
+    "calibration_n": 324,
+    "test_n": 365,
+    "policy": "original_validation_reference",
+    "fit_time_min": 622800.0,
+    "fit_time_max": 27846000.0,
+    "cal_time_min": 27846000.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 2249
+    },
+    "cal_label_counts": {
+      "-1": 324
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=tcp|direction=1",
+    "fit_n": 0,
+    "calibration_n": 0,
+    "test_n": 1,
+    "policy": "no_separate_calibration",
+    "fit_time_min": null,
+    "fit_time_max": null,
+    "cal_time_min": null,
+    "cal_time_max": null,
+    "fit_label_counts": {},
+    "cal_label_counts": {}
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=3G|protocol=udp|direction=1",
+    "fit_n": 0,
+    "calibration_n": 0,
+    "test_n": 1,
+    "policy": "no_separate_calibration",
+    "fit_time_min": null,
+    "fit_time_max": null,
+    "cal_time_min": null,
+    "cal_time_max": null,
+    "fit_label_counts": {},
+    "cal_label_counts": {}
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=<missing>|network=5G NSA|protocol=tcp|direction=0",
+    "fit_n": 1,
+    "calibration_n": 0,
+    "test_n": 0,
+    "policy": "no_separate_calibration",
+    "fit_time_min": 1834200.0,
+    "fit_time_max": 1834200.0,
+    "cal_time_min": null,
+    "cal_time_max": null,
+    "fit_label_counts": {
+      "-1": 1
+    },
+    "cal_label_counts": {}
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=0",
+    "fit_n": 506,
+    "calibration_n": 169,
+    "test_n": 57,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 623700.0,
+    "fit_time_max": 12844800.0,
+    "cal_time_min": 12852300.0,
+    "cal_time_max": 27846000.0,
+    "fit_label_counts": {
+      "-1": 506
+    },
+    "cal_label_counts": {
+      "-1": 169
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=tcp|direction=1",
+    "fit_n": 528,
+    "calibration_n": 177,
+    "test_n": 62,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 623700.0,
+    "fit_time_max": 12776700.0,
+    "cal_time_min": 12839100.0,
+    "cal_time_max": 27839700.0,
+    "fit_label_counts": {
+      "-1": 528
+    },
+    "cal_label_counts": {
+      "-1": 177
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=0",
+    "fit_n": 463,
+    "calibration_n": 155,
+    "test_n": 60,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 623700.0,
+    "fit_time_max": 9734100.0,
+    "cal_time_min": 9734400.0,
+    "cal_time_max": 27843600.0,
+    "fit_label_counts": {
+      "-1": 463
+    },
+    "cal_label_counts": {
+      "-1": 155
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=4G|protocol=udp|direction=1",
+    "fit_n": 467,
+    "calibration_n": 156,
+    "test_n": 58,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 623700.0,
+    "fit_time_max": 9740100.0,
+    "cal_time_min": 9740400.0,
+    "cal_time_max": 27843900.0,
+    "fit_label_counts": {
+      "-1": 467
+    },
+    "cal_label_counts": {
+      "-1": 156
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=0",
+    "fit_n": 1686,
+    "calibration_n": 330,
+    "test_n": 404,
+    "policy": "original_validation_reference",
+    "fit_time_min": 621600.0,
+    "fit_time_max": 27846000.0,
+    "cal_time_min": 27846000.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 1686
+    },
+    "cal_label_counts": {
+      "-1": 330
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=tcp|direction=1",
+    "fit_n": 1732,
+    "calibration_n": 333,
+    "test_n": 400,
+    "policy": "original_validation_reference",
+    "fit_time_min": 622800.0,
+    "fit_time_max": 27846000.0,
+    "cal_time_min": 27846000.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 1732
+    },
+    "cal_label_counts": {
+      "-1": 333
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=0",
+    "fit_n": 1278,
+    "calibration_n": 330,
+    "test_n": 409,
+    "policy": "original_validation_reference",
+    "fit_time_min": 622800.0,
+    "fit_time_max": 27846000.0,
+    "cal_time_min": 27846000.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 1278
+    },
+    "cal_label_counts": {
+      "-1": 330
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|protocol=udp|direction=1",
+    "fit_n": 1258,
+    "calibration_n": 328,
+    "test_n": 409,
+    "policy": "original_validation_reference",
+    "fit_time_min": 621600.0,
+    "fit_time_max": 27846000.0,
+    "cal_time_min": 27846000.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 1258
+    },
+    "cal_label_counts": {
+      "-1": 328
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=0",
+    "fit_n": 66,
+    "calibration_n": 23,
+    "test_n": 328,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 623100.0,
+    "fit_time_max": 644100.0,
+    "cal_time_min": 644400.0,
+    "cal_time_max": 671100.0,
+    "fit_label_counts": {
+      "-1": 66
+    },
+    "cal_label_counts": {
+      "-1": 23
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=tcp|direction=1",
+    "fit_n": 66,
+    "calibration_n": 23,
+    "test_n": 319,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 623100.0,
+    "fit_time_max": 643200.0,
+    "cal_time_min": 643500.0,
+    "cal_time_max": 650700.0,
+    "fit_label_counts": {
+      "-1": 66
+    },
+    "cal_label_counts": {
+      "-1": 23
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=0",
+    "fit_n": 69,
+    "calibration_n": 24,
+    "test_n": 319,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 623100.0,
+    "fit_time_max": 644700.0,
+    "cal_time_min": 645000.0,
+    "cal_time_max": 5470200.0,
+    "fit_label_counts": {
+      "-1": 69
+    },
+    "cal_label_counts": {
+      "-1": 24
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=2G|protocol=udp|direction=1",
+    "fit_n": 68,
+    "calibration_n": 23,
+    "test_n": 335,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 623100.0,
+    "fit_time_max": 643800.0,
+    "cal_time_min": 644100.0,
+    "cal_time_max": 650700.0,
+    "fit_label_counts": {
+      "-1": 68
+    },
+    "cal_label_counts": {
+      "-1": 23
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=0",
+    "fit_n": 12,
+    "calibration_n": 4,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 5466600.0,
+    "fit_time_max": 5476800.0,
+    "cal_time_min": 5477400.0,
+    "cal_time_max": 5497500.0,
+    "fit_label_counts": {
+      "-1": 12
+    },
+    "cal_label_counts": {
+      "-1": 4
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=tcp|direction=1",
+    "fit_n": 9,
+    "calibration_n": 4,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 5466900.0,
+    "fit_time_max": 5476500.0,
+    "cal_time_min": 5476800.0,
+    "cal_time_max": 5497500.0,
+    "fit_label_counts": {
+      "-1": 9
+    },
+    "cal_label_counts": {
+      "-1": 4
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=0",
+    "fit_n": 14,
+    "calibration_n": 5,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1857600.0,
+    "fit_time_max": 5476500.0,
+    "cal_time_min": 5476800.0,
+    "cal_time_max": 5497500.0,
+    "fit_label_counts": {
+      "-1": 14
+    },
+    "cal_label_counts": {
+      "-1": 5
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=4G|protocol=udp|direction=1",
+    "fit_n": 12,
+    "calibration_n": 5,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1857600.0,
+    "fit_time_max": 5476500.0,
+    "cal_time_min": 5476800.0,
+    "cal_time_max": 5497500.0,
+    "fit_label_counts": {
+      "-1": 12
+    },
+    "cal_label_counts": {
+      "-1": 5
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=0",
+    "fit_n": 2459,
+    "calibration_n": 251,
+    "test_n": 50,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1228200.0,
+    "fit_time_max": 27846000.0,
+    "cal_time_min": 27846300.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 2459
+    },
+    "cal_label_counts": {
+      "-1": 251
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=tcp|direction=1",
+    "fit_n": 2540,
+    "calibration_n": 263,
+    "test_n": 47,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1228200.0,
+    "fit_time_max": 27846000.0,
+    "cal_time_min": 27846600.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 2540
+    },
+    "cal_label_counts": {
+      "-1": 263
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=0",
+    "fit_n": 1899,
+    "calibration_n": 265,
+    "test_n": 47,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1228200.0,
+    "fit_time_max": 27846000.0,
+    "cal_time_min": 27846000.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 1899
+    },
+    "cal_label_counts": {
+      "-1": 265
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|protocol=udp|direction=1",
+    "fit_n": 1912,
+    "calibration_n": 258,
+    "test_n": 49,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1228200.0,
+    "fit_time_max": 27845400.0,
+    "cal_time_min": 27846000.0,
+    "cal_time_max": 29671800.0,
+    "fit_label_counts": {
+      "-1": 1912
+    },
+    "cal_label_counts": {
+      "-1": 258
+    }
+  },
+  {
+    "context": "mobile__iperf_data|device=r0s_SM-S901B|MNO=C|network=2G|protocol=tcp|direction=0",
+    "fit_n": 1,
+    "calibration_n": 0,
+    "test_n": 0,
+    "policy": "no_separate_calibration",
+    "fit_time_min": 5469900.0,
+    "fit_time_max": 5469900.0,
+    "cal_time_min": null,
+    "cal_time_max": null,
+    "fit_label_counts": {
+      "-1": 1
+    },
+    "cal_label_counts": {}
+  }
+]

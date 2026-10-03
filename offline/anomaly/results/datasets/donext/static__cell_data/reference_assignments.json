@@ -1,0 +1,455 @@
+[
+  {
+    "context": "static__cell_data|device=o1s_SM-G991B|MNO=<missing>|network=5G NSA|username=Static2",
+    "fit_n": 1,
+    "calibration_n": 0,
+    "test_n": 0,
+    "policy": "no_separate_calibration",
+    "fit_time_min": 1675920000.0,
+    "fit_time_max": 1675920000.0,
+    "cal_time_min": null,
+    "cal_time_max": null,
+    "fit_label_counts": {
+      "-1": 1
+    },
+    "cal_label_counts": {}
+  },
+  {
+    "context": "static__cell_data|device=o1s_SM-G991B|MNO=A|network=4G|username=Static1",
+    "fit_n": 83,
+    "calibration_n": 27,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1689171300.0,
+    "fit_time_max": 1689194400.0,
+    "cal_time_min": 1689194700.0,
+    "cal_time_max": 1689238500.0,
+    "fit_label_counts": {
+      "-1": 83
+    },
+    "cal_label_counts": {
+      "-1": 27
+    }
+  },
+  {
+    "context": "static__cell_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|username=Static1",
+    "fit_n": 69,
+    "calibration_n": 25,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1689201300.0,
+    "fit_time_max": 1689220800.0,
+    "cal_time_min": 1689221100.0,
+    "cal_time_max": 1689227700.0,
+    "fit_label_counts": {
+      "-1": 69
+    },
+    "cal_label_counts": {
+      "-1": 25
+    }
+  },
+  {
+    "context": "static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static1",
+    "fit_n": 4,
+    "calibration_n": 2,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1675348200.0,
+    "fit_time_max": 1675754700.0,
+    "cal_time_min": 1675767600.0,
+    "cal_time_max": 1675767900.0,
+    "fit_label_counts": {
+      "-1": 4
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static2",
+    "fit_n": 10,
+    "calibration_n": 4,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1675346400.0,
+    "fit_time_max": 1676118300.0,
+    "cal_time_min": 1676197800.0,
+    "cal_time_max": 1676357700.0,
+    "fit_label_counts": {
+      "-1": 10
+    },
+    "cal_label_counts": {
+      "-1": 4
+    }
+  },
+  {
+    "context": "static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static1",
+    "fit_n": 382,
+    "calibration_n": 126,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1675348200.0,
+    "fit_time_max": 1675806600.0,
+    "cal_time_min": 1675806900.0,
+    "cal_time_max": 1675844400.0,
+    "fit_label_counts": {
+      "-1": 382
+    },
+    "cal_label_counts": {
+      "-1": 126
+    }
+  },
+  {
+    "context": "static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static2",
+    "fit_n": 1976,
+    "calibration_n": 658,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1675346400.0,
+    "fit_time_max": 1676245500.0,
+    "cal_time_min": 1676245800.0,
+    "cal_time_max": 1676442300.0,
+    "fit_label_counts": {
+      "-1": 1976
+    },
+    "cal_label_counts": {
+      "-1": 658
+    }
+  },
+  {
+    "context": "static__cell_data|device=r0s_SM-S901B|MNO=A|network=4G|username=Static4",
+    "fit_n": 4,
+    "calibration_n": 2,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1675584000.0,
+    "fit_time_max": 1675707300.0,
+    "cal_time_min": 1675844400.0,
+    "cal_time_max": 1675878900.0,
+    "fit_label_counts": {
+      "-1": 4
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "static__cell_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|username=Static4",
+    "fit_n": 1697,
+    "calibration_n": 564,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1675359300.0,
+    "fit_time_max": 1676188200.0,
+    "cal_time_min": 1676188500.0,
+    "cal_time_max": 1676357400.0,
+    "fit_label_counts": {
+      "-1": 1697
+    },
+    "cal_label_counts": {
+      "-1": 564
+    }
+  },
+  {
+    "context": "static__cell_data|device=r0s_SM-S901B|MNO=B|network=4G|username=Static3",
+    "fit_n": 5,
+    "calibration_n": 2,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1675510500.0,
+    "fit_time_max": 1675707300.0,
+    "cal_time_min": 1675751100.0,
+    "cal_time_max": 1676117100.0,
+    "fit_label_counts": {
+      "-1": 5
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "static__cell_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|username=Static3",
+    "fit_n": 545,
+    "calibration_n": 181,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1675346100.0,
+    "fit_time_max": 1675843500.0,
+    "cal_time_min": 1675843800.0,
+    "cal_time_max": 1676121600.0,
+    "fit_label_counts": {
+      "-1": 545
+    },
+    "cal_label_counts": {
+      "-1": 181
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM500Q-GL|MNO=<missing>|network=<missing>|username=Static2",
+    "fit_n": 6,
+    "calibration_n": 3,
+    "test_n": 4493,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1715903400.0,
+    "fit_time_max": 1718061000.0,
+    "cal_time_min": 1718341200.0,
+    "cal_time_max": 1719260400.0,
+    "fit_label_counts": {
+      "-1": 6
+    },
+    "cal_label_counts": {
+      "-1": 3
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=4G|username=Static2",
+    "fit_n": 222,
+    "calibration_n": 73,
+    "test_n": 27,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1715180400.0,
+    "fit_time_max": 1717395600.0,
+    "cal_time_min": 1717395900.0,
+    "cal_time_max": 1719399300.0,
+    "fit_label_counts": {
+      "-1": 222
+    },
+    "cal_label_counts": {
+      "-1": 73
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=5G NSA|username=Static2",
+    "fit_n": 13004,
+    "calibration_n": 4930,
+    "test_n": 3003,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1715158500.0,
+    "fit_time_max": 1719587700.0,
+    "cal_time_min": 1719587700.0,
+    "cal_time_max": 1721020500.0,
+    "fit_label_counts": {
+      "-1": 13004
+    },
+    "cal_label_counts": {
+      "-1": 4930
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static1",
+    "fit_n": 3580,
+    "calibration_n": 4903,
+    "test_n": 5448,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1715119800.0,
+    "fit_time_max": 1719587700.0,
+    "cal_time_min": 1719587700.0,
+    "cal_time_max": 1721020500.0,
+    "fit_label_counts": {
+      "-1": 3580
+    },
+    "cal_label_counts": {
+      "-1": 4903
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static3",
+    "fit_n": 23,
+    "calibration_n": 9,
+    "test_n": 1761,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1714755000.0,
+    "fit_time_max": 1718497500.0,
+    "cal_time_min": 1718537700.0,
+    "cal_time_max": 1719465600.0,
+    "fit_label_counts": {
+      "-1": 23
+    },
+    "cal_label_counts": {
+      "-1": 9
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static4",
+    "fit_n": 4195,
+    "calibration_n": 1802,
+    "test_n": 5116,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1714689900.0,
+    "fit_time_max": 1719587700.0,
+    "cal_time_min": 1719587700.0,
+    "cal_time_max": 1721020500.0,
+    "fit_label_counts": {
+      "-1": 4195
+    },
+    "cal_label_counts": {
+      "-1": 1802
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static1",
+    "fit_n": 9607,
+    "calibration_n": 3209,
+    "test_n": 2030,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1714139400.0,
+    "fit_time_max": 1717592400.0,
+    "cal_time_min": 1717592700.0,
+    "cal_time_max": 1718613000.0,
+    "fit_label_counts": {
+      "-1": 9607
+    },
+    "cal_label_counts": {
+      "-1": 3209
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static3",
+    "fit_n": 807,
+    "calibration_n": 272,
+    "test_n": 322,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1714461600.0,
+    "fit_time_max": 1718610300.0,
+    "cal_time_min": 1718610600.0,
+    "cal_time_max": 1719465600.0,
+    "fit_label_counts": {
+      "-1": 807
+    },
+    "cal_label_counts": {
+      "-1": 272
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static4",
+    "fit_n": 11280,
+    "calibration_n": 2404,
+    "test_n": 2026,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1713163200.0,
+    "fit_time_max": 1719055200.0,
+    "cal_time_min": 1720142400.0,
+    "cal_time_max": 1720945200.0,
+    "fit_label_counts": {
+      "-1": 11280
+    },
+    "cal_label_counts": {
+      "-1": 2404
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static1",
+    "fit_n": 1,
+    "calibration_n": 1,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1715124900.0,
+    "fit_time_max": 1715124900.0,
+    "cal_time_min": 1715125200.0,
+    "cal_time_max": 1715125200.0,
+    "fit_label_counts": {
+      "-1": 1
+    },
+    "cal_label_counts": {
+      "-1": 1
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static3",
+    "fit_n": 13103,
+    "calibration_n": 4397,
+    "test_n": 2545,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1714494000.0,
+    "fit_time_max": 1719465600.0,
+    "cal_time_min": 1719657300.0,
+    "cal_time_max": 1721020500.0,
+    "fit_label_counts": {
+      "-1": 13103
+    },
+    "cal_label_counts": {
+      "-1": 4397
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static4",
+    "fit_n": 48,
+    "calibration_n": 16,
+    "test_n": 81,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1713825300.0,
+    "fit_time_max": 1716292800.0,
+    "cal_time_min": 1716293400.0,
+    "cal_time_max": 1717604400.0,
+    "fit_label_counts": {
+      "-1": 48
+    },
+    "cal_label_counts": {
+      "-1": 16
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=4G|username=Static3",
+    "fit_n": 4,
+    "calibration_n": 2,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1715124000.0,
+    "fit_time_max": 1716936300.0,
+    "cal_time_min": 1716936600.0,
+    "cal_time_max": 1716936900.0,
+    "fit_label_counts": {
+      "-1": 4
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=<missing>|username=Static3",
+    "fit_n": 5,
+    "calibration_n": 2,
+    "test_n": 0,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1715124000.0,
+    "fit_time_max": 1716936300.0,
+    "cal_time_min": 1716936600.0,
+    "cal_time_max": 1716936900.0,
+    "fit_label_counts": {
+      "-1": 5
+    },
+    "cal_label_counts": {
+      "-1": 2
+    }
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=4G|username=Static1",
+    "fit_n": 1,
+    "calibration_n": 0,
+    "test_n": 0,
+    "policy": "no_separate_calibration",
+    "fit_time_min": 1715124900.0,
+    "fit_time_max": 1715124900.0,
+    "cal_time_min": null,
+    "cal_time_max": null,
+    "fit_label_counts": {
+      "-1": 1
+    },
+    "cal_label_counts": {}
+  },
+  {
+    "context": "static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=<missing>|username=Static4",
+    "fit_n": 1,
+    "calibration_n": 0,
+    "test_n": 0,
+    "policy": "no_separate_calibration",
+    "fit_time_min": 1714689900.0,
+    "fit_time_max": 1714689900.0,
+    "cal_time_min": null,
+    "cal_time_max": null,
+    "fit_label_counts": {
+      "-1": 1
+    },
+    "cal_label_counts": {}
+  }
+]

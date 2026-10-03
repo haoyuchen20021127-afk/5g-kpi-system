@@ -1,0 +1,136 @@
+﻿context,feature,fit_observed,test_observed,fit_median,test_median,benign_test_median,test_outside_fit_range_fraction,fit_unique
+static__cell_data|device=o1s_SM-G991B|MNO=<missing>|network=5G NSA|username=Static2,rsrp,1,0,-93.0,,,,1
+static__cell_data|device=o1s_SM-G991B|MNO=<missing>|network=5G NSA|username=Static2,rsrq,0,0,,,,,0
+static__cell_data|device=o1s_SM-G991B|MNO=<missing>|network=5G NSA|username=Static2,sinr,1,0,0.0,,,,1
+static__cell_data|device=o1s_SM-G991B|MNO=<missing>|network=5G NSA|username=Static2,ss_rsrp,1,0,-117.0,,,,1
+static__cell_data|device=o1s_SM-G991B|MNO=<missing>|network=5G NSA|username=Static2,ss_sinr,1,0,0.0,,,,1
+static__cell_data|device=o1s_SM-G991B|MNO=A|network=4G|username=Static1,rsrp,83,0,-108.64957264957265,,,,81
+static__cell_data|device=o1s_SM-G991B|MNO=A|network=4G|username=Static1,rsrq,83,0,-9.983050847457626,,,,78
+static__cell_data|device=o1s_SM-G991B|MNO=A|network=4G|username=Static1,sinr,83,0,5.705882352941177,,,,82
+static__cell_data|device=o1s_SM-G991B|MNO=A|network=4G|username=Static1,ss_rsrp,1,0,-123.93939393939394,,,,1
+static__cell_data|device=o1s_SM-G991B|MNO=A|network=4G|username=Static1,ss_sinr,1,0,-2.9393939393939394,,,,1
+static__cell_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|username=Static1,rsrp,69,0,-102.03960396039604,,,,46
+static__cell_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|username=Static1,rsrq,69,0,-9.458333333333334,,,,69
+static__cell_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|username=Static1,sinr,69,0,-1.2820512820512822,,,,67
+static__cell_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|username=Static1,ss_rsrp,0,0,,,,,0
+static__cell_data|device=o1s_SM-G991B|MNO=A|network=5G NSA|username=Static1,ss_sinr,0,0,,,,,0
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static1,rsrp,4,0,-102.0,,,,3
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static1,rsrq,4,0,-11.25,,,,3
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static1,sinr,4,0,-0.75,,,,4
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static1,ss_rsrp,0,0,,,,,0
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static1,ss_sinr,0,0,,,,,0
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static2,rsrp,10,0,-109.25,,,,9
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static2,rsrq,10,0,-11.0,,,,6
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static2,sinr,10,0,0.5,,,,8
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static2,ss_rsrp,9,0,-117.0,,,,6
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=4G|username=Static2,ss_sinr,9,0,1.0,,,,7
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static1,rsrp,382,0,-101.45316732197466,,,,314
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static1,rsrq,382,0,-11.275350140056023,,,,353
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static1,sinr,382,0,1.1226524254561636,,,,369
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static1,ss_rsrp,0,0,,,,,0
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static1,ss_sinr,0,0,,,,,0
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static2,rsrp,1976,0,-106.13260073260074,,,,1483
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static2,rsrq,1976,0,-11.362770562770564,,,,1703
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static2,sinr,1976,0,0.6985065054059006,,,,1781
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static2,ss_rsrp,1951,0,-118.0,,,,27
+static__cell_data|device=o1s_SM-G991B|MNO=B|network=5G NSA|username=Static2,ss_sinr,1951,0,0.0,,,,26
+static__cell_data|device=r0s_SM-S901B|MNO=A|network=4G|username=Static4,rsrp,4,0,-94.5,,,,4
+static__cell_data|device=r0s_SM-S901B|MNO=A|network=4G|username=Static4,rsrq,4,0,-5.5,,,,2
+static__cell_data|device=r0s_SM-S901B|MNO=A|network=4G|username=Static4,sinr,4,0,2.0,,,,3
+static__cell_data|device=r0s_SM-S901B|MNO=A|network=4G|username=Static4,ss_rsrp,4,0,-91.0,,,,3
+static__cell_data|device=r0s_SM-S901B|MNO=A|network=4G|username=Static4,ss_sinr,4,0,11.5,,,,4
+static__cell_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|username=Static4,rsrp,1697,0,-95.55384615384615,,,,1359
+static__cell_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|username=Static4,rsrq,1697,0,-5.241666666666666,,,,1233
+static__cell_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|username=Static4,sinr,1697,0,1.3524590163934427,,,,1079
+static__cell_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|username=Static4,ss_rsrp,1697,0,-100.13821138211382,,,,585
+static__cell_data|device=r0s_SM-S901B|MNO=A|network=5G NSA|username=Static4,ss_sinr,1697,0,11.515625,,,,584
+static__cell_data|device=r0s_SM-S901B|MNO=B|network=4G|username=Static3,rsrp,5,0,-74.5,,,,5
+static__cell_data|device=r0s_SM-S901B|MNO=B|network=4G|username=Static3,rsrq,5,0,-10.0,,,,5
+static__cell_data|device=r0s_SM-S901B|MNO=B|network=4G|username=Static3,sinr,5,0,14.0,,,,3
+static__cell_data|device=r0s_SM-S901B|MNO=B|network=4G|username=Static3,ss_rsrp,5,0,-69.0,,,,5
+static__cell_data|device=r0s_SM-S901B|MNO=B|network=4G|username=Static3,ss_sinr,5,0,22.0,,,,2
+static__cell_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|username=Static3,rsrp,545,0,-70.7258064516129,,,,465
+static__cell_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|username=Static3,rsrq,544,0,-6.813813025210084,,,,472
+static__cell_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|username=Static3,sinr,545,0,2.145631067961165,,,,280
+static__cell_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|username=Static3,ss_rsrp,538,0,-71.0,,,,24
+static__cell_data|device=r0s_SM-S901B|MNO=B|network=5G NSA|username=Static3,ss_sinr,538,0,22.0,,,,9
+static__cell_data|device=x86_64_RM500Q-GL|MNO=<missing>|network=<missing>|username=Static2,rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM500Q-GL|MNO=<missing>|network=<missing>|username=Static2,rsrq,0,0,,,,,0
+static__cell_data|device=x86_64_RM500Q-GL|MNO=<missing>|network=<missing>|username=Static2,sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM500Q-GL|MNO=<missing>|network=<missing>|username=Static2,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM500Q-GL|MNO=<missing>|network=<missing>|username=Static2,ss_sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=4G|username=Static2,rsrp,222,27,-97.05140186915888,-88.0,,0.0,191
+static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=4G|username=Static2,rsrq,220,27,-8.698264352469959,-10.57943925233645,,0.037037037037037035,199
+static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=4G|username=Static2,sinr,222,27,10.411250873515023,10.545454545454545,,0.0,180
+static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=4G|username=Static2,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=4G|username=Static2,ss_sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=5G NSA|username=Static2,rsrp,13004,3003,-77.0,-81.0,,0.0,4903
+static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=5G NSA|username=Static2,rsrq,13004,3003,-8.76984126984127,-8.96694214876033,,0.000333000333000333,6246
+static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=5G NSA|username=Static2,sinr,13004,3003,17.064309346567413,16.181818181818183,,0.000333000333000333,6137
+static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=5G NSA|username=Static2,ss_rsrp,13003,3003,-79.0,-83.0,,0.001665001665001665,1132
+static__cell_data|device=x86_64_RM500Q-GL|MNO=A|network=5G NSA|username=Static2,ss_sinr,13003,3003,29.0,27.541666666666668,,0.001332001332001332,4259
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static1,rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static1,rsrq,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static1,sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static1,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static1,ss_sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static3,rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static3,rsrq,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static3,sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static3,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static3,ss_sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static4,rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static4,rsrq,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static4,sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static4,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=<missing>|network=<missing>|username=Static4,ss_sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static1,rsrp,9607,2030,-99.0072463768116,-98.64179104477611,,0.001477832512315271,3505
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static1,rsrq,9607,2030,-9.442028985507246,-9.276119402985074,,0.0,3363
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static1,sinr,9607,2030,8.96,10.928205128205128,,0.0561576354679803,3371
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static1,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static1,ss_sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static3,rsrp,807,322,-97.14285714285714,-89.95418188141193,,0.0,717
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static3,rsrq,807,322,-11.08695652173913,-6.8634009942004965,,0.0,699
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static3,sinr,807,322,5.868421052631579,21.854808959156784,,0.040372670807453416,702
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static3,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static3,ss_sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static4,rsrp,11280,2026,-98.18561584840654,-99.63773069036228,,0.0,6158
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static4,rsrq,11280,2026,-8.639705882352942,-8.522727272727273,,0.0004935834155972359,5421
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static4,sinr,11280,2026,9.05224171539961,8.661654135338345,,0.0,5233
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static4,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=4G|username=Static4,ss_sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static1,rsrp,1,0,-104.15789473684211,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static1,rsrq,1,0,-13.921052631578947,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static1,sinr,1,0,9.578947368421053,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static1,ss_rsrp,1,0,-107.0,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static1,ss_sinr,1,0,11.013333333333334,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static3,rsrp,13103,2545,-90.01481481481481,-95.02857142857142,,0.0,6831
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static3,rsrq,13103,2545,-8.626865671641792,-8.961538461538462,,0.0,5857
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static3,sinr,13103,2545,17.778625954198475,16.045801526717558,,0.0,6168
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static3,ss_rsrp,13103,2545,-94.0,-94.3768115942029,,0.0011787819253438114,4313
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static3,ss_sinr,13102,2545,23.00763358778626,22.984732824427482,,0.0003929273084479371,3896
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static4,rsrp,48,81,-99.0,-100.0,,0.0,15
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static4,rsrq,48,81,-9.324675324675326,-9.4,,0.0,22
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static4,sinr,48,81,14.0,13.666666666666666,,0.0,19
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static4,ss_rsrp,48,81,-114.83333333333334,-115.33333333333333,,0.024691358024691357,20
+static__cell_data|device=x86_64_RM520N-EU|MNO=A|network=5G NSA|username=Static4,ss_sinr,33,63,-3.0,-1.3333333333333333,,0.0,21
+static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=4G|username=Static3,rsrp,4,0,-62.0,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=4G|username=Static3,rsrq,4,0,-9.2,,,,4
+static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=4G|username=Static3,sinr,4,0,19.55,,,,4
+static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=4G|username=Static3,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=4G|username=Static3,ss_sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=<missing>|username=Static3,rsrp,5,0,-77.6923076923077,,,,5
+static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=<missing>|username=Static3,rsrq,5,0,-11.0,,,,2
+static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=<missing>|username=Static3,sinr,5,0,22.384615384615383,,,,5
+static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=<missing>|username=Static3,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=B|network=<missing>|username=Static3,ss_sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=4G|username=Static1,rsrp,1,0,-94.77272727272727,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=4G|username=Static1,rsrq,1,0,-11.181818181818182,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=4G|username=Static1,sinr,1,0,10.545454545454545,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=4G|username=Static1,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=4G|username=Static1,ss_sinr,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=<missing>|username=Static4,rsrp,1,0,-76.25,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=<missing>|username=Static4,rsrq,1,0,-11.0,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=<missing>|username=Static4,sinr,1,0,20.0,,,,1
+static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=<missing>|username=Static4,ss_rsrp,0,0,,,,,0
+static__cell_data|device=x86_64_RM520N-EU|MNO=C|network=<missing>|username=Static4,ss_sinr,0,0,,,,,0

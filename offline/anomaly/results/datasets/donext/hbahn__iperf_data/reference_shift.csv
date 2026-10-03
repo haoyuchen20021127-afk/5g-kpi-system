@@ -1,0 +1,148 @@
+﻿context,feature,fit_observed,test_observed,fit_median,test_median,benign_test_median,test_outside_fit_range_fraction,fit_unique
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=0,rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=0,sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=0,ss_rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=0,ss_sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=0,datarate,63,10,11616075.852491468,11794192.944818709,,0.0,63
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=0,retransmissions,63,10,5.0,25.5,,0.0,28
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=0,tcp_mean_rtt_0,63,10,81900.0,302128.0,,0.1,63
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,ss_rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,ss_sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,datarate,41,14,37155639.80035164,20700733.032282323,,0.14285714285714285,41
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,retransmissions,41,14,0.0,150.5,,0.0,13
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,tcp_mean_rtt_0,41,14,40391.9,51888.0,,0.0,41
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=0,rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=0,sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=0,ss_rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=0,ss_sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=0,datarate,34,3,16786407.110170618,13510876.848382495,,0.0,28
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=1,rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=1,sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=1,ss_rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=1,ss_sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=1,datarate,35,7,190582916.2510631,100930443.56795496,,0.0,35
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=<missing>|network=<missing>|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=0,rsrp,171,0,-91.0,,,,44
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=0,sinr,171,0,11.0,,,,17
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=0,ss_rsrp,166,0,-88.0,,,,42
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=0,ss_sinr,166,0,15.0,,,,40
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=0,datarate,171,0,18918407.289790567,,,,171
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=0,retransmissions,171,0,0.0,,,,7
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=0,tcp_mean_rtt_0,171,0,44489.0,,,,171
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=1,rsrp,170,0,-90.0,,,,42
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=1,sinr,170,0,10.0,,,,19
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=1,ss_rsrp,166,0,-86.0,,,,47
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=1,ss_sinr,166,0,15.75,,,,42
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=1,datarate,170,0,39943414.89396918,,,,170
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=1,retransmissions,170,0,0.0,,,,23
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=tcp|direction=1,tcp_mean_rtt_0,170,0,36084.5,,,,169
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=0,rsrp,88,0,-92.5,,,,31
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=0,sinr,88,0,11.0,,,,12
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=0,ss_rsrp,84,0,-89.0,,,,36
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=0,ss_sinr,84,0,15.0,,,,28
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=0,datarate,88,0,50349034.93401079,,,,87
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=1,rsrp,87,0,-88.0,,,,32
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=1,sinr,87,0,12.0,,,,13
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=1,ss_rsrp,86,0,-82.0,,,,35
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=1,ss_sinr,86,0,16.5,,,,29
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=1,datarate,87,0,268674920.5285322,,,,87
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=5G NSA|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=0,rsrp,7004,1381,-90.0,-88.66666666666667,,0.002896451846488052,339
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=0,sinr,7004,1381,11.5,11.0,,0.0,163
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=0,ss_rsrp,6942,1374,-86.33333333333333,-85.0,,0.005822416302765648,341
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=0,ss_sinr,6941,1374,16.0,20.0,,0.0,288
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=0,datarate,6978,1353,27014766.904824656,25039968.86468218,,0.0,6970
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=0,retransmissions,6984,1357,0.0,0.5,,0.0,459
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=0,tcp_mean_rtt_0,6984,1356,60531.816666666666,99114.1,,0.0029498525073746312,6932
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=1,rsrp,7090,1428,-90.0,-88.5,,0.0,351
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=1,sinr,7090,1428,11.5,11.0,,0.0,157
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=1,ss_rsrp,7027,1414,-86.6,-85.0,,0.0,358
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=1,ss_sinr,7026,1414,15.666666666666666,19.25,,0.0,287
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=1,datarate,7090,1428,73853122.55913158,42316088.26336753,,0.0,7090
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=1,retransmissions,7090,1428,0.0,125.375,,0.0,2181
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=tcp|direction=1,tcp_mean_rtt_0,7090,1428,40833.1,41907.2125,,0.0,6992
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=0,rsrp,4984,1015,-90.0,-88.33333333333333,,0.0,195
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=0,sinr,4984,1015,11.5,11.0,,0.0,95
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=0,ss_rsrp,4916,1004,-87.0,-85.0,,0.00099601593625498,216
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=0,ss_sinr,4912,1004,16.0,19.833333333333336,,0.00199203187250996,174
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=0,datarate,4932,997,63174220.76889007,46747226.12538059,,0.0,4819
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=1,rsrp,4924,944,-90.0,-88.0,,0.0,191
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=1,sinr,4924,944,11.333333333333334,11.0,,0.0,98
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=1,ss_rsrp,4858,931,-86.5,-84.0,,0.0,206
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=1,ss_sinr,4858,929,16.0,20.0,,0.001076426264800861,161
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=1,datarate,4924,944,257315747.8271504,200625306.8310215,,0.00211864406779661,4922
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_RM500Q-GL|MNO=C|network=<missing>|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,ss_rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,ss_sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,datarate,0,1,,163683235.78000352,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,retransmissions,0,1,,1076.0,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=tcp|direction=1,tcp_mean_rtt_0,0,1,,73809.0,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=udp|direction=0,rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=udp|direction=0,sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=udp|direction=0,ss_rsrp,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=udp|direction=0,ss_sinr,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=udp|direction=0,datarate,1,0,62940481.98437148,,,,1
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=<missing>|network=<missing>|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=0,rsrp,2,0,-88.5,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=0,sinr,2,0,11.5,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=0,ss_rsrp,2,0,-79.0,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=0,ss_sinr,2,0,20.0,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=0,datarate,2,0,30699898.081018567,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=0,retransmissions,2,0,0.0,,,,1
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=0,tcp_mean_rtt_0,2,0,72535.5,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=1,rsrp,2,0,-95.5,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=1,sinr,2,0,9.0,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=1,ss_rsrp,2,0,-89.0,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=1,ss_sinr,2,0,18.5,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=1,datarate,2,0,98840235.14420718,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=1,retransmissions,2,0,0.0,,,,1
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=tcp|direction=1,tcp_mean_rtt_0,2,0,41215.95,,,,2
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=udp|direction=1,rsrp,1,0,-99.0,,,,1
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=udp|direction=1,sinr,1,0,9.0,,,,1
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=udp|direction=1,ss_rsrp,1,0,-89.0,,,,1
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=udp|direction=1,ss_sinr,1,0,19.0,,,,1
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=udp|direction=1,datarate,1,0,232858413.3292612,,,,1
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=5G NSA|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=0,rsrp,181,132,-91.0,-89.33333333333333,,0.10606060606060606,68
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=0,sinr,181,132,11.0,11.0,,0.0,38
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=0,ss_rsrp,181,131,-86.66666666666667,-84.0,,0.007633587786259542,56
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=0,ss_sinr,181,131,16.0,21.5,,0.0,64
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=0,datarate,181,130,29866745.3628325,23624232.934182856,,0.015384615384615385,181
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=0,retransmissions,181,131,0.0,0.0,,0.007633587786259542,43
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=0,tcp_mean_rtt_0,181,131,60468.5,89538.0,,0.015267175572519083,181
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=1,rsrp,177,136,-91.0,-88.83333333333334,,0.04411764705882353,68
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=1,sinr,177,136,11.0,11.5,,0.0,38
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=1,ss_rsrp,176,136,-86.25,-84.0,,0.022058823529411766,54
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=1,ss_sinr,176,136,15.833333333333332,20.416666666666664,,0.0,64
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=1,datarate,177,136,73754450.83815873,93658932.35830839,,0.029411764705882353,177
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=1,retransmissions,177,136,0.0,2.5,,0.007352941176470588,49
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=tcp|direction=1,tcp_mean_rtt_0,177,136,39758.5,44449.95,,0.007352941176470588,177
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=0,rsrp,114,96,-91.0,-89.41666666666666,,0.020833333333333332,51
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=0,sinr,114,96,11.0,11.0,,0.020833333333333332,26
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=0,ss_rsrp,114,94,-87.75,-84.0,,0.05319148936170213,42
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=0,ss_sinr,114,94,16.0,21.75,,0.0,45
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=0,datarate,114,94,65786800.81626412,48610747.46186024,,0.0,113
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=0,retransmissions,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=0,tcp_mean_rtt_0,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=1,rsrp,117,91,-91.0,-89.0,,0.04395604395604396,46
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=1,sinr,117,91,12.0,12.0,,0.01098901098901099,23
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=1,ss_rsrp,117,91,-84.0,-83.0,,0.03296703296703297,38
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=1,ss_sinr,117,91,18.0,22.0,,0.02197802197802198,40
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=1,datarate,117,91,300252108.24912214,261147398.49905515,,0.0,117
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=1,retransmissions,0,0,,,,,0
+hbahn__iperf_data|device=armv7l_none|MNO=C|network=<missing>|protocol=udp|direction=1,tcp_mean_rtt_0,0,0,,,,,0

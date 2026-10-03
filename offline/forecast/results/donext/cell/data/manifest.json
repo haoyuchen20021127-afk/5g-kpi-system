@@ -1,0 +1,130 @@
+{
+  "task": "donext/cell",
+  "targets": [
+    "RSRP",
+    "RSRQ",
+    "SINR",
+    "CQI"
+  ],
+  "raw": [
+    "rsrp",
+    "rsrq",
+    "sinr",
+    "cqi"
+  ],
+  "window": 12,
+  "resolution": "5 minutes",
+  "stems": [
+    "hbahn__cell_data",
+    "mobile__cell_data",
+    "static__cell_data"
+  ],
+  "groups": [],
+  "split_rows": {
+    "train": 15940,
+    "validation": 3394,
+    "test": 3266
+  },
+  "adjacent_pairs_checked": 22348,
+  "flat_sequence_exact_equality": true,
+  "X_sha256": "3b37b572ddbe6522ed5768e70735490708e3265a6e640f0eb2d182257419b6a6",
+  "Y_sha256": "838759277145475e2547f4cce49dc434b49e80416b1b34f7a75e4ce17a860a1f",
+  "sequence_count": 252,
+  "sources": [
+    {
+      "path": "E:\\5G_Project\\week3\\data\\processed_data\\donext\\zscore\\hbahn__cell_data.csv.gz",
+      "sha256": "bbc0bd89f5ef60a4b93769fa9383a52be12eff75dedc8b6a3a8e8a9102ed6865",
+      "rows_read": 493875,
+      "rows_excluded_invalid_common_observation": 0,
+      "bins": 12839
+    },
+    {
+      "path": "E:\\5G_Project\\week3\\data\\processed_data\\donext\\zscore\\mobile__cell_data.csv.gz",
+      "sha256": "8ca5b44c190ee107abc62eb20274833320758ed1176ad21f15e808d5083c4b16",
+      "rows_read": 2756720,
+      "rows_excluded_invalid_common_observation": 0,
+      "bins": 12729
+    },
+    {
+      "path": "E:\\5G_Project\\week3\\data\\processed_data\\donext\\zscore\\static__cell_data.csv.gz",
+      "sha256": "04bab87d928f10d8b6ff6da8e5da406980b2b5a6335f39bff300f7f02c6c60dd",
+      "rows_read": 9725885,
+      "rows_excluded_invalid_common_observation": 0,
+      "bins": 109590
+    }
+  ],
+  "construction": "joint observations from each existing Z-score source table; 5-minute means; no added filling",
+  "split_policy": "within each continuous source/entity/business segment, chronological 70/15/15 after warmup",
+  "organization_audit": {
+    "input_bins": 135158,
+    "segments_total": 13450,
+    "segments_retained": 252,
+    "bins_in_short_segments": 109534,
+    "warmup_bins": 3024
+  },
+  "entity_limit": "source-provided series identifiers; device strings may identify models rather than unique physical devices",
+  "n_samples": 22600,
+  "input_shape": [
+    22600,
+    12,
+    4
+  ],
+  "output_shape": [
+    22600,
+    4
+  ],
+  "flat_feature_order": [
+    "lag_12__RSRP",
+    "lag_12__RSRQ",
+    "lag_12__SINR",
+    "lag_12__CQI",
+    "lag_11__RSRP",
+    "lag_11__RSRQ",
+    "lag_11__SINR",
+    "lag_11__CQI",
+    "lag_10__RSRP",
+    "lag_10__RSRQ",
+    "lag_10__SINR",
+    "lag_10__CQI",
+    "lag_9__RSRP",
+    "lag_9__RSRQ",
+    "lag_9__SINR",
+    "lag_9__CQI",
+    "lag_8__RSRP",
+    "lag_8__RSRQ",
+    "lag_8__SINR",
+    "lag_8__CQI",
+    "lag_7__RSRP",
+    "lag_7__RSRQ",
+    "lag_7__SINR",
+    "lag_7__CQI",
+    "lag_6__RSRP",
+    "lag_6__RSRQ",
+    "lag_6__SINR",
+    "lag_6__CQI",
+    "lag_5__RSRP",
+    "lag_5__RSRQ",
+    "lag_5__SINR",
+    "lag_5__CQI",
+    "lag_4__RSRP",
+    "lag_4__RSRQ",
+    "lag_4__SINR",
+    "lag_4__CQI",
+    "lag_3__RSRP",
+    "lag_3__RSRQ",
+    "lag_3__SINR",
+    "lag_3__CQI",
+    "lag_2__RSRP",
+    "lag_2__RSRQ",
+    "lag_2__SINR",
+    "lag_2__CQI",
+    "lag_1__RSRP",
+    "lag_1__RSRQ",
+    "lag_1__SINR",
+    "lag_1__CQI"
+  ],
+  "unit": "z-score",
+  "new_scaling_or_imputation": false,
+  "input_contract": "all models receive exactly the same X values; traditional estimators use C-order flattening",
+  "limitation": "Inherited full-source preprocessing statistics; not an end-to-end leakage-free deployment benchmark."
+}

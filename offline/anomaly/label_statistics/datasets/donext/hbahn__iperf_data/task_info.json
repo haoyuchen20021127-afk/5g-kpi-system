@@ -1,0 +1,35 @@
+{
+  "dataset": "donext",
+  "task": "hbahn__iperf_data",
+  "label_scope": "unlabelled",
+  "test_n": 5265,
+  "features": [
+    "datarate",
+    "rsrp",
+    "sinr",
+    "ss_rsrp",
+    "ss_sinr",
+    "retransmissions",
+    "tcp_mean_rtt_0"
+  ],
+  "methods": [
+    "three_sigma",
+    "iqr",
+    "isolation_forest",
+    "one_class_svm"
+  ],
+  "context_n": 13,
+  "labels": {
+    "unlabelled": 5265
+  },
+  "input_sha256": {
+    "task_manifest.json": "5ddd30b627ea982294ba7dd876f8ca73ac8cdb737c3f1951aa7a39f80c57e120",
+    "kpi_summary.csv": "46a2103c9d1fc887e780f7d9a078bb01eda71216934de82389d257c81c02e8b3",
+    "test_predictions.csv.gz": "78637664f47b5f1ba02cb9b9b47cdb22a9dcd9d064e37fce13470c76ce2edea4"
+  },
+  "output_record_file": "datasets\\donext\\hbahn__iperf_data\\record_or_predictions.csv.gz",
+  "attack_subcategory_supplement": {
+    "available": false
+  },
+  "source_predictions_unchanged": true
+}

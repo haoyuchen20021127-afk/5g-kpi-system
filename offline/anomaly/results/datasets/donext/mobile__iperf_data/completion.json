@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "rows_prepared": 39962,
+  "rows_test": 4808,
+  "selected_features": [
+    "datarate",
+    "rsrp",
+    "sinr",
+    "retransmissions",
+    "tcp_mean_rtt_0"
+  ],
+  "operation": "reuse_independent_per_kpi_results_no_new_training",
+  "source_files_unchanged": true,
+  "all_test_records_preserved": true,
+  "fit_calibration_test_row_ids_disjoint": true,
+  "selection_seconds": 6.216
+}

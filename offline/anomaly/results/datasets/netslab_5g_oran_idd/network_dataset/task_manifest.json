@@ -1,0 +1,148 @@
+{
+  "dataset": "netslab_5g_oran_idd",
+  "task_id": "network_dataset",
+  "features": [
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "src_pkts",
+    "dst_pkts"
+  ],
+  "group_col": "context",
+  "label_scope": "attack_state",
+  "source_coverage": [
+    {
+      "source": "network_dataset",
+      "rows": 1723817,
+      "test_rows": 278816,
+      "normal_train_rows": 119553,
+      "normal_calibration_rows": 25345,
+      "known_test_rows": 278816,
+      "unknown_test_rows": 0,
+      "time_available": false,
+      "evaluation_status": "fixed_held_out_rows_available",
+      "split_label_counts": [
+        {
+          "split": "test",
+          "label": 0,
+          "rows": 25967
+        },
+        {
+          "split": "test",
+          "label": 1,
+          "rows": 252849
+        },
+        {
+          "split": "train",
+          "label": 0,
+          "rows": 119553
+        },
+        {
+          "split": "train",
+          "label": 1,
+          "rows": 1060249
+        },
+        {
+          "split": "validation",
+          "label": 0,
+          "rows": 25345
+        },
+        {
+          "split": "validation",
+          "label": 1,
+          "rows": 239854
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Only explicit benign training labels may fit a normal reference; only explicit benign validation labels may calibrate it.",
+    "Test labels and test values must not select models, fit transforms, or choose alert thresholds.",
+    "Unknown/background label -1 is not benign and is excluded from attack-classification metrics.",
+    "Record-level attack labels are not individual-KPI anomaly truth.",
+    "All rows and original train/validation/test assignments are retained, including repeated numeric observations.",
+    "No source timestamp is available. The time column is source-row position for display only, not elapsed or chronological time.",
+    "Original splits group full numeric feature patterns by hash; no temporal or new-device generalization claim is supported.",
+    "Each network protocol has its own normal reference and calibration: TCP, UDP, ICMP, and unknown_transport are never pooled.",
+    "Sparse/unknown protocol contexts may be not applicable; no fallback borrows a reference from other protocols.",
+    "Raw protocol and service fields are retained as descriptive metadata, not numeric distances.",
+    "Three binary flags are omitted from continuous-KPI 3-sigma/IQR modelling; binary state transitions are not continuous magnitude anomalies."
+  ],
+  "quality": [],
+  "config": {
+    "alpha": 0.05,
+    "min_fit": 100,
+    "min_cal": 50,
+    "min_model_unique": 5,
+    "max_ml_fit": 6000,
+    "seed": 42,
+    "if_trees": 200,
+    "svm_nu": 0.05,
+    "svm_tol": 1e-07,
+    "svm_max_iter": 100000,
+    "iqr_score_policy": "native_fence_distance"
+  },
+  "methods": [
+    "three_sigma",
+    "iqr",
+    "isolation_forest",
+    "one_class_svm"
+  ],
+  "rows_prepared": 1723817,
+  "rows_test": 278816,
+  "rows_calibration": 25345,
+  "interpretation": "Retrospective calibrated exploration; calibration fraction is not independent performance or a guaranteed future false-positive rate.",
+  "input_imputation": {
+    "enabled": true,
+    "rule": "fit-reference mode for CQI/RI/pcmax; median for other KPIs; per-context",
+    "original_observations_preserved": true,
+    "clipping": false,
+    "threshold_evidence_counts": "observed before imputation",
+    "prediction_value_columns": "feature__model_input",
+    "imputation_flag_columns": "feature__input_imputed",
+    "no_fit_observations": "leave missing and unscored; do not borrow calibration/test values",
+    "qualification": "Predictions on imputed values are model outputs for estimates, not measured KPI health."
+  },
+  "source_training_seconds": 97.96,
+  "selected_feature_policy": {
+    "features": [
+      "duration",
+      "src_bytes",
+      "dst_bytes",
+      "src_pkts",
+      "dst_pkts"
+    ],
+    "reasons": {
+      "duration": "连接或流持续时间是核心流行为指标；不将其误称为单包端到端时延。",
+      "src_bytes": "源方向字节量描述一个流的业务规模。",
+      "dst_bytes": "目的方向字节量描述反方向业务规模，保留方向差异。",
+      "src_pkts": "源方向报文数反映流的报文负载。",
+      "dst_pkts": "目的方向报文数反映反方向负载及响应规模。"
+    },
+    "excluded_features": [
+      "missed_bytes",
+      "src_ip_bytes",
+      "dst_ip_bytes",
+      "http_trans_depth",
+      "files_total_bytes"
+    ],
+    "excluded_reasons": {
+      "missed_bytes": "原拟合参考为常量，缺乏训练参考变化，不列入核心性能集合。",
+      "src_ip_bytes": "与已选源方向字节量部分重复，避免同一流量规模被多个近似指标重复计入OR。",
+      "dst_ip_bytes": "与已选目的方向字节量部分重复，避免同一流量规模被多个近似指标重复计入OR。",
+      "http_trans_depth": "HTTP事务深度具有应用协议专属性，不是跨TCP/UDP/ICMP共同性能KPI。",
+      "files_total_bytes": "文件传输字节量具有应用场景专属性，核心流量规模由方向字节量表示。"
+    },
+    "selection_input": "explicit_predefined_policy",
+    "selection_uses_test_outcomes": false,
+    "rows_selected_or_removed": false,
+    "unscored_flags_retained": true,
+    "source_metadata_quality_fields": "preserved source-level annotations; not selected-KPI missingness denominators"
+  },
+  "record_rule": "No record-level predictions are reused here. Run summarize_by_label separately for within-method any-applicable-KPI OR with undetermined records retained.",
+  "label_interpretation": "Dataset attack/benign labels are not per-KPI health truth; unknown and unlabelled records remain separate.",
+  "result_origin": "existing_independent_per_kpi_models_and_predictions_reused_without_refitting",
+  "source_results": "E:\\5G_Project\\week6\\交付物_填补输入版\\results\\datasets\\netslab_5g_oran_idd\\network_dataset",
+  "source_task_manifest_sha256": "651a6e56d0a5ff71c093b01db2087d214f03e804180aa7f68e94a0d0cf1ab780",
+  "selection_config_sha256": "69834e8f92d6eb03b441e900b0cdc28d35ee19b0ca3981a049f7698aa43a33ac"
+}

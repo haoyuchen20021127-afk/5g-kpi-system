@@ -1,77 +1,66 @@
-# GOTSF KPI 预测与异常检测系统
+# 5G KPI 工程：GOTSF Web + DONeXT / NetLab 离线实验
 
-这是第八周整理后的独立工程：保留 GOTSF 的交互式 LSTM 预测、4 种异常检测方法及必要数据和已训练模型。运行时不再访问 week5、week6、week7。旧工程保持原样，作为历史备份。
+本版在原 GOTSF 独立工程上增加 DONeXT 与 NetLab 的代码、已训练模型、模型实际使用的完整数据及原实验结果。**不包含 5G-Datasets，也不包含原始全量采集文件。**
 
-## 启动
+- **网页仍然只有 GOTSF**：交互式 LSTM 预测和四种异常检测，页面、计算逻辑、模型、阈值及资产保持不变。
+- **新增 offline/**：DONeXT 三组预测/八组检测；NetLab 一组预测/两组检测，支持命令行加载、复核和可选重训。
+- 旧 Week1–Week7 工程、原 GOTSF 文件夹及旧提交包保留，不删除、不覆盖。
 
-在本文件所在目录打开 PowerShell。如果沿用原项目的 Python 环境：
+## 先看哪里
+
+| 你要做的事 | 入口 |
+|---|---|
+| 运行 GOTSF 网页 | 根目录 app.py / start.ps1，见下面启动命令 |
+| 了解网页操作 | docs/用户操作说明.md |
+| 运行 DONeXT / NetLab 预测或检测 | offline/README.md |
+| 查看每个任务有哪些数据和多少样本 | offline/任务与数据清单.md |
+| 找预测样本、模型及历史指标 | offline/forecast/results/数据集/任务 |
+| 找检测观测、输入、模型及阈值 | offline/anomaly/results/datasets/数据集/任务 |
+| 查看技术报告 / PPT | docs/；原报告和八页 PPT 仍以 GOTSF Web 为主题，未扩写成多数据集网页报告 |
+
+## 在原电脑启动 GOTSF 网页
+
+在本文件所在目录打开 PowerShell：
 
 ```powershell
-.\start.ps1 -Python "E:\5G_Project\week5\.venv\Scripts\python.exe"
+& "E:\5G_Project\week5\.venv\Scripts\python.exe" -m streamlit run .\app.py --server.address 127.0.0.1 --server.port 8501 --browser.gatherUsageStats false
 ```
 
-也可以直接执行，避免 PowerShell 脚本执行策略限制：
+浏览器访问 http://127.0.0.1:8501。保持终端运行；停止按 Ctrl+C。端口占用时改为 --server.port 8502。也可使用 `start.ps1 -Python <解释器路径>`。
+命令中的 Week5 仅是借用已有 Python 环境；代码、数据和模型从本包读取，不依赖旧 Week4/5/6/7 的数据目录。
 
-```powershell
-& "E:\5G_Project\week5\.venv\Scripts\python.exe" -m streamlit run .\app.py --server.address 127.0.0.1 --browser.gatherUsageStats false
-```
+## 新电脑环境
 
-浏览器访问 http://127.0.0.1:8501 。终端需保持运行；停止时按 Ctrl+C。若 8501 已被占用，可在启动命令后加 `--server.port 8502`，相应访问 8502。
-
-换电脑时，建议创建独立 Python 环境并安装依赖：
+已验证环境为 Windows / Python 3.13.12。推理使用 CPU；无需 GPU。安装时需要网络，正常加载本地数据推理不需要下载模型。
 
 ```powershell
 python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe -m streamlit run app.py --server.address 127.0.0.1 --browser.gatherUsageStats false
+& ".\.venv\Scripts\python.exe" -m pip install -r ".\offline\requirements.txt"
+& ".\.venv\Scripts\python.exe" -m streamlit run .\app.py --server.address 127.0.0.1 --browser.gatherUsageStats false
 ```
 
-已验证环境是 Python 3.13.12。`torch==2.8.0` 不强制 CUDA，网页使用 CPU。新电脑全新安装尚未实测；若依赖版本不可用，不要随意替换后宣称结果一致，应重新运行测试。
+`offline/requirements.txt` 包含原网页依赖及离线 XGBoost/LightGBM 依赖。只运行 GOTSF 时可只安装根目录 requirements.txt。请保留已验证版本，勿默认升级；新电脑全新安装未实测。
 
-## 使用
+## 数据说明
 
-预测页面有两个模式。自定义模式先选择一个测试窗口，编辑过去 24 小时的 4 项 KPI，再点击比较预测；历史模式对 144 个测试窗口运行预测，再按时段、预测值、误差或 Top N 筛选。修改输入不会重新训练或写回原始数据。
+预测的 samples.npz 包含窗口输入 X 和真实目标 Y，sample_index.csv 保留既有 train/validation/test 划分；样本不是再次随机抽取的五条演示数据。
+异常检测的 prepared_observations.csv.gz、model_inputs.csv.gz 分别保留整理后的观测和实际检测输入，以及 split/phase、缺失标记与参考划分。
+两类数据粒度和尺度不同，不能直接混用；预测沿用 Z-score 尺度，检测使用各任务已定义的指标与上下文。
 
-异常检测也有两个模式。历史模式选择方法、小区、测试时段后运行，查看各 KPI 分数和记录级判定；自定义模式选一个已有小时，修改 4 个 KPI 的观测值后比较前后结果。任一项疑似异常，该小时即标为疑似异常。
-
-**两页不能共用输入。** 预测是网络级汇总的 Z-score；检测是小区级波束均值的源尺度，内部再去除日周期并缩放。检测不是针对 LSTM 预测值，分数不是异常概率。详见 `docs/用户操作说明.md`。
-
-## 目录
-
-| 路径 | 作用 |
-|---|---|
-| `app.py` | 页面导航入口 |
-| `app_pages/` | 两个页面的控件、交互和展示 |
-| `core/config.py` | 相对路径和 KPI 配置 |
-| `core/models.py` | 1 层、32 隐藏单元的 LSTM 结构 |
-| `core/prediction.py` | 输入校验、加载、推理、误差和图表 |
-| `core/detectors.py` | 3σ、IQR、孤立森林、One-Class SVM 的评分和离线拟合 |
-| `core/anomaly.py` | 小区数据、输入转换、检测、前后对比及记录级汇总 |
-| `assets/` | 必需的已处理数据、权重、阈值和训练清单 |
-| `scripts/retrain.py` | 可选离线重训，不由网页调用 |
-| `tests/` | 资产、推理、边界和页面交互测试 |
-| `evidence/` | 结果核对、文件哈希及历史实验指标 |
-| `docs/` | 技术报告、演示 PPT、操作说明和整理记录 |
-
-## 验证与离线重训
+## 验证
 
 ```powershell
-python -m unittest discover -s tests -v
-python -m scripts.retrain lstm --output runs/lstm_new
-python -m scripts.retrain detectors --output runs/detectors_new
+& "E:\5G_Project\week5\.venv\Scripts\python.exe" -m unittest discover -s tests -v
+& "E:\5G_Project\week5\.venv\Scripts\python.exe" .\offline\check_delivery.py --output .\runs\offline_check.json
 ```
 
-请将 `python` 换成实际环境解释器。重训要求新的输出目录，不覆盖交付模型，也不自动切换网页模型。LSTM 重训复用历史已选参数和 80 轮最终拟合，不重复原来的候选搜索；输入是已处理的样本，不是原始数据。CPU 与历史 CUDA 训练不保证逐位相同。
+结果文件必须使用新的路径。原 GOTSF 测试与新离线核验分开记录。详细验证范围、容差、限制及检查结果见 offline/verification，不把抽样回归说成全量重算。
 
-## 已知边界
+## 已知边界与交付
 
-- GOTSF 无人工故障标签，不能由异常比例推导准确率、召回率或误报率。
-- 预测沿用了早期全源数据统计的预处理，存在信息泄漏局限。表中误差用于复核已有离线实验，不是严格无泄漏部署基准。
-- 不提供实时采集、任意新小区、文件上传、自动根因确认或在线训练。相关性案例是离线分析材料。
-- 只加载本工程可信的 `.pt`、`.joblib`；不加载来历不明的模型文件。
-
-## Git 与交付
-
-本目录是本地 Git 仓库，没有配置远程地址，也没有上传 GitHub。提交包 ZIP 包含运行所需代码、资产和文档，但不包含虚拟环境或 `.git`。Git bundle 是可离线恢复历史的另一份交付：`git clone <bundle路径> gotsf-kpi-system`。
-
-未来公开发布前，请核实 GOTSF 数据及模型再分发条款。此交付只在本地整理，不新增许可声明。
+- 预测继承早期全来源统计预处理，存在信息泄漏局限；本次打包不消除该问题。
+- GOTSF/DONeXT 无故障真值；NetLab 状态标签不等于逐 KPI 健康真值。异常不等于确认故障，相关不等于原因。
+- 此次不改变历史划分、不调参、不重训全量模型。可选重训从已处理数据开始，不包含完整原始清洗流水线。
+- 不新增多数据集 Web、实时采集、任意新场景自动适配或自动根因诊断。
+- 本地 Git 仓库继承 GOTSF 交付历史；ZIP 不含 .git/虚拟环境/缓存，bundle 可恢复完整提交历史。
+- 没有配置或上传 GitHub。文件较大，未来公开上传需先处理大模型存储与数据再分发许可。

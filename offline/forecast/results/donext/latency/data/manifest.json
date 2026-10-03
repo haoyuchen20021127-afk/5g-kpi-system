@@ -1,0 +1,132 @@
+{
+  "task": "donext/latency",
+  "targets": [
+    "MeanLatency",
+    "RSRP",
+    "SINR",
+    "CQI"
+  ],
+  "raw": [
+    "mean_latency",
+    "rsrp",
+    "sinr",
+    "cqi"
+  ],
+  "window": 12,
+  "resolution": "5 minutes",
+  "stems": [
+    "hbahn__latency_data",
+    "mobile__latency_data",
+    "static__latency_data"
+  ],
+  "groups": [
+    "server_ip"
+  ],
+  "split_rows": {
+    "train": 66558,
+    "validation": 14172,
+    "test": 13628
+  },
+  "adjacent_pairs_checked": 93243,
+  "flat_sequence_exact_equality": true,
+  "X_sha256": "98c1bb32232f26db140e15025036a35cad57aae22aa1b5794614b6f2b88277b2",
+  "Y_sha256": "af856b4c1de96d8a2d10416520449eadf591586c0cf2c62b17e0eefe7558eeec",
+  "sequence_count": 1115,
+  "sources": [
+    {
+      "path": "E:\\5G_Project\\week3\\data\\processed_data\\donext\\zscore\\hbahn__latency_data.csv.gz",
+      "sha256": "3d058aee359a5cc2481d1de9f37e049f234465dfc0e6927895a252b33d7bac3a",
+      "rows_read": 1774786,
+      "rows_excluded_invalid_common_observation": 0,
+      "bins": 62256
+    },
+    {
+      "path": "E:\\5G_Project\\week3\\data\\processed_data\\donext\\zscore\\mobile__latency_data.csv.gz",
+      "sha256": "4851fd2e37cf46e1ad5ddccd7a1547a70b70dcc79dd173b0588d04653bf8964d",
+      "rows_read": 1465915,
+      "rows_excluded_invalid_common_observation": 0,
+      "bins": 50123
+    },
+    {
+      "path": "E:\\5G_Project\\week3\\data\\processed_data\\donext\\zscore\\static__latency_data.csv.gz",
+      "sha256": "8fa0e80eeabd2b9cc376e4f0986bca0780c0e5c719489616224e923169bc9987",
+      "rows_read": 4373649,
+      "rows_excluded_invalid_common_observation": 0,
+      "bins": 450987
+    }
+  ],
+  "construction": "joint observations from each existing Z-score source table; 5-minute means; no added filling",
+  "split_policy": "within each continuous source/entity/business segment, chronological 70/15/15 after warmup",
+  "organization_audit": {
+    "input_bins": 563366,
+    "segments_total": 54225,
+    "segments_retained": 1115,
+    "bins_in_short_segments": 455628,
+    "warmup_bins": 13380
+  },
+  "entity_limit": "source-provided series identifiers; device strings may identify models rather than unique physical devices",
+  "n_samples": 94358,
+  "input_shape": [
+    94358,
+    12,
+    4
+  ],
+  "output_shape": [
+    94358,
+    4
+  ],
+  "flat_feature_order": [
+    "lag_12__MeanLatency",
+    "lag_12__RSRP",
+    "lag_12__SINR",
+    "lag_12__CQI",
+    "lag_11__MeanLatency",
+    "lag_11__RSRP",
+    "lag_11__SINR",
+    "lag_11__CQI",
+    "lag_10__MeanLatency",
+    "lag_10__RSRP",
+    "lag_10__SINR",
+    "lag_10__CQI",
+    "lag_9__MeanLatency",
+    "lag_9__RSRP",
+    "lag_9__SINR",
+    "lag_9__CQI",
+    "lag_8__MeanLatency",
+    "lag_8__RSRP",
+    "lag_8__SINR",
+    "lag_8__CQI",
+    "lag_7__MeanLatency",
+    "lag_7__RSRP",
+    "lag_7__SINR",
+    "lag_7__CQI",
+    "lag_6__MeanLatency",
+    "lag_6__RSRP",
+    "lag_6__SINR",
+    "lag_6__CQI",
+    "lag_5__MeanLatency",
+    "lag_5__RSRP",
+    "lag_5__SINR",
+    "lag_5__CQI",
+    "lag_4__MeanLatency",
+    "lag_4__RSRP",
+    "lag_4__SINR",
+    "lag_4__CQI",
+    "lag_3__MeanLatency",
+    "lag_3__RSRP",
+    "lag_3__SINR",
+    "lag_3__CQI",
+    "lag_2__MeanLatency",
+    "lag_2__RSRP",
+    "lag_2__SINR",
+    "lag_2__CQI",
+    "lag_1__MeanLatency",
+    "lag_1__RSRP",
+    "lag_1__SINR",
+    "lag_1__CQI"
+  ],
+  "unit": "z-score",
+  "new_scaling_or_imputation": false,
+  "input_contract": "all models receive exactly the same X values; traditional estimators use C-order flattening",
+  "limitation": "Inherited full-source preprocessing statistics; not an end-to-end leakage-free deployment benchmark."
+}

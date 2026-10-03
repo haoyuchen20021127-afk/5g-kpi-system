@@ -1,0 +1,54 @@
+{
+  "cuda_replay_passed": true,
+  "cuda_atol": 1e-06,
+  "cuda_rtol": 1e-06,
+  "cpu_comparison_atol": 2e-05,
+  "cpu_comparison_rtol": 2e-05,
+  "checks": [
+    {
+      "task": "donext/cell",
+      "model": "LSTM",
+      "seed": 42,
+      "rows": 3266,
+      "cuda_replay_passed": true,
+      "cuda_max_absolute_difference": 4.995115432393504e-12,
+      "cpu_max_absolute_difference": 1.5020370000007333e-05,
+      "cpu_exceeding_strict_tolerance": 0,
+      "total_scalar_predictions": 13064
+    },
+    {
+      "task": "donext/iperf",
+      "model": "LSTM",
+      "seed": 42,
+      "rows": 2383,
+      "cuda_replay_passed": true,
+      "cuda_max_absolute_difference": 4.99755792304768e-12,
+      "cpu_max_absolute_difference": 1.0252000000043893e-05,
+      "cpu_exceeding_strict_tolerance": 0,
+      "total_scalar_predictions": 9532
+    },
+    {
+      "task": "donext/latency",
+      "model": "LSTM",
+      "seed": 42,
+      "rows": 13628,
+      "cuda_replay_passed": true,
+      "cuda_max_absolute_difference": 5.000000413701855e-12,
+      "cpu_max_absolute_difference": 2.9712916000013134e-05,
+      "cpu_exceeding_strict_tolerance": 1,
+      "total_scalar_predictions": 54512
+    },
+    {
+      "task": "netslab_5g_oran_idd/joint_kpi",
+      "model": "LSTM",
+      "seed": 42,
+      "rows": 6234,
+      "cuda_replay_passed": true,
+      "cuda_max_absolute_difference": 5.000000413701855e-12,
+      "cpu_max_absolute_difference": 8.10623000013777e-06,
+      "cpu_exceeding_strict_tolerance": 0,
+      "total_scalar_predictions": 37404
+    }
+  ],
+  "note": "Full test split for LSTM seed 42 only. CPU tolerance exceptions are recorded, not hidden by widening the tolerance; CUDA replay verifies the original backend."
+}

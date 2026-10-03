@@ -1,0 +1,406 @@
+{
+  "included_datasets": [
+    "donext",
+    "netslab_5g_oran_idd"
+  ],
+  "excluded_dataset": "5g_datasets",
+  "raw_data_included": false,
+  "prediction": [
+    {
+      "task": "donext/cell",
+      "window": 12,
+      "resolution": "5 minutes",
+      "targets": [
+        "RSRP",
+        "RSRQ",
+        "SINR",
+        "CQI"
+      ],
+      "samples": 22600,
+      "splits": {
+        "train": 15940,
+        "validation": 3394,
+        "test": 3266
+      },
+      "model_files": 24,
+      "seeds": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "task": "donext/iperf",
+      "window": 12,
+      "resolution": "5 minutes",
+      "targets": [
+        "DataRate",
+        "RSRP",
+        "SINR",
+        "CQI"
+      ],
+      "samples": 16663,
+      "splits": {
+        "train": 11798,
+        "validation": 2482,
+        "test": 2383
+      },
+      "model_files": 24,
+      "seeds": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "task": "donext/latency",
+      "window": 12,
+      "resolution": "5 minutes",
+      "targets": [
+        "MeanLatency",
+        "RSRP",
+        "SINR",
+        "CQI"
+      ],
+      "samples": 94358,
+      "splits": {
+        "train": 66558,
+        "validation": 14172,
+        "test": 13628
+      },
+      "model_files": 24,
+      "seeds": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "task": "netslab_5g_oran_idd/joint_kpi",
+      "window": 24,
+      "resolution": "1 second",
+      "targets": [
+        "RSRP",
+        "RSRQ",
+        "SINR",
+        "CQI",
+        "DLBLER",
+        "ULBLER"
+      ],
+      "samples": 41785,
+      "splits": {
+        "train": 29287,
+        "validation": 6264,
+        "test": 6234
+      },
+      "model_files": 24,
+      "seeds": [
+        42,
+        43,
+        44
+      ]
+    }
+  ],
+  "anomaly": [
+    {
+      "task": "donext/hbahn__cell_data",
+      "features": [
+        "rsrp",
+        "rsrq",
+        "sinr",
+        "ss_rsrp",
+        "ss_sinr"
+      ],
+      "label_scope": "unlabelled",
+      "input_rows": 19522,
+      "splits": {
+        "train": 15263,
+        "test": 2224,
+        "validation": 2035
+      },
+      "phases": {
+        "fit_reference": 14813,
+        "calibration_reference": 2450,
+        "test": 2224,
+        "not_used_for_fitting": 35
+      },
+      "model_files": 60,
+      "contexts": 10,
+      "detector_statuses": {
+        "insufficient_reference_or_calibration": 140,
+        "ok": 60
+      }
+    },
+    {
+      "task": "donext/hbahn__iperf_data",
+      "features": [
+        "datarate",
+        "rsrp",
+        "sinr",
+        "ss_rsrp",
+        "ss_sinr",
+        "retransmissions",
+        "tcp_mean_rtt_0"
+      ],
+      "label_scope": "unlabelled",
+      "input_rows": 36120,
+      "splits": {
+        "train": 25729,
+        "test": 5265,
+        "validation": 5126
+      },
+      "phases": {
+        "fit_reference": 25293,
+        "calibration_reference": 5400,
+        "test": 5265,
+        "not_used_for_fitting": 162
+      },
+      "model_files": 208,
+      "contexts": 21,
+      "detector_statuses": {
+        "insufficient_reference_or_calibration": 380,
+        "ok": 208
+      }
+    },
+    {
+      "task": "donext/hbahn__latency_data",
+      "features": [
+        "mean_latency",
+        "max_latency",
+        "mean_dev_latency",
+        "rsrp",
+        "sinr",
+        "ss_sinr"
+      ],
+      "label_scope": "unlabelled",
+      "input_rows": 77245,
+      "splits": {
+        "train": 57540,
+        "test": 10648,
+        "validation": 9057
+      },
+      "phases": {
+        "fit_reference": 55024,
+        "calibration_reference": 11363,
+        "test": 10648,
+        "not_used_for_fitting": 210
+      },
+      "model_files": 420,
+      "contexts": 35,
+      "detector_statuses": {
+        "insufficient_reference_or_calibration": 420,
+        "ok": 420
+      }
+    },
+    {
+      "task": "donext/mobile__cell_data",
+      "features": [
+        "rsrp",
+        "rsrq",
+        "sinr"
+      ],
+      "label_scope": "unlabelled",
+      "input_rows": 19583,
+      "splits": {
+        "train": 14052,
+        "validation": 2908,
+        "test": 2622,
+        "auxiliary": 1
+      },
+      "phases": {
+        "fit_reference": 13316,
+        "calibration_reference": 3614,
+        "test": 2622,
+        "not_used_for_fitting": 31
+      },
+      "model_files": 96,
+      "contexts": 18,
+      "detector_statuses": {
+        "insufficient_reference_or_calibration": 120,
+        "ok": 96
+      }
+    },
+    {
+      "task": "donext/mobile__iperf_data",
+      "features": [
+        "datarate",
+        "rsrp",
+        "sinr",
+        "retransmissions",
+        "tcp_mean_rtt_0"
+      ],
+      "label_scope": "unlabelled",
+      "input_rows": 39962,
+      "splits": {
+        "train": 31356,
+        "test": 4808,
+        "validation": 3798
+      },
+      "phases": {
+        "fit_reference": 29805,
+        "calibration_reference": 5202,
+        "test": 4808,
+        "not_used_for_fitting": 147
+      },
+      "model_files": 327,
+      "contexts": 39,
+      "detector_statuses": {
+        "insufficient_reference_or_calibration": 452,
+        "ok": 327,
+        "solver_not_converged": 1
+      }
+    },
+    {
+      "task": "donext/mobile__latency_data",
+      "features": [
+        "mean_latency",
+        "max_latency",
+        "mean_dev_latency",
+        "rsrp",
+        "sinr"
+      ],
+      "label_scope": "unlabelled",
+      "input_rows": 72379,
+      "splits": {
+        "train": 58509,
+        "test": 7703,
+        "validation": 6167
+      },
+      "phases": {
+        "fit_reference": 55288,
+        "calibration_reference": 9265,
+        "test": 7703,
+        "not_used_for_fitting": 123
+      },
+      "model_files": 599,
+      "contexts": 64,
+      "detector_statuses": {
+        "insufficient_reference_or_calibration": 680,
+        "ok": 599,
+        "solver_not_converged": 1
+      }
+    },
+    {
+      "task": "donext/static__cell_data",
+      "features": [
+        "rsrp",
+        "rsrq",
+        "sinr",
+        "ss_rsrp",
+        "ss_sinr"
+      ],
+      "label_scope": "unlabelled",
+      "input_rows": 111168,
+      "splits": {
+        "train": 65841,
+        "test": 26852,
+        "validation": 18475
+      },
+      "phases": {
+        "fit_reference": 60663,
+        "test": 26852,
+        "calibration_reference": 23614,
+        "not_used_for_fitting": 39
+      },
+      "model_files": 160,
+      "contexts": 27,
+      "detector_statuses": {
+        "insufficient_reference_or_calibration": 380,
+        "ok": 160
+      }
+    },
+    {
+      "task": "donext/static__latency_data",
+      "features": [
+        "mean_latency",
+        "max_latency",
+        "mean_dev_latency",
+        "rsrp",
+        "sinr",
+        "ss_sinr"
+      ],
+      "label_scope": "unlabelled",
+      "input_rows": 451933,
+      "splits": {
+        "train": 301498,
+        "test": 87191,
+        "validation": 63244
+      },
+      "phases": {
+        "fit_reference": 292791,
+        "test": 87191,
+        "calibration_reference": 71765,
+        "not_used_for_fitting": 186
+      },
+      "model_files": 1216,
+      "contexts": 90,
+      "detector_statuses": {
+        "ok": 1216,
+        "insufficient_reference_or_calibration": 940,
+        "low_cardinality_reference": 4
+      }
+    },
+    {
+      "task": "netslab_5g_oran_idd/network_dataset",
+      "features": [
+        "duration",
+        "src_bytes",
+        "dst_bytes",
+        "src_pkts",
+        "dst_pkts"
+      ],
+      "label_scope": "attack_state",
+      "input_rows": 1723817,
+      "splits": {
+        "train": 1179802,
+        "test": 278816,
+        "validation": 265199
+      },
+      "phases": {
+        "not_used_for_fitting": 1300114,
+        "test": 278816,
+        "fit_reference": 119542,
+        "calibration_reference": 25345
+      },
+      "model_files": 60,
+      "contexts": 4,
+      "detector_statuses": {
+        "ok": 60,
+        "insufficient_reference_or_calibration": 20
+      }
+    },
+    {
+      "task": "netslab_5g_oran_idd/radio_kpi",
+      "features": [
+        "dlByteRate",
+        "ulByteRate",
+        "dlBler",
+        "ulBler",
+        "rsrp",
+        "rsrq",
+        "sinr",
+        "cqi",
+        "dlMcs",
+        "ulMcs"
+      ],
+      "label_scope": "attack_state",
+      "input_rows": 45244,
+      "splits": {
+        "train": 23102,
+        "test": 14102,
+        "validation": 8040
+      },
+      "phases": {
+        "not_used_for_fitting": 22835,
+        "test": 14102,
+        "fit_reference": 6230,
+        "calibration_reference": 2077
+      },
+      "model_files": 40,
+      "contexts": 1,
+      "detector_statuses": {
+        "ok": 40
+      }
+    }
+  ]
+}

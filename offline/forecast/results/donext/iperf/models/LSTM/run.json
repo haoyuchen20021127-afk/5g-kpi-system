@@ -1,0 +1,78 @@
+{
+  "task": "donext/iperf",
+  "model": "LSTM",
+  "signature": {
+    "X_sha256": "5dc260ee4ee9d38d2537f518f91c185be1a26f37f4779baec16e5e4c60eebb0f",
+    "Y_sha256": "dbd3d5a307fdc036be244d4aa9a97c26463447e971c3a9f872dbcd4284d7ed43",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "max_epochs": 80,
+    "code_sha256": {
+      "common.py": "e75ba959e0382337f92d81dac675a78767a732de3c7cfdf859b02087e62e5fc2",
+      "models.py": "19974e752287b8f407b4f1fd4204cfac2d60203e420c3e9a11451b45605e87f7",
+      "prepare_shared_data.py": "b6eba14670a5057b171650ecb2804bd6c7589aed1a94663bbe829e11eef95631",
+      "train_comparison.py": "2032463bcf3ede8dcf27c3fc14bd6b0674c00294314e817695a18c4e88750c54"
+    },
+    "threads": 4
+  },
+  "mechanism": "shared multivariate recurrent representation and joint linear output head",
+  "selected_config": {
+    "hidden_size": 32,
+    "learning_rate": 0.003
+  },
+  "selected_epochs": 27,
+  "final_fit_rows": 14280,
+  "test_rows": 2383,
+  "selection_seconds": 21.09037949994672,
+  "seed_runs": [
+    {
+      "seed": 42,
+      "fit_seconds": 7.283935800078325,
+      "predict_seconds": 0.005476199905388057,
+      "reload_verified": true,
+      "artifact_sha256": "13880a93066aab6e800cd858aeff23cfbf856648edd4ed9b982f60752786bdf1",
+      "trainable_parameters": 4996
+    },
+    {
+      "seed": 43,
+      "fit_seconds": 7.482438100036234,
+      "predict_seconds": 0.0022351000225171447,
+      "reload_verified": true,
+      "artifact_sha256": "82ebd1c9bdcf792ef06730e9c6e21b9e459bedbe7ea54e82d5f8d0cdc8943644",
+      "trainable_parameters": 4996
+    },
+    {
+      "seed": 44,
+      "fit_seconds": 7.119254900026135,
+      "predict_seconds": 0.003202799940481782,
+      "reload_verified": true,
+      "artifact_sha256": "2a654769764b0482e0f2fef8fcd3447a27a910f1d8288bbdc5b95afe53ef5aff",
+      "trainable_parameters": 4996
+    }
+  ],
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "torch": "2.8.0+cu126",
+    "scikit-learn": "1.9.0",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3"
+  },
+  "common_settings": {
+    "LSTM_optimizer": "Adam",
+    "LSTM_loss": "mean squared error across samples and outputs",
+    "batch_size": 256,
+    "weight_decay": 1e-05,
+    "gradient_clip": 1.0,
+    "patience": 12,
+    "min_delta": 1e-05,
+    "layers": 1,
+    "dropout": 0
+  }
+}

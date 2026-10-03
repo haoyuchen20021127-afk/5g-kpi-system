@@ -1,0 +1,33 @@
+{
+  "dataset": "donext",
+  "task": "mobile__iperf_data",
+  "label_scope": "unlabelled",
+  "test_n": 4808,
+  "features": [
+    "datarate",
+    "rsrp",
+    "sinr",
+    "retransmissions",
+    "tcp_mean_rtt_0"
+  ],
+  "methods": [
+    "three_sigma",
+    "iqr",
+    "isolation_forest",
+    "one_class_svm"
+  ],
+  "context_n": 22,
+  "labels": {
+    "unlabelled": 4808
+  },
+  "input_sha256": {
+    "task_manifest.json": "eb9edfb4453286f3e4e25b6ded5dc7ff04e6feef5911e8f596b773a32fdbb609",
+    "kpi_summary.csv": "abf2aff1560d62b74f3065f70a555a7b287285ccb9682d4457e2ddba73b1ca6d",
+    "test_predictions.csv.gz": "0fe6524004118a2b1e9d847603ff5635a01d2c2b2d826975c5c0788fcbfaa35b"
+  },
+  "output_record_file": "datasets\\donext\\mobile__iperf_data\\record_or_predictions.csv.gz",
+  "attack_subcategory_supplement": {
+    "available": false
+  },
+  "source_predictions_unchanged": true
+}

@@ -1,0 +1,37 @@
+{
+  "selection_seed": 42,
+  "criterion": "mean per-target validation RMSE",
+  "candidates": [
+    {
+      "candidate": 0,
+      "config": {
+        "max_depth": 5,
+        "min_samples_leaf": 3
+      },
+      "validation_macro_RMSE": 0.43230353409719946,
+      "best_epoch": null,
+      "seconds": 0.24683939991518855
+    },
+    {
+      "candidate": 1,
+      "config": {
+        "max_depth": 10,
+        "min_samples_leaf": 3
+      },
+      "validation_macro_RMSE": 0.35392923467214493,
+      "best_epoch": null,
+      "seconds": 0.4417116000549868
+    }
+  ],
+  "winner": {
+    "candidate": 1,
+    "config": {
+      "max_depth": 10,
+      "min_samples_leaf": 3
+    },
+    "validation_macro_RMSE": 0.35392923467214493,
+    "best_epoch": null,
+    "seconds": 0.4417116000549868
+  },
+  "selection_seconds": 0.8703559000277892
+}

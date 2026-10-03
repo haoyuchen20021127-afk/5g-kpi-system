@@ -1,0 +1,70 @@
+[
+  {
+    "context": "protocol:icmp",
+    "fit_n": 460,
+    "calibration_n": 176,
+    "test_n": 364,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1547750.0,
+    "fit_time_max": 1718100.0,
+    "cal_time_min": 1547752.0,
+    "cal_time_max": 1718268.0,
+    "fit_label_counts": {
+      "0": 460
+    },
+    "cal_label_counts": {
+      "0": 176
+    }
+  },
+  {
+    "context": "protocol:tcp",
+    "fit_n": 95878,
+    "calibration_n": 20109,
+    "test_n": 232636,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1547528.0,
+    "fit_time_max": 1718392.0,
+    "cal_time_min": 1547538.0,
+    "cal_time_max": 1718390.0,
+    "fit_label_counts": {
+      "0": 95878
+    },
+    "cal_label_counts": {
+      "0": 20109
+    }
+  },
+  {
+    "context": "protocol:udp",
+    "fit_n": 23173,
+    "calibration_n": 5049,
+    "test_n": 45782,
+    "policy": "original_validation_reference",
+    "fit_time_min": 1547539.0,
+    "fit_time_max": 1718384.0,
+    "cal_time_min": 1547625.0,
+    "cal_time_max": 1718377.0,
+    "fit_label_counts": {
+      "0": 23173
+    },
+    "cal_label_counts": {
+      "0": 5049
+    }
+  },
+  {
+    "context": "protocol:unknown_transport",
+    "fit_n": 31,
+    "calibration_n": 11,
+    "test_n": 34,
+    "policy": "last_quarter_of_original_training_reference_time",
+    "fit_time_min": 1562878.0,
+    "fit_time_max": 1694096.0,
+    "cal_time_min": 1694122.0,
+    "cal_time_max": 1718352.0,
+    "fit_label_counts": {
+      "0": 31
+    },
+    "cal_label_counts": {
+      "0": 11
+    }
+  }
+]

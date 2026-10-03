@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "rows_prepared": 1723817,
+  "rows_test": 278816,
+  "selected_features": [
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "src_pkts",
+    "dst_pkts"
+  ],
+  "operation": "reuse_independent_per_kpi_results_no_new_training",
+  "source_files_unchanged": true,
+  "all_test_records_preserved": true,
+  "fit_calibration_test_row_ids_disjoint": true,
+  "selection_seconds": 100.309
+}

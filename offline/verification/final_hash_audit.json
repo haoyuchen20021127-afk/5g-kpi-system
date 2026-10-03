@@ -1,0 +1,23 @@
+{
+  "scope": "hashes",
+  "datasets": [
+    "donext",
+    "netslab_5g_oran_idd"
+  ],
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "torch": "2.8.0+cu126",
+    "scikit-learn": "1.9.0",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3"
+  },
+  "hashes": {
+    "source_files": 3666,
+    "gotsf_files": 57,
+    "passed": true
+  },
+  "passed": true,
+  "seconds": 9.427
+}

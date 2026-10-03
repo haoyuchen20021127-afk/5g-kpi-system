@@ -1,0 +1,33 @@
+{
+  "dataset": "donext",
+  "task": "mobile__latency_data",
+  "label_scope": "unlabelled",
+  "test_n": 7703,
+  "features": [
+    "mean_latency",
+    "max_latency",
+    "mean_dev_latency",
+    "rsrp",
+    "sinr"
+  ],
+  "methods": [
+    "three_sigma",
+    "iqr",
+    "isolation_forest",
+    "one_class_svm"
+  ],
+  "context_n": 35,
+  "labels": {
+    "unlabelled": 7703
+  },
+  "input_sha256": {
+    "task_manifest.json": "dd2302cd3707f7d589d85199567d341378842d0eec38c47aa014c67cbe8a440b",
+    "kpi_summary.csv": "735ddffb33134da14e7ba9406ca7a99825051cde64c2332f3dda7f7759b8a6a8",
+    "test_predictions.csv.gz": "fe3f2975ebf9a6e9bfb314e3eb95d303af0cc043c5112552f348af80bafc112e"
+  },
+  "output_record_file": "datasets\\donext\\mobile__latency_data\\record_or_predictions.csv.gz",
+  "attack_subcategory_supplement": {
+    "available": false
+  },
+  "source_predictions_unchanged": true
+}
